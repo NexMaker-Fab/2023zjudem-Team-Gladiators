@@ -1,3 +1,3 @@
 # Here is our Individual Websites
 ## Shahar Yar : https://shahri128.github.io/EngShahari.github.io/
-### Danial Kasa : https://danialkassa.github.io/
+### Daniel Kassa : https://danialkassa.github.io/
