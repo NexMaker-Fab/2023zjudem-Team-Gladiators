@@ -1,3 +1,3 @@
-# Here is our group website
-
-[Team5 : https://nexmaker-fab.github.io/2023zjudem-team6/](https://github.com/NexMaker-Fab/2023zjudem-team6.git)
+# Here is our Individual Websites
+## Shahar Yar : https://shahri128.github.io/EngShahari.github.io/
+### Danial Kasa : 
