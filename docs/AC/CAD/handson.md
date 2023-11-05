@@ -89,4 +89,5 @@ Go to documents setting and change the units to millimeter.
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif)
 
 **2.7 Video of Design History**
-<video src="Video1.mp4" controls title="Video"></video>
+
+https://github.com/NexMaker-Fab/2023zjudem-Team-Gladiators/assets/146060847/629f5200-2a69-4949-a769-2ab189829910
