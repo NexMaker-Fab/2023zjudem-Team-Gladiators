@@ -87,5 +87,3 @@ Go to documents setting and change the units to millimeter.
 ### **2.6 GIF of Working Condition**
 
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif)
-
-### **2.7 Video of Design History**
