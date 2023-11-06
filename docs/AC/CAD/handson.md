@@ -90,6 +90,8 @@ Go to documents setting and change the units to millimeter.
 
 ### **2.7 Video of Design History**
 
+<video src="Video1.mp4" controls title="History"></video>
+
 ## **Step 3: Motion Link**
 
 ### **Vice Jaw**
