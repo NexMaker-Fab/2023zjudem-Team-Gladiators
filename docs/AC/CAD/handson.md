@@ -88,6 +88,8 @@ Go to documents setting and change the units to millimeter.
 
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif)
 
+
+
 ### **2.7 Video of Design History**
 
 <video src="Video1.mp4" controls title="History"></video>
@@ -149,4 +151,30 @@ Go to documents setting and change the units to millimeter.
 
 ![](\../../image/image9.png)![](\../../image/image10.png)
 
+## **Step 5: Engineering Drawing (Vice Jaw)**
 
+![Vice Jaw](<Vice Jaw.jpg>)
+
+## **Step 6: Design Practices**
+
+### **6.1 Design by Shahar Yar**
+#### **6.1.1: Cam and Follower Assembly**
+**Working of Model**
+
+![Cam and Follower Assembly](<Shahar Yar GIF 1.gif>)
+
+**Components of Cam and Follower Assembly**
+
+![Disconnecting](<Shaharyar 2.gif>)
+
+**Engineering Drawing of Cam**
+
+![Cam](Cam.jpg)
+
+#### **6.1.2: Hexagonal Nut**
+
+![Hexagonal Nut](<Shaharyar img.png>)
+
+**Engineering Drawing**
+
+![Drawing](<Hexagonal Nut Drawing v1_page-0001 (1).jpg>)
