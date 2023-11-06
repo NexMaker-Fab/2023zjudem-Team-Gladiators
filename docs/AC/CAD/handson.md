@@ -99,3 +99,52 @@ Go to documents setting and change the units to millimeter.
 ### **Jaw Screw**
 
 ![Jaw Screw](2.gif) ![Jaw Screw](3.gif)
+
+### **Screw Bar**
+
+![Screw Bar](4.gif)
+
+### **Bench Vice Assembly**
+
+![Bench vice](5.gif)
+
+## **Step 4: Install and Use Plugin**
+
+
+   - First of all in Fusion 360 go to Utilities and then go to Add-Ins,
+    make sure you are connected to the internet.
+
+![](\../../image/image1.png)
+
+   - Then you see the option of Fusion 360 App Store, Click on it
+
+![](\../../image/image2.png)
+
+-  Now Select your required Plugin and download it.
+
+![](\../../image/image3.png)
+
+-  After download install the Plugin.
+
+![](\../../image/image4.png)
+
+-  Now again go to Utilities and then in Add-Ins ( Scripts and Add-Ins)
+    and go to Add-Ins and select the Plugin you Installed and Use it.
+
+![](\../../image/image5.png)
+
+![](\../../image/image6.png)
+
+-  And then Click on Run. As i Installed FM Gear so to use this I have
+    to go to Create Option and Select FM Gear.
+
+![](\../../image/image7.png)
+
+-  Then Give your dimensions and Click on OK. It will Run and Create
+    Your Design.
+
+![](\../../image/image8.png)
+
+![](\../../image/image9.png)![](\../../image/image10.png)
+
+
