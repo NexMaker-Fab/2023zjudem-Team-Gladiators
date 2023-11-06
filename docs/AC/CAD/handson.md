@@ -3,7 +3,7 @@
 
 ### **1.1 (Bench Vise Assembly)**
 
-This assembly consisting of Four components, here are the components
+This assembly consists of Four components, Here are the components
 
 1.  Base
 
@@ -87,3 +87,12 @@ Go to documents setting and change the units to millimeter.
 ### **2.6 GIF of Working Condition**
 
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif)
+
+
+
+https://github.com/NexMaker-Fab/2023zjudem-Team-Gladiators/assets/146060847/7e60bdb8-7a5f-4620-839f-a551476fabd2
+
+
+
+
+
