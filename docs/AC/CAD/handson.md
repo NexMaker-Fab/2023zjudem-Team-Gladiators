@@ -112,6 +112,10 @@ Go to documents setting and change the units to millimeter.
 
 ![Bench vice](5.gif)
 
+### **3D Model Live**
+
+<iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e29812ef6a85811ad?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
 ## **Step 4: Install and Use Plugin**
 
 
@@ -178,3 +182,56 @@ Go to documents setting and change the units to millimeter.
 **Engineering Drawing**
 
 ![Drawing](<Hexagonal Nut Drawing v1_page-0001 (1).jpg>)
+
+## **Step 7: Introduction of another CAD Software**
+### **AutoCAD** 
+AutoCAD is a popular computer-aided design (CAD) software developed by Autodesk. It has been an industry-standard for 2D and 3D design and drafting for many years. AutoCAD is used in various industries, including architecture, engineering, construction, manufacturing, and more. Its versatility, extensive user base, and compatibility with other software make it a valuable tool for professionals in these fields.
+
+Here are some key details about AutoCAD:
+
+**2D and 3D Design**
+
+  AutoCAD is used for both 2D and 3D design. It's well-known for its 2D drafting capabilities, which allow you to create precise technical drawings, floor plans, schematics, and more. It also supports 3D modeling, enabling the creation of 3D models and visualizations.
+
+**User Interface**
+
+AutoCAD has a user-friendly interface with a familiar ribbon-style toolbar. It provides a wide range of tools and commands for drawing, editing, dimensioning, and annotating drawings.
+
+**Parametric Design**
+
+While not as robust as some other 3D CAD software like SolidWorks, AutoCAD offers some parametric modeling capabilities. You can create and control geometric relationships between objects.
+
+**Libraries and Templates**
+
+ AutoCAD provides libraries of pre-built objects, blocks, symbols, and templates, which can save time and maintain consistency in design projects.
+
+**Customization**
+
+ AutoCAD is highly customizable. Users can create custom commands, menus, and tool palettes to streamline their workflow. It also supports the development of custom AutoLISP and Visual Basic for Applications (VBA) scripts.
+
+**Automation and Batch Processing**
+
+AutoCAD allows you to automate repetitive tasks and batch-process multiple files using scripting and programming, which can significantly improve productivity.
+
+**Collaboration**
+
+AutoCAD offers cloud-based collaboration tools that allow teams to work on the same project simultaneously, even if they are located in different places.
+
+**File Compatibility**
+
+AutoCAD files are widely compatible with other CAD software and can import/export various file formats, making it easier to work with clients and collaborators who use different software.
+
+**Industry Specialization**
+
+AutoCAD has industry-specific versions, such as AutoCAD Architecture, AutoCAD Civil 3D, and AutoCAD Electrical, which include specialized tools and features tailored to specific fields like architecture, civil engineering, and electrical design.
+
+**Mobile and Web Apps**
+
+ Autodesk offers AutoCAD mobile and web apps, allowing users to view and edit AutoCAD drawings on smartphones, tablets, and web browsers, which can be useful for on-the-go access and collaboration.
+
+**Education and Training:**
+
+ AutoCAD is widely used in educational institutions, and Autodesk provides educational versions for students and teachers. There is a vast amount of training material and certification programs available.
+
+
+
