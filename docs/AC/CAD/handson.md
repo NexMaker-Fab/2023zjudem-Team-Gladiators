@@ -3,7 +3,7 @@
 
 ### **1.1 (Bench Vise Assembly)**
 
-This assembly consisting of Four components, here are the components
+This assembly consists of Four components, Here are the components
 
 1.  Base
 
