@@ -1,9 +1,9 @@
-![image1](https://github.com/NexMaker-Fab/2023zjudem-Team-Gladiators/assets/146060847/ea3e112d-87b0-45bd-b293-fc646f188904)# Fusion 360 Design Project
+# Fusion 360 Design Project
 ## **Step 1: Build Design and New Component**
 
 ### **1.1 (Bench Vise Assembly)**
 
-This assembly consists of Four components, Here are the components
+This assembly consisting of Four components, here are the components
 
 1.  Base
 
@@ -90,15 +90,12 @@ Go to documents setting and change the units to millimeter.
 
 ### **2.7 Video of Design History**
 
+## **Step 3: Motion Link**
 
+### **Vice Jaw**
 
-https://github.com/NexMaker-Fab/2023zjudem-Team-Gladiators/assets/146060847/8fef19f8-166f-49b0-bc3e-9c798d426602
+![Vice Jaw Motion Link](1.gif)
 
+### **Jaw Screw**
 
-
-
-
-
-
-
-
+![Jaw Screw](2.gif) ![Jaw Screw](3.gif)
