@@ -1,6 +1,6 @@
-## A. Steps
+# A. Steps
 
-  ### Step 1: The tools we need to develop our website using GitHub
+  ## Step 1: The tools we need to develop our website using GitHub
  We installed all the tools we need to build web pages
     
 - [Git](https://git-scm.com); It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
@@ -10,14 +10,14 @@
 - [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
 - [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.
 
-  ### Step 2: Set up the page
+  ## Step 2: Set up the page
  We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
 <br>
 <img style="float: center;" width=700 src="image/Createrepository.jpg">
 
-  ### Step 3: Local setup
+  ## Step 3: Local setup
 
-   #### 1. Github Desktop
+   ### 1. Github Desktop
 
  In GitHub Desktop, we go to Files and Clone Repository.
 After selecting the repository to clone. We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
