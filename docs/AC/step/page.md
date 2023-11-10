@@ -17,7 +17,7 @@
 
   ### Step 3: Local setup
 
-   ### 1. Github Desktop
+   #### 1. Github Desktop
 
  In GitHub Desktop, we go to Files and Clone Repository.
 After selecting the repository to clone. We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
