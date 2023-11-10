@@ -1,4 +1,3 @@
-
 # A. Steps
 
   ## Step 1: The tools we need to develop our website using GitHub
