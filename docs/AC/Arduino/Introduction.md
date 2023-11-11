@@ -17,7 +17,7 @@ Various Arduino boards are available, depending on the microcontroller used. How
 The differences are based on the number of inputs and outputs (number of sensors, LEDs, and buttons that can be used on a single board), speed, operating voltage, form factor, etc. Some boards are designed to be embedded and do not have a programming interface (hardware), so you will need to purchase them separately. Some can run directly from a 3.7V battery; others require at least 5V.
 
 Below is a list of the different Arduino boards available.
-<h1 style="font-size:1vw"><span style="color:black">Boards</span></h1>
+<h1 style="font-size:1vw"><span style="color:black">Some Boards are</span></h1>
 
 <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
 <div class="demo">
