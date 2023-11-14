@@ -1,6 +1,6 @@
 <H3 style= "text-align: center; font-size:7vw" ><span style="color:orange"> Gladiators</span> </h3>
 
- <H2 style= "text-align: center; font-size:2vw" > <span style="color:light black">Clean Water for all </span>
+ <H2 style= "text-align: center; font-size:2vw" > <span style="color:light black">Smart Home </span>
 
 <br>
 <style>
