@@ -116,7 +116,7 @@
                         <div class="pic">
                             <img src="image/member6.png" alt=""/></div>
                         <div class="member-prof">
-                         <li><a href="https://atj12345.github.io"><h2>Ahmed Tajah</h2></a></li>
+                         <li><a href="https://atj12345.github.io"><h2>Ahmed Tejan Jalloh</h2></a></li>
                               <span><h3>From Sierra Leone</h3></span>
                             <p class="description">
                                I am proud to be a Fula by tribe and a graduate of Njala University, holding both a BSc Hons in Business and Information Technology and an MSc in Information System Management.Currently based at Zhejiang University in China, I am pursuing my second master.
