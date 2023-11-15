@@ -4,6 +4,6 @@
   
   <br>
   
-  <img src="image/home.png" alt="A beautiful image" class="center-image"></img>
+  <img src="image/home.png" class="center-image"></img>
 
 
