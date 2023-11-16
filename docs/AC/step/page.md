@@ -1,4 +1,4 @@
-# A. Steps
+# A. How to build the Website
 
   ## Step 1: The tools we need to develop our website using GitHub
  We installed all the tools we need to build web pages
