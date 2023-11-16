@@ -25,13 +25,12 @@ After selecting the repository to clone. We selected the directory to save the c
 <br>
 <img style="float: center;" width=700 src="image/clone.jpg">
 
-
+<img style="float: center;" width=700 src="image/clone.jpg">
 
    ### 2. Vs Code
 
 We use VS Code's text editor to develop the webpage.
 <br>
-<img style="float: center;" width=700 src="image/clone.jpg">
 
 ### 3. Install Docsify
 
