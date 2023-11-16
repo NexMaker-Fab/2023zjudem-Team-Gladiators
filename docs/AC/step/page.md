@@ -15,12 +15,12 @@
 <br>
 <img style="float: center;" width=700 src="image/Createrepository.jpg">
 
-  ## Step 3: Local setup
+   ## Step 3: Local setup
 
    ### 1. Github Desktop
 
  In GitHub Desktop, we go to Files and Clone Repository.
-After selecting the repository to clone. We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
+After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
 
 <br>
 <img style="float: center;" width=700 src="image/clone.jpg">
@@ -32,7 +32,7 @@ After selecting the repository to clone. We selected the directory to save the c
 We use VS Code's text editor to develop the webpage.
 <br>
 
-### 3. Install Docsify
+   ### 3. Install Docsify
 
 
  -We opened the terminal and by typing "npm i docsify-cli -g" in the terminal we installed docsify.
@@ -47,7 +47,7 @@ We use VS Code's text editor to develop the webpage.
   <br>
 <img style="float: center;" width=600 src="image/serve.png">
 
- ### 4. Display index.html.
+   ### 4. Display index.html.
 
         <!DOCTYPE html>
     <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -127,7 +127,7 @@ We use VS Code's text editor to develop the webpage.
 
   - 为了预览网页，我们从 VS Code Marketplace 安装了“Live Server”扩展。打开 HTML 文件后，右键单击并选择“使用 Live Server 打开”。在网络浏览器中查看我们的网站。
 
-   ### 5.  Add sidebar and navigation bar
+     ### 5.  Add sidebar and navigation bar
 
 -  ACTIVITIES
 
@@ -192,9 +192,9 @@ Open the index file go to window.$docsify and add
 
              loadNavbar: true,
 
-   ### 6. Prepare and save documents
+  ### 6. Prepare and save documents
 
-   ### 7. Uploading Image
+  ### 7. Uploading Image
  We created an images folder in the document to store all the pictures.
 
 A folder named "Image" is created in a directory named "docs". The purpose of this folder is to store all pictures or images related to a specific assignment or document.
