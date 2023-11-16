@@ -116,7 +116,7 @@
                         <div class="pic">
                             <img src="image/member6.png" alt=""/></div>
                         <div class="member-prof">
-                         <li><a href="https://atj12345.github.io"><h2>Ahmed Tajah</h2></a></li>
+                         <li><a href="https://atj12345.github.io"><h2>Ahmed Tejan Jalloh</h2></a></li>
                               <span><h3>从塞拉利昂出发</h3></span>
                             <p class="description">
                          我很自豪能成为部落富拉人，毕业于恩贾拉大学，拥有商业和信息技术荣誉学士学位和信息系统管理硕士学位。目前，我正在中国浙江大学攻读第二个硕士学位。
