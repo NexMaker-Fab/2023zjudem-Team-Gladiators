@@ -1,9 +1,7 @@
 <!--docs/_sidebar.md -->
 - ACTIVITIES
 
- + Project Management
-  
-    - [Steps](AC/step/page.md)
+ + (Project Management) (AC/step/page.md)
  
  + CAD
   
