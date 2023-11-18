@@ -1,7 +1,7 @@
 <!--docs/_sidebar.md -->
 - ACTIVITIES
 
- + Project Management
+ + PROJECT MANAGEMENT
 
     - [Website Development](AC/step/page.md)
 
