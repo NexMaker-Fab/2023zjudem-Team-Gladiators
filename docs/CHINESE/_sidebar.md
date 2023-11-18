@@ -1,37 +1,37 @@
-<!-- 侧边栏 docs/_sidebar.md -->
--  活动
+<!--docs/_sidebar.md -->
+- 活动
 
- + 网页
+ + 项目管理
 
-    - [Web开发](CHINESE/AC/step/page.md)
- 
+    - [网站开发](CHINESE/AC/step/page.md)
+
  + CAD
   
-    - [Introduction to Fusion 360 简介](CHINESE/AC/CAD/installation.md)
+    - [Fusion 360 简介](CHINESE/AC/CAD/installation.md)
     - [任务](CHINESE/AC/CAD/handson.md)
-
+  
  + ARDUINO
 
-    - [ ARDUINO](CHINESE/AC/AD/arduino.md)
+    - [I介绍](CHINESE/AC/Arduino/Introduction.md)
 
- + 印刷
+ + PRINTING
 
-   - [ 3D打印](#)
+   - [ 3D PRINTING](#)
  
  + LASER
 
-   - [ 激光切割](#)
+   - [LASER CUTTING](#)
 
- + 编程
+ + PROGRAMMING
 
-   - [ 接口应用程序编程](#)
+   - [INTERFACE APPLICATION PROGRAMMING](#)
 
- + 物联网
+ + IOT
 
-   - [ 物联网与交互](#)
+   - [IOT and INTERACTION](#)
 
-- 最终项目
+ - 最终项目
 
-   - [标题](CHINESE/AC/Project/proposal.md)
+   - [P提议](CHINESE/AC/Project/proposal.md)
   
   
