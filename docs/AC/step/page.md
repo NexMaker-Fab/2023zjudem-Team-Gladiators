@@ -19,7 +19,7 @@
 <br>
 <img style="float: center;" width=700 src="image/Createrepository.jpg">
 
-![repository](createrepository1.jpg)
+<img style="float: center;" width=700 src="createrepository1">
 
 
  ## C: Local setup
@@ -32,7 +32,6 @@ After selecting the repository to clone, We selected the directory to save the c
 <br>
 <img style="float: center;" width=700 src="image/clone.jpg">
 
-<img style="float: center;" width=700 src="image/clone.jpg">
 
    ### 2. Vs Code
 
