@@ -1,7 +1,7 @@
-# A. Steps
+# How To Develop the website
 
-  ## Step 1: The tools we need to develop our website using GitHub
- We installed all the tools we need to build web pages
+ ## A: Installing necessary Tools
+ We installed all the following tools to build the website
     
 - [Git](https://git-scm.com); It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
 - [Github](https://about.gitlab.com/);This is where our web page is hosted.
@@ -10,17 +10,24 @@
 - [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
 - [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.
 
-  ## Step 2: Set up the page
+ ## B: Set up the page
  We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
+ <br>
+<img style="float: center;" width=700 src="image/login.jpg">
+<br>
+<img style="float: center;" width=700 src="image/plus.jpg">
 <br>
 <img style="float: center;" width=700 src="image/Createrepository.jpg">
+<br>
+<img style="float: center;" width=700 src="image/Createrepository1.jpg">
 
-  ## Step 3: Local setup
+
+ ## C: Local setup
 
    ### 1. Github Desktop
 
  In GitHub Desktop, we go to Files and Clone Repository.
-After selecting the repository to clone. We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
+After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
 
 <br>
 <img style="float: center;" width=700 src="image/clone.jpg">
@@ -29,31 +36,54 @@ After selecting the repository to clone. We selected the directory to save the c
 
    ### 2. Vs Code
 
-We use VS Code's text editor to develop the webpage.
+After installling VS code, We opened our folder on the vs code to develop the website.
+
+<br>
+<img style="float: center;" width=700 src="image/vs.jpg">
+
 <br>
 
-### 3. Install Docsify
+   ### 3. Install Docsify
 
 
- -We opened the terminal and by typing "npm i docsify-cli -g" in the terminal we installed docsify.
+ In the VS code, We opened the terminal and New terminal.
+
+ <br>
+<img style="float: center;" width=600 src="image/term.jpg">
+
 <br>
+
+And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installed docsify.
+
+<br>
+
 <img style="float: center;" width=600 src="image/installingdocsify.jpg">
+<br>
 
- We then initialize it by typing “docsify init./docs” in the terminal command so that Docsify creates the necessary files and folders in the specified directory.
+ We then initialize it by typing “docsify init./docs” in the terminal command and hit enter so that Docsify creates the necessary files and folders in the specified directory.
+
   <br>
 <img style="float: center;" width=600 src="image/initialize.jpg">
 
   We then type "docsify serve docs" into the command terminal to instruct Docsify to serve the documentation site. We open it in the browser by clicking CTRL + "https://losthost:3000".
+
   <br>
 <img style="float: center;" width=600 src="image/serve.png">
 
- ### 4. Display index.html.
+<br>
 
-        <!DOCTYPE html>
+Finally, our docs displayed this way.
+
+<br>
+
+<img style="float: center;" width=600 src="image/des.jpg">
+<br>
+
+    <!DOCTYPE html>
     <html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
     <meta charset="UTF-8">
-    <title>Gladiators' docs File</title>
+    <title>Gladiators docs file</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -89,7 +119,7 @@ We use VS Code's text editor to develop the webpage.
         search: {
             maxAge: 86400000, // Expiration time, the default one day
             paths: 'auto',
-            placeholder: 'search',
+            placeholder: 'Search',
             noData: 'No Results!',
             // Headline depth, 1 - 6
             depth: 6,
@@ -124,45 +154,61 @@ We use VS Code's text editor to develop the webpage.
     </div>
     </body>
     </html>
+  - To preview web pages, we installed the "Live Server" extension from the VS Code Marketplace.
+  <br>
 
-  - 为了预览网页，我们从 VS Code Marketplace 安装了“Live Server”扩展。打开 HTML 文件后，右键单击并选择“使用 Live Server 打开”。在网络浏览器中查看我们的网站。
+<img style="float: center;" width=600 src="image/pre.jpg">
 
-   ### 5.  Add sidebar and navigation bar
+<br>
 
--  ACTIVITIES
+   Once the live server preview is installed, We opened the HTML file, then right-click and select Open with Live Server. 
+   <br>
 
- + WEBPAGE
+<img style="float: center;" width=600 src="image/live.jpg">
+<br>
 
-    - [Web development](CHINESE/AC/step/page.md)
- 
+
+  ### 5.  Add sidebar and navigation bar
+
+<!--docs/_sidebar.md -->
+
+- ACTIVITIES
+
+ + Project Management
+
+    - [Website Development](AC/step/page.md)
+
  + CAD
   
-    - [Introduction to Fusion 360](CHINESE/AC/CAD/installation.md)
-    - [Assignment](CHINESE/AC/CAD/handson.md)
-
+    - [Introduction to Fusion 360](AC/CAD/installation.md)
+    - [Assignment](AC/CAD/handson.md)
+  
  + ARDUINO
 
-    - [ ARDUINO](CHINESE/AC/AD/arduino.md)
+    - [Introducation](AC/Arduino/Introduction.md)
 
- + Printing
+ + PRINTING
 
-   - [ 3D Printing](#)
+   - [ 3D PRINTING](#)
  
  + LASER
 
-   - [ Laser Cutting](#)
+   - [LASER CUTTING](#)
 
- + programming
+ + PROGRAMMING
 
-   - [ Interface application programming](#)
+   - [INTERFACE APPLICATION PROGRAMMING](#)
 
-+Internet of Things
+ + IOT
 
-   - [ Internet of Things and Interaction](#)
+   - [IOT and INTERACTION](#)
 
-- final project
+ - FINAL PROJECT
 
-   - [Proposal](CHINIESE/Project/proposal.md)
+   - [Proposal](AC/Project/proposal.md)
+  
+  
+
   
   
       -We open the index file and go to window. .$docsify and then add
@@ -192,9 +238,10 @@ Open the index file go to window.$docsify and add
 
              loadNavbar: true,
 
-   ### 6. Prepare and save documents
+  ### 6. Prepare and save documents
 
-   ### 7. Uploading Image
+  ### 7. Uploading Image
+
  We created an images folder in the document to store all the pictures.
 
 A folder named "Image" is created in a directory named "docs". The purpose of this folder is to store all pictures or images related to a specific assignment or document.
@@ -215,24 +262,34 @@ src="image/foldr name.png": This attribute specifies the source of the image (sr
 
 Format: "Format" seems to be mentioned, but has no specific meaning in this context. It may be included as a placeholder or for other purposes, but it does not affect the image insertion itself.
 
-In short, we describe the process of creating an image folder to store pictures. Then, add these pictures to your document by dragging and dropping them where you want. Images are inserted using the HTML <img> tag, which has specific properties to control its appearance, including alignment, size, and source.
+In short, we describe the process of creating an image folder to store pictures. Then, add these pictures to our document by dragging and dropping them where we want. Images are inserted using the HTML <img> tag, which has specific properties to control its appearance, including alignment, size, and source.
+
+
  <br>
-<img style="float: center;" width=700 src="image/debugging.png">
+<img style="float: center;" width=700 src="image/im.jpg">
 
  ### 8: Upload files
   1. We established a connection between our local repository and the GitHub repository.
-We push the file to GitHub:
+We commit and push the file to GitHub:
 
 To upload our web files to GitHub, we used the command “push commits to the origin remote”.
 The “push” command sends committed changes from our local repository to the GitHub repository.
+
+ <br>
+
+<img style="float: center;" width=700 src="image/commit.jpg">
+
  <br>
 <img style="float: center;" width=700 src="image/push.jpg">
+  <br>
    
+<br>
  2. 
 To publish our web page, we look for the settings for our GitHub repository. Then scroll down to the GitHub Pages section and select the branch that contains our web files.
 We select the folder or root directory where the web page file is located.
 Then click the "Save" or "Update" button to apply the changes.
 GitHub generates a URL for our published web page that we can share and access publicly. We can see this process as follows.
+<br>
 
 <br>
 <img style="float: center;" width=700 src="image/setting.jpg">
@@ -243,7 +300,7 @@ GitHub generates a URL for our published web page that we can share and access p
 <img style="float: center;" width=700 src="image/save.jpg">
 
 
-# B. Setting up  the Members
+## D. Setting up  the Members
 
  [Template](https://bestjquery.com/tutorial/our-team/demo16/)
 <br>
@@ -399,7 +456,7 @@ Here is the code to display the Members.
         </div>
 
 
-# C. LANGUAGE
+# E. LANGUAGE
 
 The docs file's content when opened in the VS code
 
@@ -431,11 +488,13 @@ The English and Chinese version the website Looks like This
      homepage: 'home.md',
      mergeNavbar: true,
 
+every member has the right to change or edit the website. 
+
 <br>
 <img style="float: center;" width=700 src="image/language.jpg">
+<br>
 
-# D. Collaboration
-
+# F. Collaboration
  ## Step1: 
    As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
 
@@ -457,7 +516,7 @@ As shown in the figure, there is   "add people" section.
 <img style="float: center;" width=700 src="image/list.png">
 <br>
 
-# E. References 
+# G. References 
 
  - [Nexmaker](https://www.nexmaker.com/)
  - [Docsify](https://docsify.js.org/#/?id=docsify)
