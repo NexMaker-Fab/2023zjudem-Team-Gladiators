@@ -1,10 +1,10 @@
 <!--docs/_sidebar.md -->
 - ACTIVITIES
 
- + Project Management
-  
-    - [How to Build Web Page](AC/step/page.md)
- 
+ + PROJECT MANAGEMENT
+
+    - [Website Development](AC/step/page.md)
+
  + CAD
   
     - [Introduction to Fusion 360](AC/CAD/installation.md)
