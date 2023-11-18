@@ -29,9 +29,9 @@
  In GitHub Desktop, we go to Files and Clone Repository.
 After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
 
-<br>
-<img style="float: center;" width=700 src="image/clone.jpg">
+![clone 1 1](<Clone 1.jpg>)
 
+![Clone 2](clone.jpg)
 
    ### 2. Vs Code
 
