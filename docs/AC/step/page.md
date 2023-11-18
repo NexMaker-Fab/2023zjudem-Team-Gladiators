@@ -18,8 +18,8 @@
 <img style="float: center;" width=700 src="image/plus.jpg">
 <br>
 <img style="float: center;" width=700 src="image/Createrepository.jpg">
-<br>
-<img style="float: center;" width=700 src="image/Createrepository1.jpg">
+
+![repository](createrepository1.jpg)
 
 
  ## C: Local setup
