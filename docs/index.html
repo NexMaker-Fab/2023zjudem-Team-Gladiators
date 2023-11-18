@@ -1,66 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- <head>
-  <meta name="theme-color" content="#ffffff">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="style/fontawesome-all.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/bootstrap-grid.min.css"/>
-
-<link rel="stylesheet" href="style/common-1.css"/>
-    <link rel="stylesheet" href="style/style.css"/>
-</head> -->
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <!-- <style>
- 
- </style> -->
   <meta charset="UTF-8">
-  <title>Gladiators</title>
+  <title>Gladiators docs file</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <!-- <link rel="icon" type="image/x-icon" href="../../images/favicon.ico"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
-  <link rel="stylesheet" href="css/fontawesome-all.min.css">
-<link rel="stylesheet" href="css/common-1.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-  <!-- <link rel="stylesheet" href="sidecss.css">  -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#661a1d">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+<link rel="stylesheet" href="bootstrap-grid.min.css"/>
+<link rel="stylesheet" href="common-1.css"/>
+    <link rel="stylesheet" href="style.css"/>
+  <!-- Responsive-->
 </head>
-<body>
-  <div id="app"></div>
-  <script>
+<div id="app"></div>
+
+        <script>
     window.$docsify = {
-      name: 'Gladiators',
+      name: 'GLADIATORS',
       repo: '',
-      homepage: 'home.md',
 
-      loadSidebar: true,  //prepare for sidebar
-      loadNavbar: true,   //prepare for navbar
+      loadSidebar: true, //prepare for sidebar
+      loadNavbar: true, //prepare for navbar
       mergeNavbar: true,
-      subMaxLevel: 3,
-     sidebarDisplayLevel: 1, // set sidebar display level
 
+      executeScript: true,
+      homepage: 'home.md',
+      search: 'auto', // default
+
+      // complete configuration parameters
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
+        paths: 'auto',
+        placeholder: 'Search',
+        noData: 'No Results!',
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+     },
+
+     copyCode: {
+    buttonText: {
+      '/zh-cn/': '点击复制',
+      '/'      : 'Copy to clipboard'
+    },
+    successText: {
+      '/zh-cn/': '复制',
+      '/'      : 'Copied'
     }
-  </script>
-  <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <div id="ad1_footer" style="display: none;">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <!-- 728-CodeLab-Demo --> <ins class="adsbygoogle"      style="display:inline-block;width:728px;height:90px"      data-ad-client="ca-pub-3311815518700050"      data-ad-slot="5805089606"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
-</div>
-<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  },
 
-<script type="text/javascript" src="../../js/script.js"></script>
+
+
+     subMaxLevel: 3,
+     sidebarDisplayLevel: 1, // set sidebar display level
+    }
+
+
+  </script>
+        <!-- Docsify v4 -->
+        <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+ <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+        <script src="https://unpkg.com/docsify-copy-code"></script>
+
+
 </body>
 </html>
