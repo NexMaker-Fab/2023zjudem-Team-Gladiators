@@ -12,14 +12,14 @@
 
  ## B: Set up the page
  We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
- <br>
-<img style="float: center;" width=700 src="image/login.jpg">
-<br>
-<img style="float: center;" width=700 src="image/plus.jpg">
-<br>
-<img style="float: center;" width=700 src="image/Createrepository.jpg">
 
-<img style="float: center;" width=700 src="createrepository1">
+![1](login.jpg)
+
+![2](plus.jpg)
+
+![3](Createrepository.jpg)
+
+![4](createrepository1-1.jpg)
 
 
  ## C: Local setup
