@@ -96,22 +96,25 @@ Click here to [download](https://support.arduino.cc/hc/en-us/articles/3600198330
 <br><h1 style="font-size:1vw"><span style="color:black">Step 4 - Start Arduino IDE.</span></h1>
 <br>After downloading the Arduino IDE software, you need to unzip the folder. In the folder you can find the application icon with the infinity label (application.exe). Double-click the icon to launch the IDE.
 
-<br><div class="loader"><img src="image/ar1.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/1.jpg" alt="#" /></div>
 <br>
 <br><h1 style="font-size:1vw"><span style="color:black">Step 5 - Open your first project.</span></h1>
 Once the software starts, you have two options:
 
-  Create a new project.
-  Open an existing project example.
-To create a new project, select Flie→New.
-<br><div class="loader"><img src="image/ar2.jpg" alt="#" /></div>
+  Create a new project and an existing project example.
+To create a new project and Existing project, select Flie→New and open respesctively as follows.
+<br><div class="loader"><img src="image/2.jpg" alt="#" /></div>
 <br>
 <br><h1 style="font-size:1vw"><span style="color:black">Step 6 - Choose your Arduino board.</span></h1>
 <br>In order to avoid any errors when uploading the program to the board, it is necessary to choose the correct Arduino board name that matches the board connected to the computer.
 
 Go to Tools → Board and select your board.
 <br> After selecting the right board, then select the serial device for the Arduino board. Go to Tools→Serial Port menu. This is probably COM3 or higher (COM1 and COM2 are usually reserved as hardware serial ports). To figure it out, you can disconnect your Arduino board and reopen the menu, then the disappearing entry should be the Arduino board. Reconnect the board and select that serial port. Then Upload - Simulate.
+
 <br>
-<br>For detail Explanation: [Click Here](https://www.w3cschool.cn/arduino/arduino_overview.html)
+<br><div class="loader"><img src="image/3.jpg" alt="#" /></div>
+<br>
+
+For detail Explanation: [Click Here](https://www.w3cschool.cn/arduino/arduino_overview.html)
 
 For a set of example programs of Input and Output: [Click Here](https://www.nexmaker.com/doc/5arduino/Arduino_Input.html) or [Here](https://www.nexmaker.com/doc/5arduino/Arduino_output.html) respectively.
