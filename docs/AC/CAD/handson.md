@@ -188,6 +188,7 @@ Go to documents setting and change the units to millimeter.
 ![Drawing](<Hexagonal Nut Drawing v1_page-0001 (1).jpg>)
 
 ### **6.3 Design by Daniel Kassa**
+#### **6.3.1: Ball Bearing**
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e3bff8897a75b82bc?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
