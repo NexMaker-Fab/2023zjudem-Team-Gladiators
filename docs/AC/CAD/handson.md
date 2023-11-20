@@ -187,15 +187,19 @@ Go to documents setting and change the units to millimeter.
 
 ![Drawing](<Hexagonal Nut Drawing v1_page-0001 (1).jpg>)
 
-### **6.3 Design by Sana**
+### **6.3 Design by Daniel Kassa**
+
+<iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e3bff8897a75b82bc?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+### **6.4 Design by Sana**
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e5299e15e67c6c785?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-### **6.4 Design by Sahle Hagos**
+### **6.5 Design by Sahle Hagos**
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e42e30dc2aab69ca6?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-### **6.5 Design by Ahmed Tejan**
+### **6.6 Design by Ahmed Tejan**
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e294a15da7ed4a49d?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
