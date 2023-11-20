@@ -12,7 +12,7 @@
   
  + ARDUINO
 
-    - [Introducation](AC/Arduino/Introduction.md)
+    - [Introduction](AC/Arduino/Introduction.md)
 
  + PRINTING
 
