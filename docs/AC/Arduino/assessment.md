@@ -87,7 +87,7 @@ Here is a simple steps how to set up the Arduino IDE on our computer and prepare
  First, you must have Arduino board (you can choose the one you like) and a USB cable. If you use an Arduino UNO, Arduino Duemilanove, Nano, Arduino Mega 2560 or De="coliecimila, you will need a standard USB cable (A plug to B plug). The picture below shows the type of USB printer you will connect to.
  <br><div class="loader"><img src="image/ar.jpg" alt="#" /></div>
 
-<br><h1 style="font-size:1vw"><span stylor:black">Step 2 - Download the Arduino IDE software.</span></h1>
+<br><h1 style="font-size:1vw"><span style="color:black">Step 2 - Download the Arduino IDE software.</span></h1>
 
 Downloading the Arduino IDE software is the first step in getting started with Arduino programming. Here's a step-by-step guide on how to download the Arduino IDE:
 
