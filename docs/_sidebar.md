@@ -12,7 +12,7 @@
   
  + ARDUINO
 
-    - [Assesment](AC/Arduino/Assesment.md)
+    - [Assessment](AC/Arduino/Assessment.md)
 
  + PRINTING
 
