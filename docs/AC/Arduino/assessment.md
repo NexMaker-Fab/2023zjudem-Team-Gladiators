@@ -141,7 +141,7 @@ If your sketch uses the Serial library for communication, you can open the Seria
 If needed, use the Serial Monitor and the IDE's built-in tools for debugging. Modify your code as necessary and repeat the verification and upload process.
 
 <br>The above descriptions are the key features of IDE We use to do a simple project. However, Each section can be described as follows in detail.
-<h1 style="font-size:1.5vw"><span style="color:black">EDIT:</span></h1>
+<h1 style="font-size:1.5vw"><span style="color:black">Edit:</span></h1>
 
 <strong>Undo (Ctrl + Z):</strong></b>
 The "Undo" feature allows you to revert the last action you performed. It's useful when you make a mistake or want to go back to a previous state of your code.
@@ -188,7 +188,7 @@ The "Find" feature allows you to search for a specific word or string within you
 <br><b><strong> Auto Format (Ctrl + T):</strong></b>
 "Auto Format" automatically formats your code according to the defined coding style. It helps maintain a consistent and readable code structure.
 
-<h1 style="font-size:1.5vw"><span style="color:black">SKETCH:</span></h1>
+<h1 style="font-size:1.5vw"><span style="color:black">Sketch:</span></h1>
 <b><strong>Verify/Compile (Ctrl + R):</strong></b> 
 This option compiles your Arduino sketch, checking for syntax errors. It ensures that your code is correctly written and ready for uploading to the Arduino board.
 
@@ -225,7 +225,7 @@ Saves the current sketch with a new name or in a different location.
 
 <b><strong>Revert to Saved:</strong></b>
 Reverts the sketch to the last saved state.
-<br><h1 style="font-size:1.5vw"><span style="color:black">TOOLS:</span></h1>
+<br><h1 style="font-size:1.5vw"><span style="color:black">Tool:</span></h1>
 <b><strong>Board:</strong></b>
 This submenu allows you to select the type of Arduino board you are using for your project. It includes a list of supported Arduino boards and third-party boards. Selecting the correct board is essential for compiling and uploading your sketch to the right hardware.
 
