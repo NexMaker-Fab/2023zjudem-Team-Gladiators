@@ -324,7 +324,7 @@ Save and share your designs: Once you have created your circuits, you can save t
 <h1 style="font-size:1vw"><span style="color:black">Arduino input</span></h1>
 We can use swith to control the circuit, in this case we use pin 7 as input port
 
-<br><div class="loader"><img src="image/switch.png" alt="#" /></div>
+<br><div class="loader"><img src="image/switch.jpg" alt="#" /></div>
 <br>
 <h1 style="font-size:1vw"><span style="color:black"></span>Switch</h1>
 <br>
@@ -781,7 +781,7 @@ A LED display is a flat panel display that uses an array of light-emitting diode
 /*
   LiquidCrystal Library - Hello Gladiators
 
- This sketch prints "Hello World!" to the LCD
+ This sketch prints "Hello Gladiators!" to the LCD
  and shows the time.
 
   The circuit:
