@@ -317,6 +317,7 @@ Save and share your designs: Once you have created your circuits, you can save t
 <h1 style="font-size:1.2vw"><span style="color:black">Reference</span></h1>
 
 - [Nexmaker](https://www.nexmaker.com/doc/9IOT/NodeMCUESP8266_ALiYun.html)
+- [Arduino Chinese Version](https://www.w3cschool.cn/arduino/arduino_overview.html)
 - [tinkercad](https://www.tinkercad.com/.)
 - [Javatpoints](https://www.javatpoint.com/arduino)
 
@@ -769,7 +770,7 @@ Declares a Servo object named servoBase. This object will be used to control the
 
 
 <h1 style="font-size:1vw"><span style="color:black">LED Display</span></h1>
-<br><div class="loader"><img src="image/tm.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/lcd.jpg" alt="#" /></div>
 A LED display is a flat panel display that uses an array of light-emitting diodes as pixels for a video display
 <br>Material used are:
 
@@ -846,10 +847,4 @@ This line includes the LiquidCrystal library, which provides functions for contr
 - [https://docs.arduino.cc/hardware/uno-rev3](https://docs.arduino.cc/hardware/uno-rev3)
 - [Javatpoints](https://www.javatpoint.com/arduino)
 
-<br>
-<br><div class="loader"><img src="image/3.jpg" alt="#" /></div>
-<br>
 
-For detail Explanation: [Click Here](https://www.w3cschool.cn/arduino/arduino_overview.html)
-
-For a set of example programs of Input and Output: [Click Here](https://www.nexmaker.com/doc/5arduino/Arduino_Input.html) or [Here](https://www.nexmaker.com/doc/5arduino/Arduino_output.html) respectively.
