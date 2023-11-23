@@ -8,41 +8,59 @@
 - [Github desktop](https://www.gitbook.com/);Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
 - [VScode](https://code.visualstudio.com/); We enhanced our web development workflow with this versatile and customizable tool.
 - [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
-- [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.
-
+- [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.<br>
  ## B: Set up the page
  We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
+ <br>
+<img style="float: center;" width=700 src="image/login.jpg">
+<br>
+<img style="float: center;" width=700 src="image/plus.jpg">
+<br>
+<img style="float: center;" width=700 src="image/Createrepository.jpg">
+<br>
+<img style="float: center;" width=700 src="image/Createrepository1.jpg">
 
-![1](login.jpg)
 
-![2](plus.jpg)
+## C: Local setup
 
-![3](Createrepository.jpg)
-
-![4](createrepository1-1.jpg)
-
-
- ## C: Local setup
-
-   ### 1. Github Desktop
+### 1. Github Desktop
 
  In GitHub Desktop, we go to Files and Clone Repository.
 After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
 
-![clone 1 1](<Clone 1.jpg>)
+<br>
+<img style="float: center;" width=700 src="image/clone.jpg">
 
-![Clone 2](clone.jpg)
+### 2. Vs Code
+<b>Download:</b>
 
-   ### 2. Vs Code
+Visit the official Visual Studio Code website at [visualstudio](https://code.visualstudio.com)
+Click on the "Download" button, which will automatically detect your operating system and provide the appropriate download link.
 
-After installling VS code, We opened our folder on the vs code to develop the website.
+<img style="float: center;" width=700 src="image/vs1.jpg">
+
+<b>Installation:</b>
+<br>Click the downloaded file to run the installer.Follow the instructions provided by the installer to complete the installation process. This typically involves accepting the license agreement, choosing the installation location, and selecting additional components or integrations if desired.
+<br><b>Launching VS Code:</b>
+<br>Once the installation is complete, you can launch VS Code from your desktop or start menu.
+<br><b>User Interface Overview:</b>
+<br>Visual Studio Code is a lightweight and customizable code editor. It features a clean and intuitive user interface. <br>Here are some key components:
+<br><b>Menu Bar: </b> <br>Contains various menus for accessing different features and settings.
+<br><b>Side Bar: </b>  <br>Provides quick access to file explorer, source control, extensions, and other views.
+<br><b>Editor Area: </b> <br>The main work area where you write and edit code.
+<br><b>Status Bar: </b> <br>Displays information such as line and column numbers, file encoding, and extension shortcuts.
+<br><b>Extensions: </b> <br>VS Code has a vast ecosystem of extensions that provide additional functionality and language support. You can install extensions from the VS Code Marketplace.
+<br><b>Language Support and Features:</b>
+<br>VS Code supports a wide range of programming languages and offers numerous features to enhance your coding experience. These include syntax highlighting, code completion, debugging, version control integration, terminal access, and more.You can customize VS Code to suit your preferences by adjusting settings, installing themes, and configuring keybindings.
+<br><b>Working with Projects: </b>
+<br>You can open a project or individual files in VS Code by using the "File" menu or dragging and dropping them into the editor.VS Code provides various features for navigating, searching, and organizing your code within a project. After installling VS code, We opened our folder on the vs code to develop the website.
 
 <br>
 <img style="float: center;" width=700 src="image/vs.jpg">
 
 <br>
 
-   ### 3. Install Docsify
+### 3. Install Docsify
 
 
  In the VS code, We opened the terminal and New terminal.
@@ -71,12 +89,21 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
 <br>
 
-Finally, our docs displayed this way.
+### 4. Set up the index.html
 
 <br>
 
 <img style="float: center;" width=600 src="image/des.jpg">
 <br>
+
+### 1. .nojekyll:
+<br>A file used by GitHub Pages to indicate that the site should not be processed as a Jekyll site.
+
+### 2. index.html:
+<br>The main HTML file serving as the homepage of a website.
+### 2. README.md:
+<br>A documentation file written in Markdown format, providing an overview and instructions for a project or repository.
+
 
     <!DOCTYPE html>
     <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -92,8 +119,6 @@ Finally, our docs displayed this way.
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     <link rel="stylesheet" href="bootstrap-grid.min.css"/>
-
-
 
     <link rel="stylesheet" href="common-1.css"/>
         <link rel="stylesheet" href="style.css"/>
@@ -168,7 +193,7 @@ Finally, our docs displayed this way.
 
 
   ### 5.  Add sidebar and navigation bar
-
+ _sindebar.md
 <!--docs/_sidebar.md -->
 
 - ACTIVITIES
@@ -184,7 +209,7 @@ Finally, our docs displayed this way.
   
  + ARDUINO
 
-    - [Introducation](AC/Arduino/Introduction.md)
+    - [Assessment](AC/Arduino/assessment.md)
 
  + PRINTING
 
@@ -209,7 +234,6 @@ Finally, our docs displayed this way.
   
 
   
-  
       -We open the index file and go to window. .$docsify and then add
               loadSidebar: true,
 
@@ -224,10 +248,8 @@ Then insert the script into the document, just like the official plugin usage
 
               <!-- plugins -->
                <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-
-- NAVBAR
-
-Create file  Navbar.md
+ _navbar.md
+<!--docs/_navbar.md -->
 
              - [MEMBERS](INTRO/NAVBAR/member.md)
              - LANDUAGE
@@ -239,9 +261,9 @@ Open the index file go to window.$docsify and add
 
   ### 6. Prepare and save documents
 
-  ### 7. Uploading Image
+  ### 7. Upload Image
 
- We created an images folder in the document to store all the pictures.
+ We created an image folder in the document to store all the pictures.
 
 A folder named "Image" is created in a directory named "docs". The purpose of this folder is to store all pictures or images related to a specific assignment or document.
 
@@ -249,15 +271,21 @@ Then we drag and drop them into the document.
 
 We find the required image file in the images folder and drag it to the document we are working on. This action places the image at the desired location in the document.
 
-"...use 'img style="float: center;" width=700 src="IMAGE/nameof ourimage.png/jpg" format.'"
+
+    "...use 'img style="float: center;" width=700 src="IMAGE/nameof ourimage.png/jpg" format.'"
 
 This section describes how to use the HTML <img> tag to insert images into a document.
 
-style="float: center;": This attribute sets the float property of the image to "center", which means that the image will be centered horizontally within its containing element.
+ style="float: center;":
+This attribute sets the float property of the image to "center", which means that the image will be centered horizontally within its containing element.
 
-width=700: This attribute sets the width of the image to 700 pixels. This determines the visual size of the image in the document.
+    width=700:
+ This attribute sets the width of the image to 700 pixels. This determines the visual size of the image in the document.
 
-src="image/foldr name.png": This attribute specifies the source of the image (src). In this case, it points to a file called "name of our image.png/jpg" located in the "image" folder. The path "name of our image.png/jpg" means that the image folder is located in the current directory, and the image file name is ""nameof our image.png/jpg".png".
+    src="image/foldr name.png": 
+This attribute specifies the source of the image (src). In this case, it points to a file called "name of our image.png/jpg" located in the "image" folder. The path "name of our image.png/jpg" means that the image folder is located in the current directory, and the image file name is
+
+    "name of our image.png/jpg".
 
 Format: "Format" seems to be mentioned, but has no specific meaning in this context. It may be included as a placeholder or for other purposes, but it does not affect the image insertion itself.
 
@@ -299,7 +327,7 @@ GitHub generates a URL for our published web page that we can share and access p
 <img style="float: center;" width=700 src="image/save.jpg">
 
 
-## D. Setting up  the Members
+## D. Set up  Members
 
  [Template](https://bestjquery.com/tutorial/our-team/demo16/)
 <br>
@@ -455,7 +483,7 @@ Here is the code to display the Members.
         </div>
 
 
-# E. LANGUAGE
+## E. LANGUAGE
 
 The docs file's content when opened in the VS code
 
@@ -463,45 +491,45 @@ The docs file's content when opened in the VS code
     └── docs
        ├── README.md
        ├── index.htm
-       ├── Sidebar.md
-       └── navbar.md
+       ├── _sidebar.md
+       └── _navbar.md
 
 The English and Chinese version the website Looks like This
 
     .
     └── docs
        ├── README.md
-       ├── Home.md
+       ├── home.md
        ├── index.html
-       ├── Sidebar.md
-       └── navbar.md
+       ├── _sidebar.md
+       └── _navbar.md
     └── CHINESE
-       ├── Home.md
+       ├── home.md
        ├── README.md
        ├── index.html
-       ├── Sidebar.md
-       └── navbar.md
+       ├── _sidebar.md
+       └── _navbar.md
 
  the index file
 
      homepage: 'home.md',
      mergeNavbar: true,
 
-every member has the right to change or edit the website. 
+Every member has the right to change or edit the website. 
 
 <br>
 <img style="float: center;" width=700 src="image/language.jpg">
 <br>
 
-# F. Collaboration
- ## Step1: 
+## F. Collaboration
+ ### Step1: 
    As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
 
 <br>
 <img style="float: center;" width=700 src="image/add.jpg">
 <br>
 
- ## Step2: 
+ ### Step2: 
 As shown in the figure, there is   "add people" section.
  by clicking "add people", I invited the members by writing Username, Full name, or Email. Then after the following image dispalyed.
 
@@ -509,13 +537,161 @@ As shown in the figure, there is   "add people" section.
 <img style="float: center;" width=700 src="image/select.jpg">
 <br>
 
- ## Step3:
+ ### Step3:
    After sent invitation, I chose the role of every member in the team to have a mentain role. Now, every member has the right to change or edit the website. 
 <br>
 <img style="float: center;" width=700 src="image/list.png">
 <br>
 
-# G. References 
+## G.Summary
+### How to write title,Header, content and picture
+To create title,Header, content and picture , we can use HTML syntax or Markdown syntax.
+<br><h3>HTML Syntax:</h3>
+<br><b>Flexibility in styling:</b> With HTML, you have fine-grained control over the styling of the title using CSS. 
+<br>You can apply custom styles, such as font size, color, alignment, and other visual properties, by using inline styles or CSS classes.
+<br><b> Integration with JavaScript:</b>
+If you need to add interactive behavior or dynamic changes to the title using JavaScript, HTML syntax allows you to easily integrate JavaScript code and event handlers.
+<br><b> Accessibility:</b>
+HTML provides attributes like aria-label and aria-labelledby that enhance the accessibility of the title, making it easier for screen readers and assistive technologies to interpret and present the content.
+<br><h3>Markdown Syntax:</h3>
+<br><b>Simplicity and ease of use:</b> 
+<br>Markdown offers a simpler and more intuitive syntax for writing titles. It requires less markup and is easier to read and write, especially for non-technical users.
+<br><b>Portability and platform independence:</b> 
+<br>Markdown files can be easily converted to HTML, PDF, or other formats, ensuring portability and compatibility across different platforms and tools.
+<br><b>Consistency and readability:</b>
+<br>Markdown syntax maintains a clean and readable structure in the source file, making it easier to understand and maintain the content.
+<br> Comparing the above descriptions, we chose to write our title using HTML syntax as follows.
+<BR>
+
+    <H3 style= "text-align: center; font-size:7vw" ><span style="color:orange"> Gladiators</span> </h3>
+    <H3 style= "text-align: center; font-size:2vw" > <span style="color:light black">Smart Home </span></h3>
+    <img src="image/home.png" alt="A beautiful image" class="center-image">
+<br>Title:</br>
+To create the title, We used a top-level header. Simply We prefixed our text with a # symbol. The number of # symbols indicates the level of the header.
+<br>
+
+    # How to Develop the Website
+</br>For section headers, We used second-level or lower-level headers. Similar to the title, we prefixed our text with ## to create the headers.
+<br> 
+
+    ## A. Installing Necessary Tools
+    ## B. Set up the Page
+    ## C. Local Setup
+    ## D. setting up the Members
+    ## E. LANGUAGE
+    ## F. Collaboration
+    ## G. The summary of  writing tile,Header, content and picture
+    ## H. References
+<BR>
+For the subsection headers, We used third-level. We prefixed our text with ### to create the headers.
+    <br>
+
+    ### 1. Github Desktop
+    ### 2. Vs Code
+    ### 3. Install Docsify
+    ### 4. Set up Index.html
+    ### 5. Add sidebar and navbar
+    ### 6. Prepare and Save Documents
+    ### 7. Upload Image
+    ### 8. Upload Files
+<br>Other Subsections Under Collaboration are: 
+
+    ### Step 1
+    ### Step 2
+    ### Step 3
+<BR>
+<b>Content:</b>
+<br>To add regular content or paragraphs, We simply wrote as a normal text. The Markdown automatically treats consecutive lines of text as paragraphs.
+<BR>
+<b>Picture:</b>
+To add a picture or image, we can use either
+    ![Alt Text](image-url) or 
+
+    <img style="?" src="myimage.jpg/png">.
+ <br> Using Markdown syntax offers simplicity, ease of use, portability, and improved readability in source files. Since Using "myimage.jpg/png" (HTML <"img"> tag) provides more flexibility in customizing the image display, integrating with JavaScript and CSS, and controlling image loading and fallbacks, We used 
+<br>
+
+    <img style="?" src="myimage.jpg/png">.
+<b>Adding Links:</b>
+When adding links to our content, we can use HTML syntax or Markdown syntax. 
+<br>To create a link using HTML syntax, we use the <"a"> (anchor) tag with the "href" attribute to specify the URL or destination of the link. For example:
+
+    <a href="https://nextmaker.com">Visit nextmaker</a>
+<br>We can also customize the link by adding additional attributes and styling using HTML and CSS.
+HTML syntax allows for more complex link structures, such as opening links in new tabs, linking to specific sections within a page (using anchor tags), or adding event-based interactions using JavaScript.
+
+In Markdown, we can create a link using the following format:
+
+    [Visit nextmaker](https://nextmaker.com)
+<br>The link text, in this case, "Visit nextmakr," is enclosed in square brackets [], followed by the URL or destination of the link in parentheses ().
+Markdown syntax provides a simpler and more concise way to create basic links without the need for HTML tags or attributes.
+<br>Our links do not require advanced link customization or additional attributes.Thus, We used markdown syntax as follows.
+<BR>
+
+    - [Git](https://git-scm.com);
+ <br>It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
+
+    - [Github](https://about.gitlab.com/);
+This is where our web page is hosted.
+
+    - [Github desktop](https://www.gitbook.com/);
+ <br>Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
+
+    - [VScode](https://code.visualstudio.com/);
+<br>We enhanced our web development workflow with this versatile and customizable tool.
+   
+    - [Nodejs](https://nodejs.org/en/);     
+<br>Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
+
+    - [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html);  
+ <br>This language helps us format plain text by creating headings, lists, links, images, and emphasis.
+<BR>
+<b> Adding sidebar and navbar:</b>
+
+        _sidebar.md
+
+    - ACTIVITIES
+
+    + Project Management
+
+        - [Website Development](AC/step/page.md)
+
+    + CAD
+
+        - [Introduction to Fusion 360](AC/CAD/installation.md)
+        - [Assignment](AC/CAD/handson.md)
+
+    + ARDUINO
+
+        - [Introducation](AC/Arduino/Introduction.md)
+
+    + PRINTING
+
+        - [ 3D PRINTING](#)
+
+    + LASER
+
+        - [LASER CUTTING](#)
+
+    + PROGRAMMING
+
+        - [INTERFACE APPLICATION PROGRAMMING](#)
+
+    + IOT
+
+        - [IOT and INTERACTION](#)
+
+    - FINAL PROJECT
+
+        - [Proposal](AC/Project/proposal.md)
+
+    _navbar.md
+
+            - [MEMBERS](INTRO/NAVBAR/member.md)
+            - LANDUAGE
+            - [CHINESE](/CHINESE/)
+
+## H. References 
 
  - [Nexmaker](https://www.nexmaker.com/)
  - [Docsify](https://docsify.js.org/#/?id=docsify)
