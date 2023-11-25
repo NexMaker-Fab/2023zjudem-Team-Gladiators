@@ -8,6 +8,7 @@
  + CAD
   
     - [Introduction to Fusion 360](AC/CAD/installation.md)
+    - [Design and Workspace Tools](AC/CAD/handson.md)
     - [Assignment](AC/CAD/handson.md)
   
  + ARDUINO
