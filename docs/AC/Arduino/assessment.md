@@ -38,23 +38,23 @@ If you are new to Arduino, starting with the Arduino Uno or Nano is recommended 
 Consider whether you may need additional features or capabilities in the future, and choose a board that can accommodate potential future expansion.
 <h1 style="font-size:1vw"><span style="color:black">pictures of the common Arduinos</span></h1>
 
-<br><div class="loader"><img src="image/ar3.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/ar3.jpg" alt="#" width="600" height="400"/></div>
 
 [Arduino UNO R3](https://store.arduino.cc/products/arduino-uno-rev3 )
 
-<br><div class="loader"><img src="image/ar4.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/ar4.jpg" alt="#" width="600" height="400"/></div>
 
 [Arduino Mega 2560 Rev3](https://store.arduino.cc/products/arduino-mega-2560-rev3)
 
-<br><div class="loader"><img src="image/due.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/due.jpg" alt="#" width="600" height="400"/></div>
 
 [Arduino Due](https://store.arduino.cc/products/arduino-due)
 
-<br><div class="loader"><img src="image/ar5.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/ar5.jpg" alt="#" width="600" height="400"/></div>
 
 [Arduino Leonardo](https://store.arduino.cc/products/arduino-leonardo-with-headers)
 
-<br><div class="loader"><img src="image/ar6.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/ar6.jpg" alt="#" width="600" height="400"/></div>
 
 [Arduino UNO WiFi Rev2](https://store.arduino.cc/products/arduino-uno-wifi-rev2)
 
@@ -64,7 +64,7 @@ Here is a simple steps how to set up the Arduino IDE on our computer and prepare
 
 <br><h1 style="font-size:1.5vw"><span style="color:black">Step 1 </span></h1>
  First, you must have Arduino board (you can choose the one you like) and a USB cable. If you use an Arduino UNO, Arduino Duemilanove, Nano, Arduino Mega 2560 or De="coliecimila, you will need a standard USB cable (A plug to B plug). The picture below shows the type of USB printer you will connect to.
- <br><div class="loader"><img src="image/ar.jpg" alt="#" /></div>
+ <br><div class="loader"><img src="image/ar.jpg" alt="#" width="600" height="400"/></div>
 
 <br><h1 style="font-size:1.5vw"><span style="color:black">Step 2 - Download the Arduino IDE software.</span></h1>
 
@@ -81,10 +81,10 @@ Once the download is complete, locate the installer file and run it to start the
 Follow the on-screen instructions to install the Arduino IDE on your computer.
 <br><h1 style="font-size:1.3vw"><span style="color:black">2.5. Launch the Arduino IDE:</span></h1>
 After the installation is complete, you can launch the Arduino IDE. The IDE should be accessible from your computer's applications or programs menu.
-<br><div class="loader"><img src="image/1.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/1.jpg" alt="#" width="600" height="400"/></div>
 <br><h1 style="font-size:1.3vw"><span style="color:black">2.6. Select the Board and Port:</span></h1>
 Before uploading your sketches to an Arduino board, make sure to select the correct board and port in the Arduino IDE. You can do this by going to the Tools menu and choosing the appropriate options.
-<br><div class="loader"><img src="image/3.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/3.jpg" alt="#" width="600" height="400"/></div>
 <br><h1 style="font-size:1.3vw"><span style="color:black">2.7. Check for Updates:</span></h1>
 Periodically, it's a good idea to check for updates to the Arduino IDE. You can do this by going to the Arduino IDE's Help menu and selecting the "Check for Updates" option.
 <br><h1 style="font-size:1.7vw"><span style="color:black">Step 3. Creating a new sketch in the Arduino IDE</span></h1>
@@ -96,7 +96,7 @@ Select "New":
 In the "File" menu, hover your mouse over "New" to reveal a sub-menu. From there, click on "New" again. Alternatively, you can use the keyboard shortcut Ctrl + N (Windows/Linux) or Cmd + N (Mac) to create a new sketch.
 <br><h1 style="font-size:1.3vw"><span style="color:black">3.3. New Sketch Window:</span></h1>
 After selecting "New," a new window will open, providing a blank canvas for your Arduino sketch. This window is where you'll write your code.
-<br><div class="loader"><img src="image/2.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/2.jpg" alt="#" width="600" height="400"/></div>
 <br><h1 style="font-size:1.3vw"><span style="color:black">3.4. Understand the Default Template:</span></h1>
 The new sketch window comes with a default template that includes two essential functions: setup() and loop(). These functions are the starting points for your code.
 
@@ -105,7 +105,7 @@ The new sketch window comes with a default template that includes two essential 
 <br><b>The loop() function:</b>The loop() function is where your main code goes. It runs continuously in a loop after the setup() function finishes.
 
 <br>Here's the default template:
-<br><div class="loader"><img src="image/4.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/4.jpg" alt="#" width="600" height="400"/></div>
 <br><h1 style="font-size:1.3vw"><span style="color:black">3.5. Save Your Sketch:</span></h1>
 Before you start writing your code, it's a good practice to save your sketch. Click on the "File" menu and select "Save" or use the keyboard shortcut Ctrl + S (Windows/Linux) or Cmd + S (Mac). Choose a location on your computer and give your sketch a meaningful name.
 <br><h1 style="font-size:1.3vw"><span style="color:black">3.6.Write Your Code:</span></h1>
@@ -275,23 +275,23 @@ Tinkercad is an online platform that provides a virtual environment for designin
 <b><strong>Go to the Tinkercad website:</strong></b> Click This [tinkercad.com](https://www.tinkercad.com/.)
 
 <b><strong>Sign in or create an account:</strong></b> If you already have a Tinkercad account, click on the "Sign In" button and enter your login credentials (email and password). If you don't have an account, click on the "Join Now" button to create a new account. You can sign up using your email address or by linking your Google, Facebook, or Autodesk account.
-<br><div class="loader"><img src="image/tin.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin.jpg" alt="#" width="600" height="400"/></div>
 <br><br>
 
 <b><strong>Explore the Tinkercad interface:</strong></b>  Once you are signed in, you will be taken to the Tinkercad workspace. The interface consists of different sections, including the Circuit Design, Code Editor, and 3D Design areas. Take a moment to familiarize yourself with the layout and tools available.
-<br><div class="loader"><img src="image/tin1.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin1.jpg" alt="#" width="600" height="400"/></div>
 
 <b><strong>Choose your design area:</strong></b> You can select the Circuit Design area by clicking on the corresponding tab at the top of the workspace. The Circuit Design area is for creating electronic circuits.
-<br><div class="loader"><img src="image/tin2.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin2.jpg" alt="#" width="600" height="400"/></div>
 
 <b><strong>Start creating:</strong></b> Begin by dragging and dropping components onto the workspace in the Circuit Design area. Connect components with virtual wires in the Circuit Design area 
-<br><div class="loader"><img src="image/tin3.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin3.jpg" alt="#" width="600" height="400" /></div>
 
 <b><strong>Simulate and test:</strong></b>clicking on the "Start Simulation" button. You can also write and upload code to microcontrollers like Arduino in the Code Editor area.
-<br><div class="loader"><img src="image/tin4.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin4.jpg" alt="#" width="600" height="400"/></div>
 
 Save and share your designs: Once you have created your circuits, you can save them by clicking on the "Save" button. You can also share your designs with others by clicking on the "Send to" button and providing the necessary permissions.
-<br><div class="loader"><img src="image/tin5.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tin5.jpg" alt="#" width="600" height="400"/></div>
 
 <h1 style="font-size:1.7vw"><span style="color:black">H. Reference 1</span></h1>
 
@@ -303,7 +303,7 @@ Save and share your designs: Once you have created your circuits, you can save t
 <h1 style="font-size:1.5vw"><span style="color:black">1. Switch</span></h1>
 We can use swith to control the circuit, in this case we use pin 7 as input port
 
-<br><div class="loader"><img src="image/switch.png" alt="#" /></div>
+<br><div class="loader"><img src="image/switch.png" alt="#" width="600" height="400" /></div>
 <br>
 <h1 style="font-size:1vw"><span style="color:black"></span>Code</h1>
 <br>
@@ -376,7 +376,7 @@ Delays the execution of the code for 1000 milliseconds (1 second) using the dela
 
 <h1 style="font-size:1.5vw"><span style="color:black">2. Ultrasonic Distance sensor</span></h1>
 ultrasonic sensors measure distance by using ultrasonic waves. The sensor head emits an ultrasonic wave and receives the wave reflected back from the target. Ultrasonic Sensors measure the distance to the target by measuring the time between the emission and reception. 
-<video width="1000" height="400" controls>
+<video width="600" height="400" controls>
   <source src="image/ulds.mp4" type="video/mp4">
 </video>
 <br>Material used are:
@@ -541,7 +541,7 @@ Defines a function named readUltrasonicDistance that takes two integer parameter
 <>Delays the execution of the code for 100 milliseconds using the delay() function.
 
 <h1 style="font-size:1.7vw"><span style="color:black">3. Temprature Sensor</span></h1>
-<br><div class="loader"><img src="image/tms.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/tms.jpg" alt="#" width="600" height="400"/></div>
 A temperature sensor is a device used to measure temperature
 <br>Material used are:
 
@@ -685,7 +685,7 @@ A temperature sensor is a device used to measure temperature
 
 <br>
 <h1 style="font-size:1.7vw"><span style="color:black">J. Arduino Output</span></h1>
-<video width="1000" height="400" controls>
+<video width="600" height="400" controls>
   <source src="image/servo.mp4" type="video/mp4">
 </video>
 <h1 style="font-size:1.5vw"><span style="color:black">1. Serve Motor</span></h1>
@@ -721,17 +721,22 @@ A servomotor is a closed-loop servomechanism that uses position feedback to cont
     }
     }
     
-<b>Description of the Code</>
-    #include <Servo.h>
+<b>Description of the Code</b>
+
+      #include <Servo.h>
+      
 <br>This line includes the Servo library, which provides functions for controlling servo motors.
 
     Servo servoBase;
+    
 Declares a Servo object named servoBase. This object will be used to control the servo motor.
+
             ```
             void setup() {
         servoBase.attach(A1);
         servoBase.write(0);
         }
+        
 <br>The setup() function is a standard Arduino function that is called once when the microcontroller starts.
 <br>Attaches the servo motor to pin A1 using the attach() function. This informs the Arduino that the servo motor will be connected to pin A1.
 <br>Writes a value of 0 to the servo motor using the write() function. This sets the initial position of the servo motor to 0 degrees.
@@ -742,6 +747,7 @@ Declares a Servo object named servoBase. This object will be used to control the
         delay(2000);
     }
     }
+    
 <br>The loop() function is a standard Arduino function that runs repeatedly after the setup() function.
 <br>In this code, a for loop is used to control the servo motor. It starts with i initialized to 0 and increments i by 10 in each iteration until it reaches 180.
 <br>Inside the loop, the write() function is used to set the position of the servo motor to the current value of i.
@@ -749,7 +755,7 @@ Declares a Servo object named servoBase. This object will be used to control the
 
 
 <h1 style="font-size:1.5vw"><span style="color:black">2. LCD Display</span></h1>
-<br><div class="loader"><img src="image/lcd.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/lcd.jpg" alt="#" width="600" height="400"/></div>
 A LED display is a flat panel display that uses an array of light-emitting diodes as pixels for a video display
 <br>Material used are:
 
@@ -758,41 +764,41 @@ A LED display is a flat panel display that uses an array of light-emitting diode
    - 1	LCD 16 x 2
 <h1 style="font-size:1vw"><span style="color:black">Code</span></h1>
 /*
-  LiquidCrystal Library - Hello Gladiators
+      LiquidCrystal Library - Hello Gladiators
 
  This sketch prints "Hello World!" to the LCD
  and shows the time.
 
-  The circuit:
- * LCD RS pin to digital pin 12
- * LCD Enable pin to digital pin 11
- * LCD D4 pin to digital pin 5
- * LCD D5 pin to digital pin 4
- * LCD D6 pin to digital pin 3
- * LCD D7 pin to digital pin 2
- * LCD R/W pin to ground
- * LCD VSS pin to ground
- * LCD VCC pin to 5V
- * 10K resistor:
- * ends to +5V and ground
- * wiper to LCD VO pin (pin 3)
-
-        #include <LiquidCrystal.h>
-
-        LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
-
-        void setup() {
-    
-        lcd.begin(16, 2);
-        lcd.print("Hello, Gladiotors!");
-        }
-
-        void loop() {
-        lcd.setCursor(0, 1);
-        lcd.print(millis() / 1000);
-        }
-
-        #include <LiquidCrystal.h>
+    The circuit:
+   - LCD RS pin to digital pin 12
+   -  LCD Enable pin to digital pin 11
+   - LCD D4 pin to digital pin 5
+   - LCD D5 pin to digital pin 4
+   - LCD D6 pin to digital pin 3
+   - LCD D7 pin to digital pin 2
+   - LCD R/W pin to ground
+   - LCD VSS pin to ground
+   - LCD VCC pin to 5V
+   - 10K resistor:
+   -  ends to +5V and ground
+   - wiper to LCD VO pin (pin 3)
+  
+          #include <LiquidCrystal.h>
+  
+          LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+  
+          void setup() {
+      
+          lcd.begin(16, 2);
+          lcd.print("Hello, Gladiotors!");
+          }
+  
+          void loop() {
+          lcd.setCursor(0, 1);
+          lcd.print(millis() / 1000);
+          }
+  
+          #include <LiquidCrystal.h>
 This line includes the LiquidCrystal library, which provides functions for controlling character LCD modules.
 
         LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -819,7 +825,7 @@ This line includes the LiquidCrystal library, which provides functions for contr
 <br>The print() function is used to display the value of millis() / 1000 on the LCD module. millis() returns the number of milliseconds since the microcontroller started running, and dividing it by 1000 converts it to seconds. This value will be displayed on the second row of the LCD module.
 
 <h1 style="font-size:1.5vw"><span style="color:black">3. Segment display</span></h1>
-<br><div class="loader"><img src="image/num.jpg" alt="#" /></div>
+<br><div class="loader"><img src="image/num.jpg" alt="#" width="600" height="400"/></div>
 A LED display is a flat panel display that uses an array of light-emitting diodes as pixels for a video display
 <br>Material used are:
 
@@ -935,16 +941,14 @@ A LED display is a flat panel display that uses an array of light-emitting diode
 <br>The cycle repeats continuously in the loop() function.
 
 <h1 style="font-size:1.7vw"><span style="color:black">K. Project 1</span></h1>
-<br><div class="loader"><img src="image/p.jpg" alt="#" /></div>
-<br><b> Video of the project.</b>
-<br><video width="1000" height="400" controls>
-  <source src="image/p2.mp4" type="video/mp4">
-</video>
+<div><br><div class="loader"><img src="image/p.jpg" alt="#" width="600" height="400" /></div>
+<br><b> Video of the project.</b></div>
 
-<br><video width="1000" height="400" controls>
-  <source src="image/p1.mp4" type="video/mp4">
-</video>
-<br><h1 style="font-size:1.5vw"><span style="color:black">Project Title: Switch-controlled Ultrasonic Distance Sensor</span></h1>
+<div><br><video width="600" height="400" controls><source src="image/p2.mp4" type="video/mp4">
+</video></div>
+
+<br><video width="600" height="400" controls><source src="image/p1.mp4" type="video/mp4">
+<br><h1 style="font-size:1.5vw"><span style="color:black">Project Title: The Smart Proximity Lighting System</span></h1>
  Components needed:
 
 - 1 Arduino Uno
@@ -952,7 +956,9 @@ A LED display is a flat panel display that uses an array of light-emitting diode
 - 2 LED
 - 1 Ultrasonic Distance Sensor
 
-This project describes reading data from an ultrasonic distance sensor and controlling two output pins based on the distance measurement. 
+    <b>Description:</b>
+
+    <br>The Smart Proximity Lighting System utilizes a switch-controlled ultrasonic distance sensor to create an intelligent lighting solution. <br>When integrated into home or office environments, the system dynamically adjusts lighting based on the presence or absence of individuals within a specified range. <br>The ultrasonic sensor detects proximity, triggering the switch to seamlessly control the lighting system. <br>This project not only enhances energy efficiency by ensuring lights are only active when needed but also offers a convenient and automated lighting experience. <br>The technology finds applications in home automation, security systems, and various settings where adaptive and energy-conscious lighting is desired. 
 
     code
     int switchState=0;
@@ -1006,7 +1012,8 @@ This project describes reading data from an ultrasonic distance sensor and contr
     }
     }
 
-<b>switchState:</b>
+    <b>switchState:</b>
+  
 <br> An integer variable used to store the state of a switch connected to pin 7.
 Function Definition:
 
@@ -1020,7 +1027,8 @@ Sets pin 7 as an input to read the state of a switch.
 Initializes the serial communication for debugging purposes.
 Loop Function:
 
-<b>loop():</b> 
+    <b>loop():</b>
+
 <br>This function runs repeatedly after the setup() function. It performs the following tasks:
 <br>Reads the state of the switch connected to pin 7 and stores it in the switchState variable.
 <br>Checks the value of switchState to determine the behavior of the output pins.
@@ -1040,10 +1048,10 @@ Loop Function:
 <br>The code also outputs the switch state to the serial monitor for debugging purposes.
 
 <h1 style="font-size:1.7vw"><span style="color:black">L. Project 2</span></h1>
-<br><div class="loader"><img src="image/mlc.jpg" alt="#" /></div>
-<br><b>Here is the amimated part the project.</b>
-<br><video width="1000" height="400" controls>
-  <source src="image/ddd.mp4" type="video/mp4">
+<br><div class="loader"><img src="image/mlc.jpg" alt="#" width="600" height="400"/></div>
+<br><b>Here is the amimated part of the project.</b>
+<br><video width="600" height="400" controls>
+<source src="image/ddd.mp4" type="video/mp4">
 </video>
 <br><h1 style="font-size:1.5vw"><span style="color:black">Project Title: Fan Control System</span></h1>
   
@@ -1058,7 +1066,8 @@ Loop Function:
 - 1 Potentiometer (10k ohms)
 -  Jumper wires
    
-    Description:
+    <b>Description:</b>
+    <br>The Fan Control System is designed to optimize comfort and energy efficiency by dynamically adjusting fan speeds based on environmental conditions. <br>Utilizing temperature, the system intelligently regulates the fan's operation, ensuring optimal air circulation and cooling. <br>Users can set preferences or allow the system to autonomously respond to changes in the ambient environment. <br>This project is applicable for home automation, offices, and industrial settings, providing a smart and energy-conscious solution for maintaining a comfortable and well-ventilated environment.
 
 <b>How to connect the components in the circuit:</b>
 
@@ -1184,7 +1193,7 @@ Power supply
 Jumper wires
 Functionality:
 
-<b>Setup:</b>
+    <b>Setup:</b>
 
  the voice recognition module has been connected to the microcontroller board as per the module's instructions, the relay module to the microcontroller board, the light bulbs or LED strips to the relay module, Power the microcontroller board and other components.
 
