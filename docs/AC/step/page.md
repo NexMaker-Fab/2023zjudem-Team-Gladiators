@@ -12,13 +12,13 @@
  ## B: Set up the page
  We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
  <br>
-<img style="float: center;" width=700 src="image/login.jpg">
+<img style="float: center;" width=100% src="image/login.jpg">
 <br>
-<img style="float: center;" width=700 src="image/plus.jpg">
+<img style="float: center;" width=100% src="image/plus.jpg">
 <br>
-<img style="float: center;" width=700 src="image/Createrepository.jpg">
+<img style="float: center;" width=100% src="image/Createrepository.jpg">
 <br>
-<img style="float: center;" width=700 src="image/Createrepository1.jpg">
+<img style="float: center;" width=100% src="image/Createrepository1.jpg">
 
 
 ## C: Local setup
@@ -29,7 +29,7 @@
 After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
 
 <br>
-<img style="float: center;" width=700 src="image/clone.jpg">
+<img style="float: center;" width=100% src="image/clone.jpg">
 
 ### 2. Vs Code
 <b>Download:</b>
@@ -37,7 +37,7 @@ After selecting the repository to clone, We selected the directory to save the c
 Visit the official Visual Studio Code website at [visualstudio](https://code.visualstudio.com)
 Click on the "Download" button, which will automatically detect your operating system and provide the appropriate download link.
 
-<img style="float: center;" width=700 src="image/vs1.jpg">
+<img style="float: center;" width=100% src="image/vs1.jpg">
 
 <b>Installation:</b>
 <br>Click the downloaded file to run the installer.Follow the instructions provided by the installer to complete the installation process. This typically involves accepting the license agreement, choosing the installation location, and selecting additional components or integrations if desired.
@@ -56,7 +56,7 @@ Click on the "Download" button, which will automatically detect your operating s
 <br>You can open a project or individual files in VS Code by using the "File" menu or dragging and dropping them into the editor.VS Code provides various features for navigating, searching, and organizing your code within a project. After installling VS code, We opened our folder on the vs code to develop the website.
 
 <br>
-<img style="float: center;" width=700 src="image/vs.jpg">
+<img style="float: center;" width=100% src="image/vs.jpg">
 
 <br>
 
@@ -66,7 +66,7 @@ Click on the "Download" button, which will automatically detect your operating s
  In the VS code, We opened the terminal and New terminal.
 
  <br>
-<img style="float: center;" width=600 src="image/term.jpg">
+<img style="float: center;" width=100% src="image/term.jpg">
 
 <br>
 
@@ -74,18 +74,18 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
 <br>
 
-<img style="float: center;" width=600 src="image/installingdocsify.jpg">
+<img style="float: center;" width=100% src="image/installingdocsify.jpg">
 <br>
 
  We then initialize it by typing “docsify init./docs” in the terminal command and hit enter so that Docsify creates the necessary files and folders in the specified directory.
 
   <br>
-<img style="float: center;" width=600 src="image/initialize.jpg">
+<img style="float: center;" width=100% src="image/initialize.jpg">
 
   We then type "docsify serve docs" into the command terminal to instruct Docsify to serve the documentation site. We open it in the browser by clicking CTRL + "https://losthost:3000".
 
   <br>
-<img style="float: center;" width=600 src="image/serve.png">
+<img style="float: center;" width=100% src="image/serve.png">
 
 <br>
 
@@ -93,7 +93,7 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
 <br>
 
-<img style="float: center;" width=600 src="image/des.jpg">
+<img style="float: center;" width=100% src="image/des.jpg">
 <br>
 
 ### 1. .nojekyll:
@@ -109,7 +109,7 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
     <html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
     <meta charset="UTF-8">
-    <title>Gladiators docs file</title>
+    <title>Gladiators</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -152,11 +152,9 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
         copyCode: {
         buttonText: {
-        '/zh-cn/': '点击复制',
         '/'      : 'Copy to clipboard'
         },
         successText: {
-        '/zh-cn/': '复制',
         '/'      : 'Copied'
         }
     },
@@ -181,14 +179,14 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
   - To preview web pages, we installed the "Live Server" extension from the VS Code Marketplace.
   <br>
 
-<img style="float: center;" width=600 src="image/pre.jpg">
+<img style="float: center;" width=100% src="image/pre.jpg">
 
 <br>
 
    Once the live server preview is installed, We opened the HTML file, then right-click and select Open with Live Server. 
    <br>
 
-<img style="float: center;" width=600 src="image/live.jpg">
+<img style="float: center;" width=100% src="image/live.jpg">
 <br>
 
 
@@ -272,15 +270,15 @@ Then we drag and drop them into the document.
 We find the required image file in the images folder and drag it to the document we are working on. This action places the image at the desired location in the document.
 
 
-    "...use 'img style="float: center;" width=700 src="IMAGE/nameof ourimage.png/jpg" format.'"
+    "...use 'img style="float: center;" width=100% src="IMAGE/nameof ourimage.png/jpg" format.'"
 
 This section describes how to use the HTML <img> tag to insert images into a document.
 
  style="float: center;":
 This attribute sets the float property of the image to "center", which means that the image will be centered horizontally within its containing element.
 
-    width=700:
- This attribute sets the width of the image to 700 pixels. This determines the visual size of the image in the document.
+    width=100%:
+ This attribute sets the width of the image to 100% pixels. This determines the visual size of the image in the document.
 
     src="image/foldr name.png": 
 This attribute specifies the source of the image (src). In this case, it points to a file called "name of our image.png/jpg" located in the "image" folder. The path "name of our image.png/jpg" means that the image folder is located in the current directory, and the image file name is
@@ -293,7 +291,7 @@ In short, we describe the process of creating an image folder to store pictures.
 
 
  <br>
-<img style="float: center;" width=700 src="image/im.jpg">
+<img style="float: center;" width=100% src="image/im.jpg">
 
  ### 8: Upload files
   1. We established a connection between our local repository and the GitHub repository.
@@ -304,10 +302,10 @@ The “push” command sends committed changes from our local repository to the 
 
  <br>
 
-<img style="float: center;" width=700 src="image/commit.jpg">
+<img style="float: center;" width=100% src="image/commit.jpg">
 
  <br>
-<img style="float: center;" width=700 src="image/push.jpg">
+<img style="float: center;" width=100% src="image/push.jpg">
   <br>
    
 <br>
@@ -319,12 +317,12 @@ GitHub generates a URL for our published web page that we can share and access p
 <br>
 
 <br>
-<img style="float: center;" width=700 src="image/setting.jpg">
+<img style="float: center;" width=100% src="image/setting.jpg">
 
 <br>
-<img style="float: center;" width=700 src="image/page.jpg">
+<img style="float: center;" width=100% src="image/page.jpg">
 <br>
-<img style="float: center;" width=700 src="image/save.jpg">
+<img style="float: center;" width=100% src="image/save.jpg">
 
 
 ## D. Set up  Members
@@ -482,51 +480,12 @@ Here is the code to display the Members.
             </div>
         </div>
 
-
-## E. LANGUAGE
-
-The docs file's content when opened in the VS code
-
-    .
-    └── docs
-       ├── README.md
-       ├── index.htm
-       ├── _sidebar.md
-       └── _navbar.md
-
-The English and Chinese version the website Looks like This
-
-    .
-    └── docs
-       ├── README.md
-       ├── home.md
-       ├── index.html
-       ├── _sidebar.md
-       └── _navbar.md
-    └── CHINESE
-       ├── home.md
-       ├── README.md
-       ├── index.html
-       ├── _sidebar.md
-       └── _navbar.md
-
- the index file
-
-     homepage: 'home.md',
-     mergeNavbar: true,
-
-Every member has the right to change or edit the website. 
-
-<br>
-<img style="float: center;" width=700 src="image/language.jpg">
-<br>
-
-## F. Collaboration
+## E. Collaboration
  ### Step1: 
    As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
 
 <br>
-<img style="float: center;" width=700 src="image/add.jpg">
+<img style="float: center;" width=100% src="image/add.jpg">
 <br>
 
  ### Step2: 
@@ -534,16 +493,16 @@ As shown in the figure, there is   "add people" section.
  by clicking "add people", I invited the members by writing Username, Full name, or Email. Then after the following image dispalyed.
 
 <br>
-<img style="float: center;" width=700 src="image/select.jpg">
+<img style="float: center;" width=100% src="image/select.jpg">
 <br>
 
  ### Step3:
    After sent invitation, I chose the role of every member in the team to have a mentain role. Now, every member has the right to change or edit the website. 
 <br>
-<img style="float: center;" width=700 src="image/list.png">
+<img style="float: center;" width=100% src="image/list.png">
 <br>
 
-## G.Summary
+## F.Summary
 ### How to write title,Header, content and picture
 To create title,Header, content and picture , we can use HTML syntax or Markdown syntax.
 <br><h3>HTML Syntax:</h3>
@@ -578,10 +537,9 @@ To create the title, We used a top-level header. Simply We prefixed our text wit
     ## B. Set up the Page
     ## C. Local Setup
     ## D. setting up the Members
-    ## E. LANGUAGE
-    ## F. Collaboration
-    ## G. The summary of  writing tile,Header, content and picture
-    ## H. References
+    ## E. Collaboration
+    ## F. The summary of  writing tile,Header, content and picture
+    ## G. References
 <BR>
 For the subsection headers, We used third-level. We prefixed our text with ### to create the headers.
     <br>
@@ -688,10 +646,9 @@ This is where our web page is hosted.
     _navbar.md
 
             - [MEMBERS](INTRO/NAVBAR/member.md)
-            - LANDUAGE
-            - [CHINESE](/CHINESE/)
+            
 
-## H. References 
+## G. References 
 
  - [Nexmaker](https://www.nexmaker.com/)
  - [Docsify](https://docsify.js.org/#/?id=docsify)
