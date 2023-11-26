@@ -114,13 +114,8 @@ Go to documents setting and change the units to millimeter.
 ### **2.6 GIF of Working Condition**
 
 <br>
-<img style="float: center;" width=1000 src="vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif">
+<img style="float: center;" width=1000 src="AC/CAD/image13.gif">
 <br>
-
-
-![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image13.gif)
-
-
 
 ### **2.7 Video of Design History**
 
@@ -132,19 +127,27 @@ Go to documents setting and change the units to millimeter.
 
 ### **Vice Jaw**
 
-![Vice Jaw Motion Link](1.gif)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/1.gif">
+<br>
 
 ### **Jaw Screw**
 
-![Jaw Screw](2.gif) ![Jaw Screw](3.gif)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/3.gif">
+<br>
 
 ### **Screw Bar**
 
-![Screw Bar](4.gif)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/4.gif">
+<br>
 
 ### **Bench Vice Assembly**
 
-![Bench vice](5.gif)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/5.gif">
+<br>
 
 ### **3D Model Live**
 
@@ -203,11 +206,15 @@ Go to documents setting and change the units to millimeter.
 #### **6.2.1: Cam and Follower Assembly**
 **Working of Model**
 
-![Cam and Follower Assembly](<Shahar Yar GIF 1.gif>)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/Shahar Yar GIF 1.gif">
+<br>
 
 **Components of Cam and Follower Assembly**
 
-![Disconnecting](<Shaharyar 2.gif>)
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/Shaharyar 2.gif">
+<br>
 
 **Engineering Drawing of Cam**
 
