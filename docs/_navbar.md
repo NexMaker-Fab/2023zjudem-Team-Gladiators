@@ -3,5 +3,3 @@
 - [HOME](home.md)
 - [MEMBERS](NAVBAR/Member.md)
 
-- LANGUAGE
-   - [CHINESE(中文)](CHINESE/home.md)
