@@ -18,7 +18,7 @@
 <br>
 <img style="float: center;" width=100% src="image/Createrepository.jpg">
 <br>
-<img style="float: center;" width=100% src="image/Createrepository1.jpg">
+<img style="float: center;" width=100% src="image/createrepository1.jpg">
 
 
 ## C: Local setup
