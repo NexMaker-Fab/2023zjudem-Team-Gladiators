@@ -46,15 +46,19 @@ Go to documents setting and change the units to millimeter.
 -   We have used tangent tool to tangent the Circles which we created
     with circle tool in Create Section.
 
+![tangent](image6.2.png)
+
 -   And we have used fillet feature which is present in Modify Section.
 
-![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image6.jpeg)
+![](image6.1.png)
 
 -   Now we use line command from create section and then after giving
     dimensions, we use vertical/horizontal tool from Constraints
     Section.
 
-![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image7.png)
+![Alt text](<Screenshot (249).png>)
+
+![Alt text](<Screenshot (250).png>)
 
 ### **2.3 Inspect Section**
 
@@ -79,8 +83,31 @@ Go to documents setting and change the units to millimeter.
 
 ### **2.5 Assemble**
 
--   After designing all components, we used joint command in assemble
-    section to join all the components.
+-   After designing all components, we used joint command, Just go to assemble and click on joint command.
+
+![Alt text](image12.1-1.png)
+
+- Now select the Components to join as component 1 and component 2.
+
+![Alt text](image12.2.png)
+
+- After that set the position of the component on the base where it should be located.
+
+![Alt text](image12.6.png)
+
+- Then go to motion and select type for this i selected slider type.
+
+![Alt text](image12.7.png)
+
+- And Then also select the slide axis (X-Axis)
+
+![Alt text](image12.8.png)
+
+- After that give the minimum and maximum joint motion limits and check preview, then click OK.
+
+![Alt text](image12.4.png)
+
+- In the same way join all the components with the use of joint command in assemble section.
 
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image12.png)
 
@@ -92,7 +119,9 @@ Go to documents setting and change the units to millimeter.
 
 ### **2.7 Video of Design History**
 
-<video src="Video1.mp4" controls title="History"></video>
+<video width=100% height=56.25% controls>
+  <source src="Videos/Video1.mp4" type="video/mp4">
+</video>
 
 ## **Step 3: Motion Link**
 
