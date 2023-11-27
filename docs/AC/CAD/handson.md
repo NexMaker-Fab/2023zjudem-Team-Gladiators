@@ -123,27 +123,23 @@ Go to documents setting and change the units to millimeter.
   <source src="Videos/Video1.mp4" type="video/mp4">
 </video>
 
-## **Step 3: Motion Link**
-
-### **Vice Jaw**
+## **Step 3: Test Contact Set/Motion link (gif)**
 
 <br>
 <img style="float: center;" width=1000 src="AC/CAD/1.gif">
 <br>
 
-### **Jaw Screw**
+<br>
+<img style="float: center;" width=1000 src="AC/CAD/GIF 10.gif">
+<br>
 
 <br>
 <img style="float: center;" width=1000 src="AC/CAD/3.gif">
 <br>
 
-### **Screw Bar**
-
 <br>
 <img style="float: center;" width=1000 src="AC/CAD/4.gif">
 <br>
-
-### **Bench Vice Assembly**
 
 <br>
 <img style="float: center;" width=1000 src="AC/CAD/5.gif">
@@ -195,6 +191,44 @@ Go to documents setting and change the units to millimeter.
 ## **Step 5: Engineering Drawing (Vice Jaw)**
 
 ![Vice Jaw](<Vice Jaw.jpg>)
+
+### **How to Design Drawing**
+
+- To design drawing go to Design button in left corner and click on drawing from design as mentioned below.
+
+![Alt text](<d 1-1.png>)
+
+- In create drawing box click on select option in contents so that you can choose specific component of your design.
+
+![Alt text](<d 2-1.png>)
+
+- Then select the components from your design and choose the sheet size.
+
+![Alt text](<d 3-1.png>)
+
+- Now change the scale for your component as required.
+
+![Alt text](d4-1.png)
+
+- Now fix the position of the component on the sheet and go to projected view option to show your design in different views.
+
+![Alt text](d5-1.png)
+
+- Then click on main component and drag it to get different views.
+
+![Alt text](d6-1.png)
+
+![Alt text](d7-1.png)
+
+- Then go to dimensions section and click on dimension or you can also do this by clicking D Key on your Keyboard directly.
+
+![Alt text](d8-1.png)
+
+- Now give the dimensions of your component.
+
+![Alt text](d9-1.png)
+
+<iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e21b141afc4ec8fc9?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ## **Step 6: Design Practices**
 
