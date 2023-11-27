@@ -15,9 +15,10 @@
 
     - [Assessment](AC/Arduino/assessment.md)
 
- + PRINTING
+ + 3d PRINTING
 
-   - [ 3D PRINTING](#)
+   - [ Theory](AC/3D printing/theory.md)
+   - [ Practice](AC/3D printing/practice.md)
  
  + LASER
 
