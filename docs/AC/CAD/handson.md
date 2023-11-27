@@ -279,7 +279,59 @@ Go to documents setting and change the units to millimeter.
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH512d4QTec90decfa6e294a15da7ed4a49d?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-## **Step 7: Introduction of another CAD Software**
+## **Step 7: Simple Parameter Design Practice**
+
+- First of all go to Modify section and click on change parameters.
+
+![Alt text](p1.png)
+
+- Then click on this Add Button to add parameters.
+
+![Alt text](p2.png)
+
+- Now type the name for your parameter and give the expression or value and click ok. In this way you can add parameters.
+
+![Alt text](p3.png)
+
+- These are the parameters that i added to use it for my design.
+
+![Alt text](p4.png)
+
+- Now i selected the plane and use circle command to make my design.
+
+![Alt text](p5.png)
+
+![Alt text](p6.png)
+
+- Now give the dimension by using parameter feature.
+
+![Alt text](p7.png)
+
+- I have added these 2 circles with the use of parameters and in this design second circle is linked with first one. If we change the expression or value of first one the dimension of the second circle will also be changed.
+
+![Alt text](p8.png)
+
+- Now i have used extrude command in create section.
+
+![Alt text](p9.png)
+
+![Alt text](p10.png)
+
+- As i said earlier if we change the expression of our first parameter then the second one will also be changed because i used [Firstglad - Number] in expression of the second one.
+
+![Alt text](p11.png)
+
+- So as i changed 70mm into 50 then the secondglad which is 54mm changed to 34mm automatically.
+
+![Alt text](p12.png)
+
+- Now our final design also changed as we changed the parameters.
+
+![Alt text](p13.png)
+
+![Alt text](p14.png)
+
+## **Step 8: Introduction of another CAD Software**
 ### **AutoCAD** 
 AutoCAD is a popular computer-aided design (CAD) software developed by Autodesk. It has been an industry-standard for 2D and 3D design and drafting for many years. AutoCAD is used in various industries, including architecture, engineering, construction, manufacturing, and more. Its versatility, extensive user base, and compatibility with other software make it a valuable tool for professionals in these fields.
 
