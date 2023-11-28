@@ -5,7 +5,7 @@ This project aims to integrate advanced technologies to enhance convenience, com
 
 ## Solving Customers' Problems:
 
-The Smart Home Automation System will address various customer pain points, including:
+The Smart Home Automation System will address various customer pinpoints, including:
 
 a. Convenience and Control: centralized control and management of various home devices and systems, allowing users to monitor and control lighting, temperature, security, entertainment, and more through a user-friendly interface or voice commands.
 
