@@ -31,7 +31,7 @@ After selecting the repository to clone, We selected the directory to save the c
 <br>
 <img style="float: center;" width=100% src="image/clone.jpg">
 
-### 2. Vs Code
+### 2. Vs Code Installation and Its Menus
 <b>Download:</b>
 
 Visit the official Visual Studio Code website at [visualstudio](https://code.visualstudio.com)
@@ -96,12 +96,12 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 <img style="float: center;" width=100% src="image/des.jpg">
 <br>
 
-### 1. .nojekyll:
+<b> 1. .nojekyll:<b>
 <br>A file used by GitHub Pages to indicate that the site should not be processed as a Jekyll site.
 
-### 2. index.html:
+<b> 2. index.html:<b>
 <br>The main HTML file serving as the homepage of a website.
-### 2. README.md:
+<b> 2. README.md:<b>
 <br>A documentation file written in Markdown format, providing an overview and instructions for a project or repository.
 
 
@@ -196,40 +196,41 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
 - ACTIVITIES
 
- + Project Management
+        + PROJECT MANAGEMENT
 
-    - [Website Development](AC/step/page.md)
+            - [Website Development](AC/step/page.md)
 
- + CAD
-  
-    - [Introduction to Fusion 360](AC/CAD/installation.md)
-    - [Assignment](AC/CAD/handson.md)
-  
- + ARDUINO
+        + CAD
+        
+            - [Introduction to Fusion 360](AC/CAD/installation.md)
+            - [Design and Workspace Tools](AC/CAD/tools.md)
+            - [Assignment](AC/CAD/handson.md)
+        
+        + ARDUINO
 
-    - [Assessment](AC/Arduino/assessment.md)
+            - [Assessment](AC/Arduino/assessment.md)
 
- + PRINTING
+        + 3D PRINTING
 
-   - [ 3D PRINTING](#)
- 
- + LASER
+        - [Theory](AC/3Dprinting/theory.md)
+        - [Practice](AC/3Dprinting/practice.md)
+        
+        + LASER
 
-   - [LASER CUTTING](#)
+        - [LASER CUTTING](#)
 
- + PROGRAMMING
+        + PROGRAMMING
 
-   - [INTERFACE APPLICATION PROGRAMMING](#)
+        - [INTERFACE APPLICATION PROGRAMMING](#)
 
- + IOT
+        + IOT
 
-   - [IOT and INTERACTION](#)
+        - [IOT and INTERACTION](#)
 
- - FINAL PROJECT
+        - FINAL PROJECT
 
-   - [Proposal](AC/Project/proposal.md)
-  
-  
+        - [Proposal](AC/Project/proposal.md)
+        
 
   
       -We open the index file and go to window. .$docsify and then add
@@ -250,16 +251,13 @@ Then insert the script into the document, just like the official plugin usage
 <!--docs/_navbar.md -->
 
              - [MEMBERS](INTRO/NAVBAR/member.md)
-             - LANDUAGE
-              - [CHINESE](/CHINESE/)
 
 Open the index file go to window.$docsify and add
 
              loadNavbar: true,
 
-  ### 6. Prepare and save documents
 
-  ### 7. Upload Image
+  ### 6. Upload Image
 
  We created an image folder in the document to store all the pictures.
 
@@ -293,39 +291,7 @@ In short, we describe the process of creating an image folder to store pictures.
  <br>
 <img style="float: center;" width=100% src="image/im.jpg">
 
- ### 8: Upload files
-  1. We established a connection between our local repository and the GitHub repository.
-We commit and push the file to GitHub:
-
-To upload our web files to GitHub, we used the command “push commits to the origin remote”.
-The “push” command sends committed changes from our local repository to the GitHub repository.
-
- <br>
-
-<img style="float: center;" width=100% src="image/commit.jpg">
-
- <br>
-<img style="float: center;" width=100% src="image/push.jpg">
-  <br>
-   
-<br>
- 2. 
-To publish our web page, we look for the settings for our GitHub repository. Then scroll down to the GitHub Pages section and select the branch that contains our web files.
-We select the folder or root directory where the web page file is located.
-Then click the "Save" or "Update" button to apply the changes.
-GitHub generates a URL for our published web page that we can share and access publicly. We can see this process as follows.
-<br>
-
-<br>
-<img style="float: center;" width=100% src="image/setting.jpg">
-
-<br>
-<img style="float: center;" width=100% src="image/page.jpg">
-<br>
-<img style="float: center;" width=100% src="image/save.jpg">
-
-
-## D. Set up  Members
+### 7. Set up  Members
 
  [Template](https://bestjquery.com/tutorial/our-team/demo16/)
 <br>
@@ -479,8 +445,57 @@ Here is the code to display the Members.
                 </div>
             </div>
         </div>
+ ### 8. Prepare and save documents In Vs Code
+In Summary,To prepare and save documents in VS Code:
 
-## E. Collaboration
+<br>Open VS Code.
+<br>Create a new file or open an existing one.
+<br>Edit the document.
+<br>To save, go to "File" > "Save" or use Ctrl+S (Windows/Linux) or Cmd+S (Mac).
+<br>To save with a different name or location, use "Save As" (Ctrl+Shift+S or Cmd+Shift+S).
+<br>To save all open files, use "Save All" (Ctrl+K S or Cmd+K S).
+<br>Consider using Auto Save for automatic saving (configure in "File" > "Auto Save"). 
+
+<br>The whole Picture of docs file in VS code looks like this.
+
+<br>
+<img style="float: center;" width=100% src="image/vsc.jpg">
+<br>
+
+### 9: Upload files
+
+  1. We established a connection between our local repository and the GitHub repository.
+We commit and push the file to GitHub:
+
+To upload our web files to GitHub, we used the command “push commits to the origin remote”.
+The “push” command sends committed changes from our local repository to the GitHub repository.
+
+ <br>
+
+<img style="float: center;" width=100% src="image/commit.jpg">
+
+ <br>
+<img style="float: center;" width=100% src="image/push.jpg">
+  <br>
+   
+<br>
+ 2. 
+To publish our web page, we look for the settings for our GitHub repository. Then scroll down to the GitHub Pages section and select the branch that contains our web files.
+We select the folder or root directory where the web page file is located.
+Then click the "Save" or "Update" button to apply the changes.
+GitHub generates a URL for our published web page that we can share and access publicly. We can see this process as follows.
+<br>
+
+<br>
+<img style="float: center;" width=100% src="image/setting.jpg">
+
+<br>
+<img style="float: center;" width=100% src="image/page.jpg">
+<br>
+<img style="float: center;" width=100% src="image/save.jpg">
+
+
+## D. Collaboration
  ### Step1: 
    As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
 
@@ -502,8 +517,10 @@ As shown in the figure, there is   "add people" section.
 <img style="float: center;" width=100% src="image/list.png">
 <br>
 
-## F.Summary
+## E.Summary
+
 ### How to write title,Header, content and picture
+
 To create title,Header, content and picture , we can use HTML syntax or Markdown syntax.
 <br><h3>HTML Syntax:</h3>
 <br><b>Flexibility in styling:</b> With HTML, you have fine-grained control over the styling of the title using CSS. 
@@ -536,10 +553,9 @@ To create the title, We used a top-level header. Simply We prefixed our text wit
     ## A. Installing Necessary Tools
     ## B. Set up the Page
     ## C. Local Setup
-    ## D. setting up the Members
-    ## E. Collaboration
-    ## F. The summary of  writing tile,Header, content and picture
-    ## G. References
+    ## D. Collaboration
+    ## E. The summary of  writing tile,Header, content and picture
+    ## F. References
 <BR>
 For the subsection headers, We used third-level. We prefixed our text with ### to create the headers.
     <br>
@@ -549,9 +565,10 @@ For the subsection headers, We used third-level. We prefixed our text with ### t
     ### 3. Install Docsify
     ### 4. Set up Index.html
     ### 5. Add sidebar and navbar
-    ### 6. Prepare and Save Documents
-    ### 7. Upload Image
-    ### 8. Upload Files
+    ### 6. Upload Image
+    ### 7. Set up Members
+    ### 8. Prepare and Save Documents
+    ### 9. Upload Files
 <br>Other Subsections Under Collaboration are: 
 
     ### Step 1
@@ -608,49 +625,100 @@ This is where our web page is hosted.
 
         _sidebar.md
 
-    - ACTIVITIES
+   - ACTIVITIES
 
-    + Project Management
+            + PROJECT MANAGEMENT
 
-        - [Website Development](AC/step/page.md)
+                - [Website Development](AC/step/page.md)
 
-    + CAD
-
-        - [Introduction to Fusion 360](AC/CAD/installation.md)
-        - [Assignment](AC/CAD/handson.md)
-
-    + ARDUINO
-
-        - [Introducation](AC/Arduino/Introduction.md)
-
-    + PRINTING
-
-        - [ 3D PRINTING](#)
-
-    + LASER
-
-        - [LASER CUTTING](#)
-
-    + PROGRAMMING
-
-        - [INTERFACE APPLICATION PROGRAMMING](#)
-
-    + IOT
-
-        - [IOT and INTERACTION](#)
-
-    - FINAL PROJECT
-
-        - [Proposal](AC/Project/proposal.md)
-
-    _navbar.md
-
-            - [MEMBERS](INTRO/NAVBAR/member.md)
+            + CAD
             
+                - [Introduction to Fusion 360](AC/CAD/installation.md)
+                - [Design and Workspace Tools](AC/CAD/tools.md)
+                - [Assignment](AC/CAD/handson.md)
+            
+            + ARDUINO
 
-## G. References 
+                - [Assessment](AC/Arduino/assessment.md)
+
+            + 3D PRINTING
+
+            - [Theory](AC/3Dprinting/theory.md)
+            - [Practice](AC/3Dprinting/practice.md)
+            
+            + LASER
+
+            - [LASER CUTTING](#)
+
+            + PROGRAMMING
+
+            - [INTERFACE APPLICATION PROGRAMMING](#)
+
+            + IOT
+
+            - [IOT and INTERACTION](#)
+
+            - FINAL PROJECT
+
+            - [Proposal](AC/Project/proposal.md)
+        _navbar.md
+
+                - [MEMBERS](INTRO/NAVBAR/member.md)
+
+<b> When we write them all in one</b> 
+
+        <p>&lt;H3 style= "text-align: center; font-size:7vw" &gt;&lt;span style="color:orange"&gt; Gladiators&lt;/span&gt; &lt;/h3&gt;</p>
+        <p>&lt;H3 style= "text-align: center; font-size:2vw" &gt; &lt;span style="color:light black"&gt;Smart Home &lt;/span&gt;&lt;/h3&gt;</p>
+        <p>&lt;img src="image/home.png" alt="A beautiful image" class="center-image"&gt;</p>
+        # How to Develop the Website
+        ## A. Installing Necessary Tools
+        ## B. Set up the Page
+        ## C. Local Setup
+        ### 1. Github Desktop
+        ### 2. Vs Code
+        ### 3. Install Docsify
+        ### 4. Set up Index.html
+        ### 5. Add sidebar and navbar
+        ### 6. Upload Image
+        ### 7. Set up Members
+        ### 8. Prepare and Save Documents
+        ### 9. Upload Files
+        ## D. Collaboration
+        ## E. The summary of writing title, header, content, and picture
+        ## F. References
+        <p>&lt;p&gt;Content&lt;/p&gt;</p>
+        [Github](https://about.gitlab.com/);
+        _sidebar.md
+    - ACTIVITIES
+    + PROJECT MANAGEMENT</p>
+        - [Website Development](AC/step/page.md)</p>
+    + CAD</p>
+        - [Introduction to Fusion 360](AC/CAD/installation.md)</p>
+        - [Design and Workspace Tools](AC/CAD/tools.md)</p>
+        - [Assignment](AC/CAD/handson.md)</p>
+    + ARDUINO</p>
+        - [Assessment](AC/Arduino/assessment.md)</p>
+    + 3D PRINTING</p>
+        - [Theory](AC/3Dprinting/theory.md)</p>
+        - [Practice](AC/3Dprinting/practice.md)</p>
+    + LASER</p>
+    
+       - [LASER CUTTING](#)</p>
+    
+    + PROGRAMMING</p>
+    
+      - [INTERFACE APPLICATION PROGRAMMING](#)</p>
+        
+    + IOT</p>
+    
+        - [IOT and INTERACTION](#)</p>
+    
+    - FINAL PROJECT
+    
+        - [Proposal](AC/Project/proposal.md)</p>
+
+## F. References 
 
  - [Nexmaker](https://www.nexmaker.com/)
  - [Docsify](https://docsify.js.org/#/?id=docsify)
  - [Template](https://bestjquery.com/tutorial/our-team/demo16/)
- - [Google Translate](https://translate.google.com)
