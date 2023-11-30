@@ -192,6 +192,9 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 
   ### 5.  Add sidebar and navigation bar
  _sindebar.md
+
+ <img style="float: center;" width=100% src="image/sd.jpg">
+ 
 <!--docs/_sidebar.md -->
 
 - ACTIVITIES
@@ -248,8 +251,11 @@ Then insert the script into the document, just like the official plugin usage
               <!-- plugins -->
                <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
  _navbar.md
-<!--docs/_navbar.md -->
 
+ <img style="float: center;" width=100% src="image/nv.jpg">
+ 
+<!--docs/_navbar.md -->
+             - [HOME](home.md)
              - [MEMBERS](INTRO/NAVBAR/member.md)
 
 Open the index file go to window.$docsify and add
@@ -294,6 +300,9 @@ In short, we describe the process of creating an image folder to store pictures.
 ### 7. Set up  Members
 
  [Template](https://bestjquery.com/tutorial/our-team/demo16/)
+<br>
+ <img style="float: center;" width=100% src="image/mm.jpg">
+ <br>
 <br>
  First we downloaded the "saveallresourse" tool and addded to the chrome extention. 
  The "saveallresource" saves all the files and assets of any website. It downloads resources like HTML, CSS, JavaScript files, images, and more, preserving the folder structure. The tool helped us to quickly gather and preserve all necessary website files.
