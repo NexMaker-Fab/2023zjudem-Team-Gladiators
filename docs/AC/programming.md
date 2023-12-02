@@ -1337,14 +1337,17 @@ Make adjustments to the design and functionality as needed based on testing and 
 Continue to refine and iterate on your code and design until you achieve the desired GUI experience.
 
 **Processing part**
+
+<img style="float: center;" width=100% src="image/prar.jpg">
+
 <video width=100% controls><source src="image/pra.mp4" type="video/mp4">
 The sketch serves as a user interface for controlling external hardware by sending specific commands through a serial port. The graphical buttons and images enhance user interaction, allowing them to toggle LEDs and control a servo motor with a mouse click.
 
-import processing.serial.\*;
-
-Serial port;
-
-PImage led1OnImage, led1OffImage, led2OnImage, led2OffImage, led3OnImage, led3OffImage, servoOnImage, servoOffImage;
+    import processing.serial.\*;
+    
+    Serial port;
+    
+    PImage led1OnImage, led1OffImage, led2OnImage, led2OffImage, led3OnImage, led3OffImage, servoOnImage, servoOffImage;
 
     void setup() {
 
