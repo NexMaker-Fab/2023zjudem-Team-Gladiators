@@ -193,71 +193,44 @@ Processing is favoured by computational designers and artists for generative art
 
 Processing supports audio processing and synthesis, making it suitable for creating interactive sound installations, music visualizations, and live performances. It provides libraries for working with sound files, MIDI, and real-time audio manipulation.
 ## **Fundamentals of Processing!**
-Processing code consists of two main parts, setup and draw blocks. Setup block runs once when the code gets executed, and the draw blocks runs continuously. The main idea behind Processing is, what you write within the draw block will be executed 60 times per second from top to bottom, until your program terminates. You will build everything by taking advantage of this this very idea. You will make your objects move, keep our scores, detect collisions, implement gravity, and do pretty much everything else using this feature. This refresh loop is the heartbeat of your project. I will be explaining how to use this heartbeat to bring your code to life in later sections. First, let me introduce you to the Processing IDE.
+The Processing code is comprised of two essential sections: setup and draw blocks. The setup block initiates once upon code execution, while the draw block operates continuously. In Processing, the core concept is that code within the draw block executes 60 times per second, sequentially from top to bottom, until program termination. Leveraging this idea, you can create dynamic elements, manage scores, detect collisions, implement gravity, and handle various functionalities. This continuous execution, known as the refresh loop, serves as the vital pulse of your project. Subsequent sections will elaborate on harnessing this heartbeat to animate your code. Initially, let me introduce you to the Processing IDE.
 ### **Processing IDE!**
 
 <img style="float: center;" width=100% src="image/idi.jpg">
 
-As you’d expect, run and stop buttons do what they suggest. When you click on the run button, your code will get compiled and executed. By nature, processing programs never get terminated, they run forever and ever until they get disturbed. You can terminate it programmatically, however if you don’t, you can use the stop button.
+The anticipated functionalities of the run and stop buttons are as expected. Upon clicking the run button, your code undergoes compilation and execution. In the inherent nature of Processing programs, they persist indefinitely, running continuously until deliberately interrupted. While it is possible to programmatically terminate the execution, the stop button provides a convenient manual option.
 
-The button that looks like a butterfly on the right of the run & stop is the debugger. Using the debugger needs a whole other article dedicated to it. It is out of the scope of this article, so you can ignore it for now. The dropdown next to debugger button is where you add / set mods. Mods provide you some certain functionality, allow you to write code for Android, allow you to write code in Python, and so on and so forth. Mods are also out of the scope, so you can keep it in the default Java mode and ignore it as well.
+The butterfly-shaped button situated to the right of the run and stop buttons represents the debugger. Delving into the usage of the debugger requires a dedicated article, exceeding the current scope. Consequently, it is advisable to disregard it for the present. The dropdown menu adjacent to the debugger button is where you incorporate or configure mods. Mods furnish specific functionalities, enabling you to write code for Android, use Python, and more. As mods are beyond the current scope, it is recommended to maintain the default Java mode and overlook this feature.
 
-The black box below is the console. You will use it to print out stuff for quick debugging purposes. The errors tab next to the console is where your errors will appear. This is also a new useful feature that came with Processing 3.0. In the older versions, the errors were printed to the console and it was hard to keep track of them.
+The console, depicted as a black box below, serves as a tool for swiftly printing information during the debugging process. The errors tab, positioned alongside the console, is a valuable addition introduced in Processing 3.0. In previous versions, errors were directed to the console, making it challenging to manage and track them effectively.
 ### **Setup Block**
-As stated before, setup blocks get executed once when the program starts. You can use it for making configurations and for things that you’d like to run only once, for instance, loading images or sounds. Here is an example setup block. Run this code in your own environment and see the results for yourself.
+As mentioned earlier, setup blocks are executed once at the beginning of the program. This block is suitable for configurations and tasks intended to run only once, such as loading images or sounds. Below is an illustrative setup block example. Feel free to execute this code in your local environment to observe the outcomes.
 
-    public void setup() {
+        public void setup() {
 
-    `  `// Size of our sketch will be 800x600, 
+    // The size of our sketch will be 800x600, 
+    // and it will use the P2D rendering engine.
+    size(800, 600, P2D);
 
-    `  `// and use the P2D rendering engine.
+    // Alternatively, we could have used fullScreen(P2D).
 
-    `  `size(800, 600, P2D);
+    // The background color of our sketch will be black by default, unless specified otherwise.
+    background(0);
 
+    // We could have used the following to set a background image.
+    // Note that the size of our sketch should be the same as the image.
+    // background(loadImage("test.jpg"));
 
+    // Shapes and objects will be filled with red by default, unless specified otherwise.
+    fill(255, 0, 0);
 
-    `  `// We could have used this function instead of size()
-
-    `  `// fullScreen(P2D);
-
-
-
-    `  `// The background color of our sketch will be black
-
-    `  `// by default, unless specified otherwise
-
-    `  `background(0);
-
-
-
-    `  `// We could have used this to set a background image.
-
-    `  `// Note that size of our sketch should be the same as the image.
-
-    `  `// background(loadImage("test.jpg"));
-
-
-
-    `  `// Shapes and objects will be filled with red by default,
-
-    `  `// unless specified otherwise.
-
-    `  `fill(255,0,0);
-
-
-
-    `  `// Shaped and objects will have a white border by default,
-
-    `  `// unless specified otherwise.
-
-    `  `stroke(255);
-
+    // Shapes and objects will have a white border by default, unless specified otherwise.
+    stroke(255);
     }
 
-The methods related with styling (background, fill, stroke) will be explained at the properties & settings sections. For now, what you need to know is how the settings and configurations we set here affects our whole sketch. Codes written here are used to set some base rulesets applicable throughout the sketch. What you should also understand in this section are the methods listed below:
+The methods related to styling (background, fill, stroke) will be explained in the properties and settings sections. For now, it's essential to understand how the settings and configurations set in this section affect the entire sketch. The codes written here establish fundamental rules applicable throughout the sketch. Additionally, the following methods are noteworthy:
 
-**size()** - As the name suggests, this function is used to configure the size of our sketch. It has to be in the first line of the setup code block. It could be used in the following forms:
-
+**size()** - This function is used to configure the dimensions of our sketch. It needs to be in the first line of the setup code block and can be used in different forms, specifying width and height or adding a rendering engine parameter.
 - size(width,height);
 - size(width, height, renderer);
 
@@ -657,8 +630,14 @@ Overall, Unity is a versatile and widely-used game development engine that empow
 **Practical Works:**
 
 **Practice 1:**
-<video width=100% controls><source src="image/prv.mp4" type="video/mp4">
-This Processing sketch creates an animated visual display featuring four moving ellipses on a canvas. Each ellipse has a unique color and follows a specific trajectory on the screen. The movement of the ellipses is controlled by their individual speeds, and the direction may change based on the condition of the mouse button being pressed. If the mouse button is not pressed, the ellipses continue their animated motion.
+
+**Graphical Visual Display:**
+<br>
+
+[Source](https://gist.github.com/oguzgelal/13d2e0b1cd98b62c3986)
+<br>
+<br>
+The Following Processing sketch creates an animated visual display featuring four moving ellipses on a canvas. Each ellipse has a unique color and follows a specific trajectory on the screen. The movement of the ellipses is controlled by their individual speeds, and the direction may change based on the condition of the mouse button being pressed. If the mouse button is not pressed, the ellipses continue their animated motion.
 
 **Ellipses:** There are four ellipses drawn on the canvas, each defined by its own set of variables for position (x, y), speed, and color.
 
@@ -669,6 +648,8 @@ This Processing sketch creates an animated visual display featuring four moving 
 **Mouse Interaction:** The animation behavior may change when the mouse button is released. The mouseReleased function resets the positions of the ellipses, and the draw function adjusts their trajectories accordingly.
 
 **Initialization:** The initial positions of the ellipses are set using the setStartingPoints function, contributing to the overall visual arrangement.
+
+<video width=100% controls><source src="image/prv.mp4" type="video/mp4">
 
     int x1, y1;
 
@@ -779,8 +760,12 @@ This Processing sketch creates an animated visual display featuring four moving 
     }
 
 **Practice 2:**
-<video width=100% controls><source src="image/prv1.mp4" type="video/mp4">
-This Processing sketch creates a visually dynamic and interactive scene involving a series of connected segments forming a flexible arm that reaches towards a moving target. Additionally, a bouncing ball adds an element of animation to the composition. 
+
+**reachSegment:**
+
+[Source](https://processing.org/examples/reach3.html)
+
+The Following Processing sketch creates a visually dynamic and interactive scene involving a series of connected segments forming a flexible arm that reaches towards a moving target. Additionally, a bouncing ball adds an element of animation to the composition. 
 
 **Arm Segments:** The arm is composed of multiple segments connected in a chain. Each segment is represented by a line, and their collective movement resembles the behavior of a flexible structure.
 
@@ -797,6 +782,9 @@ reachSegment: Calculates the angle and position for each segment of the arm to r
 **segment:** Draws each arm segment as a line with varying stroke weights.
 
 **Setup and Draw Functions:** The setup function initializes the canvas size, stroke properties, and initial positions for the arm segments. The draw function is called continuously and handles the animation, updating the ball's position, calculating arm segment positions, and drawing the scene.
+
+<video width=100% controls><source src="image/prv1.mp4" type="video/mp4">
+
 
     int numSegments = 8;
 
@@ -918,725 +906,6 @@ reachSegment: Calculates the angle and position for each segment of the arm to r
 
     }
 
-` `**Project one:**
-<video width=100% controls><source src="image/prv2.mp4" type="video/mp4">
-The following is the complete code for a simple game implemented in the Processing programming environment. The game involves a player controlled by arrow keys, three enemy drones that move horizontally, and bullets fired by both the player and the drones. The goal is to shoot down the drones while avoiding their bullets.
-
-This code uses the Processing language to create a game window, handle player input, and update the game state. The player can move left and right with the arrow keys and shoot bullets with the spacebar and mousepressed. The drones move horizontally and periodically shoot bullets at the player. The game keeps track of hits and misses for both the player and the drones, and this information is displayed in the console.
-
-Let us describe them one by one:
-
-**Game Overview:**
-
-The game features a player-controlled square (representing a player) and three enemy squares (representing drones). The player's objective is to avoid being hit by drones while shooting bullets to eliminate them.
-
-**Controls:**
-
-Player Movement: The player can be moved horizontally using the left and right arrow keys.
-
-Player Shooting: Bullets can be fired by pressing the spacebar or the 's' key.
-
-**Gameplay:**
-
-**Player:** The player is a blue square located at the bottom of the screen. The player can move left and right to avoid collisions with enemy drones.
-
-**Drones:** There are three green squares representing enemy drones. These drones move horizontally across the screen. If a drone collides with the player, it results in a hit, and the player's position is reset.
-
-**Player Bullets:** The player can shoot red bullets upwards to eliminate drones. If a bullet hits a drone, the drone is temporarily disabled and falls down before resetting its position.
-
-Scoring:
-
-**Hits:** When the player successfully eliminates a drone, the hit counter for that drone increases.
-
-**Misses:** If a bullet fired by the player misses a drone and goes off-screen, or if a drone collides with the player, the miss counter increases.
-
-**Drone Behavior:**
-
-Drones periodically shoot bullets towards the player.
-
-When a drone is hit by a player's bullet, it falls down temporarily before resetting its position.
-
-**Game State:**
-
-The game displays counters for player hits and misses, as well as individual hit and miss counters for each drone.
-
-**Technical Details:**
-
-The game is implemented using the Processing programming language.
-
-Object-oriented programming principles are used, with classes for bullets and collision detection functions.
-
-The game features continuous movement of drones, periodic shooting, and bullet animations.
-
-    float playerX, playerY;
-
-    int playerHits = 0;
-
-    int playerMisses = 0;
-
-    int[] droneMisses = {0, 0, 0};
-
-    int droneHits1 = 0;
-
-    int droneHits2 = 0;
-
-    int droneHits3 = 0;
-
-    ArrayList<Bullet> playerBullets = new ArrayList<>();
-
-    ArrayList<Bullet> droneBullets = new ArrayList<>();
-
-    float[] droneX = new float[3];
-
-    float[] droneY = new float[3];
-
-    float droneSpeed = 4; 
-
-    boolean[] droneDirectionRight = {true, true, true};
-
-    boolean[] droneHit = {false, false, false};
-
-    int[] droneHitCounter = {0, 0, 0};
-
-    void setup() {
-
-    `  `size(400, 400);
-
-    `  `playerX = width / 2;
-
-    `  `playerY = height - 30;
-
-    `  `for (int i = 0; i < 3; i++) {
-
-    `    `droneX[i] = random(width - 20);
-
-    `    `droneY[i] = random(height / 4, height / 2);
-
-    `  `}
-
-    }
-
-    void draw() {
-
-    `  `background(220);
-
-    `  `fill(0, 0, 255);
-
-    `  `rect(playerX, playerY, 20, 20);
-
-    `  `fill(0, 255, 0);
-
-    `  `for (int i = 0; i < 3; i++) {
-
-    `    `rect(droneX[i], droneY[i], 20, 20);
-
-    `    `if (hit(playerX, playerY, 20, 20, droneX[i], droneY[i])) {
-
-    `      `playerX = width / 2;
-
-    `      `playerY = height - 30;
-
-    `      `playerHits++;  
-
-    `    `}
-
-    `    `if (frameCount % 60 == 0) {
-
-    `      `float dx = playerX - droneX[i];
-
-    `      `float dy = playerY - droneY[i];
-
-    `      `float angle = atan2(dy, dx);
-
-    `      `droneBullets.add(new Bullet(droneX[i], droneY[i], angle));
-
-    `    `}
-
-    `  `}
-
-
-
-    `  `for (int i = droneBullets.size() - 1; i >= 0; i--) {
-
-    `    `Bullet bullet = droneBullets.get(i);
-
-    `    `bullet.update();
-
-    `    `bullet.display();
-
-    `    `if (hit(playerX, playerY, 20, 20, bullet.x, bullet.y)) {
-
-    `      `droneBullets.remove(i);
-
-    `      `playerMisses++;
-
-    `      `updateCounters();
-
-    `    `}
-
-    `    `if (bullet.y > height) {
-
-    `      `droneBullets.remove(i);
-
-    `      `droneMisses[i]++;
-
-    `      `updateCounters();
-
-    `    `}
-
-    `  `}
-
-    `  `fill(255, 0, 0);
-
-    `  `for (int i = playerBullets.size() - 1; i >= 0; i--) {
-
-    `    `Bullet bullet = playerBullets.get(i);
-
-    `    `bullet.update();
-
-    `    `bullet.display();
-
-    `    `for (int j = 0; j < 3; j++) {
-
-    `      `if (hit(droneX[j], droneY[j], 20, 20, bullet.x, bullet.y)) {
-
-    `        `playerBullets.remove(i);
-
-    `        `droneHit[j] = true;
-
-    `        `if (j == 0) {
-
-    `          `droneHits1++;
-
-    `        `} else if (j == 1) {
-
-    `          `droneHits2++;
-
-    `        `} else if (j == 2) {
-
-    `          `droneHits3++;
-
-    `        `}
-
-    `        `updateCounters();
-
-    `      `}
-
-    `    `}
-
-    `    `if (bullet.y < 0) {
-
-    `      `playerBullets.remove(i);
-
-    `      `playerMisses++;
-
-    `      `updateCounters();
-
-    `    `}
-
-    `  `}
-
-    `  `for (int i = 0; i < 3; i++) {
-
-    `    `if (!droneHit[i]) {
-
-    `      `if (droneDirectionRight[i]) {
-
-    `        `droneX[i] += droneSpeed;
-
-    `        `if (droneX[i] > width - 20) {
-
-    `          `droneDirectionRight[i] = false;
-
-    `        `}
-
-    `      `} else {
-
-    `        `droneX[i] -= droneSpeed;
-
-    `        `if (droneX[i] < 0) {
-
-    `          `droneDirectionRight[i] = true;
-
-    `        `}
-
-    `      `}
-
-    `    `} else {
-
-
-
-    `      `droneY[i] += 5;
-
-    `      `droneHitCounter[i]++;
-
-    `      `if (droneHitCounter[i] > 30) {
-
-    `        `droneY[i] = random(height / 4, height / 2);
-
-    `        `droneHit[i] = false;
-
-    `        `droneHitCounter[i] = 0;
-
-    `      `}
-
-    `    `}
-
-    `  `}
-
-    `  `if (keyPressed) {
-
-    `    `if (keyCode == LEFT) {
-
-    `      `playerX -= 5;
-
-    `    `} else if (keyCode == RIGHT) {
-
-    `      `playerX += 5;
-
-    `    `}
-
-    `  `}
-
-    `  `playerX = constrain(playerX, 0, width - 20);
-
-    }
-
-    void keyPressed() {
-
-    `  `if (key == ' ') {
-
-    `    `playerBullets.add(new Bullet(playerX + 10, playerY, -PI / 2));
-
-    `  `}
-
-    }
-
-    void updateCounters() {
-
-    `  `println("Player Hits: " + playerHits + " | Player Misses: " + playerMisses);
-
-    `  `for (int i = 0; i < 3; i++) {
-
-    `    `println("Drone " + (i + 1) + " Hits: " + getDroneHits(i) + " | Drone " + (i + 1) + " Misses: " + droneMisses[i]);
-
-    `  `}
-
-    }
-
-    int getDroneHits(int droneIndex) {
-
-    `  `if (droneIndex == 0) {
-
-    `    `return droneHits1;
-
-    `  `} else if (droneIndex == 1) {
-
-    `    `return droneHits2;
-
-    `  `} else if (droneIndex == 2) {
-
-    `    `return droneHits3;
-
-    `  `}
-
-    `  `return 0;
-
-    }
-
-    boolean hit(float rx, float ry, float rw, float rh, float px, float py) {
-
-    `  `return px > rx && px < rx + rw && py > ry && py < ry + rh;
-
-    }
-
-    class Bullet {
-
-    `  `float x, y, speed;
-
-    `  `float angle;
-
-    `  `Bullet(float x, float y, float angle) {
-
-    `    `this.x = x;
-
-    `    `this.y = y;
-
-    `    `this.angle = angle;
-
-    `    `this.speed = 5; 
-
-    `  `}
-
-    `  `void update() {
-
-    `    `x += cos(angle) \* speed;
-
-    `    `y += sin(angle) \* speed;
-
-    `  `}
-
-    `  `void display() {
-
-    `    `ellipse(x, y, 5, 5);
-
-    `  `}
-
-    }
-
-**Project Two:**
-
-**Graphical User Interface**
-
-To create a Graphic User Interface (GUI) using Processing and Arduino or other microcontrollers, you'll need to combine the design and programming aspects. Here's a general outline of the steps involved:
-
-**Design the GUI:**
-
-Determine the layout and components you want in your GUI, such as buttons, sliders, text fields, etc.
-
-Sketch out the visual design of your GUI on paper or using design software.
-
-Decide on the overall look and feel, including colors, fonts, and images.
-
-**Set up the hardware:**
-
-Connect your Arduino or other microcontroller to your computer.
-
-Install the necessary drivers and libraries for your microcontroller.
-
-**Write the Arduino code:**
-
-Use the Arduino IDE or another compatible development environment to write the code that will run on the microcontroller.
-
-Define the input/output pins for the components you'll be using in your GUI.
-
-Implement the necessary functionality to read and respond to user input from the GUI.
-
-**Write the Processing code:**
-
-Use the Processing IDE to write the code for the GUI.
-
-Import any necessary libraries for GUI components or communication with the microcontroller.
-
-Define the layout and appearance of the GUI components based on your design.
-
-Implement the logic to send and receive data between the Processing sketch and the microcontroller.
-
-**Test and debug:**
-
-Upload the Arduino code to the microcontroller.
-
-Run the Processing sketch and interact with the GUI to test its functionality.
-
-Debug any issues that arise, such as incorrect data transmission or unresponsive components.
-
-**Refine and iterate:**
-
-Make adjustments to the design and functionality as needed based on testing and feedback.
-
-Continue to refine and iterate on your code and design until you achieve the desired GUI experience.
-
-**Processing part**
-
-<img style="float: center;" width=100% src="image/prar.jpg">
-
-<video width=100% controls><source src="image/pra.mp4" type="video/mp4">
-The sketch serves as a user interface for controlling external hardware by sending specific commands through a serial port. The graphical buttons and images enhance user interaction, allowing them to toggle LEDs and control a servo motor with a mouse click.
-
-    import processing.serial.\*;
-    
-    Serial port;
-    
-    PImage led1OnImage, led1OffImage, led2OnImage, led2OffImage, led3OnImage, led3OffImage, servoOnImage, servoOffImage;
-
-    void setup() {
-
-    `  `size(480, 440);
-
-    `  `led1OnImage = loadImage("image\\light.png");
-
-    `  `led1OffImage = loadImage("image\\light.png");
-
-    `  `led2OnImage = loadImage("image\\light2.png");
-
-    `  `led2OffImage = loadImage("image\\light2.png");
-
-    `  `led3OnImage = loadImage("image\\light3.png");
-
-    `  `led3OffImage = loadImage("image\\light3.png");
-
-    `  `servoOnImage = loadImage("image\\servo.png");
-
-    `  `servoOffImage = loadImage("D:\\desktop\\servo.png");
-
-    `  `led1OnImage = resizeImage(led1OnImage, 360, 120);
-
-    `  `led1OffImage = resizeImage(led1OffImage, 360, 120);
-
-    `  `led2OnImage = resizeImage(led2OnImage, 360, 120);
-
-    `  `led2OffImage = resizeImage(led2OffImage, 360, 120);
-
-    `  `led3OnImage = resizeImage(led3OnImage, 360, 120);
-
-    `  `led3OffImage = resizeImage(led3OffImage, 360, 120);
-
-    `  `servoOnImage = resizeImage(servoOnImage, 360, 120);
-
-    `  `servoOffImage = resizeImage(servoOffImage, 360, 120);
-
-    `  `String[] portList = Serial.list();
-
-    `  `if (portList.length > 0) {
-
-    `    `String portName = portList[0];
-
-    `    `port = new Serial(this, portName, 9600);
-
-    `  `} else {
-
-    `    `println("No serial port available.");
-
-    `  `}
-
-    }
-
-    void draw() {
-
-    `  `background(50);
-
-    `  `drawLeftButtons();
-
-    `  `drawRightButtons();
-
-    }
-
-    void drawLeftButtons() {
-
-    `  `drawButton("LED1 on", 40, 60, led1OnImage);
-
-    `  `drawButton("LED2 on", 40, 160, led2OnImage);
-
-    `  `drawButton("LED3 on", 40, 260, led3OnImage);
-
-    `  `drawButton("SERVO Set", 40, 360, servoOnImage);
-
-    }
-
-    void drawRightButtons() {
-
-    `  `drawButton("LED1 off", 260, 60, led1OffImage);
-
-    `  `drawButton("LED2 off", 260, 160, led2OffImage);
-
-    `  `drawButton("LED3 off", 260, 260, led3OffImage);
-
-    `  `drawButton("SERVO Reset", 260, 360, servoOffImage);
-
-    }
-
-    void drawButton(String label, float x, float y, PImage image) {
-
-    `  `fill(0,0,255);
-
-    `  `textAlign(CENTER, CENTER);
-
-
-    `  `image(image, x, y);
-
-
-    `  `text(label, x + image.width / 2, y + image.height / 2);
-
-    }
-
-    void mousePressed() {
-
-    `  `float mx = mouseX;
-
-    `  `float my = mouseY;
-
-    `  `if (isMouseOverButton(mx, my, 40, 260, led3OnImage.width, led3OnImage.height)) {
-
-    `    `port.write('3');
-
-    `    `delay(200); 
-
-    `  `} else if (isMouseOverButton(mx, my, 260, 260, led3OffImage.width, led3OffImage.height)) {
-
-    `    `port.write('7');
-
-    `    `delay(200); 
-
-    `  `} else {
-
-    `    `handleButtonClicks(mx, my);
-
-    `  `}
-
-    }
-
-
-    void handleButtonClicks(float mx, float my) {
-
-    `  `if (isMouseOverButton(mx, my, 40, 60, led1OnImage.width, led1OnImage.height)) {
-
-    `    `port.write('1');
-
-    `  `} else if (isMouseOverButton(mx, my, 40, 160, led2OnImage.width, led2OnImage.height)) {
-
-    `    `port.write('2');
-
-    `  `} else if (isMouseOverButton(mx, my, 40, 360, servoOnImage.width, servoOnImage.height)) {
-
-    `    `port.write('4');
-
-    `  `} else if (isMouseOverButton(mx, my, 260, 60, led1OffImage.width, led1OffImage.height)) {
-
-    `    `port.write('5');
-
-    `  `} else if (isMouseOverButton(mx, my, 260, 160, led2OffImage.width, led2OffImage.height)) {
-
-    `    `port.write('6');
-
-    `  `} else if (isMouseOverButton(mx, my, 260, 360, servoOffImage.width, servoOffImage.height)) {
-
-    `    `port.write('8');
-
-    `  `}
-
-    }
-
-    boolean isMouseOverButton(float mx, float my, float x, float y, float width, float height) {
-
-    `  `return mx > x && mx < x + width && my > y && my < y + height;
-
-    }
-
-    PImage resizeImage(PImage original, int targetWidth, int targetHeight) {
-
-    `  `float aspectRatio = (float) original.width / original.height;
-
-    `  `float targetRatio = (float) targetWidth / targetHeight;
-
-    `  `int newWidth, newHeight;
-
-    `  `if (aspectRatio > targetRatio) {
-
-    `    `newWidth = targetWidth;
-
-    `    `newHeight = (int) (targetWidth / aspectRatio);
-
-    `  `} else {
-
-    `    `newWidth = (int) (targetHeight \* aspectRatio);
-
-    `    `newHeight = targetHeight;
-
-    `  `}
-
-    `  `PImage resizedImage = createImage(newWidth, newHeight, ARGB);
-
-    `  `resizedImage.copy(original, 0, 0, original.width, original.height, 0, 0, newWidth, newHeight);
-
-    `  `return resizedImage;
-
-    }
-
-
-
-**Arduino part:**
-
-    #include <Servo.h>
-
-    Servo servoMotor;
-
-    int led1Pin = 10;
-
-    int led2Pin = 11;
-
-    int led3Pin = 12;
-
-    int servoPin = 9;
-
-    void setup() {
-
-    `  `pinMode(led1Pin, OUTPUT);
-
-    `  `pinMode(led2Pin, OUTPUT);
-
-    `  `pinMode(led3Pin, OUTPUT);
-
-    `  `servoMotor.attach(servoPin);  // Attaches the servo to the specified pin
-
-    `  `Serial.begin(9600);
-
-    }
-
-    void loop() {
-
-    `  `if (Serial.available() > 0) {
-
-    `    `char command = Serial.read();
-
-    `    `switch (command) {
-
-    `      `case '1':
-
-    `        `digitalWrite(led1Pin, HIGH);
-
-    `        `break;
-
-    `      `case '2':
-
-    `        `digitalWrite(led2Pin, HIGH);
-
-    `        `break;
-
-    `      `case '3':
-
-    `        `digitalWrite(led3Pin, HIGH);
-
-    `        `break;
-
-    `      `case '4':
-
-    `        `servoMotor.write(90);  // Rotate the servo to 90 degrees
-
-    `        `break;
-
-    `      `case '5':
-
-    `        `digitalWrite(led1Pin, LOW);
-
-    `        `break;
-
-    `      `case '6':
-
-    `        `digitalWrite(led2Pin, LOW);
-
-    `        `break;
-
-    `      `case '7':
-
-    `        `digitalWrite(led3Pin, LOW);
-
-    `        `break;
-
-    `      `case '8':
-
-    `        `servoMotor.write(0);  // Rotate the servo to 0 degrees
-
-    `        `break;
-
-    `      `default:
-
-    `        `break;
-
-    `    `}
-
-    `  `}
-
-    }
 
 **Kinect:**
 
@@ -1716,3 +985,6 @@ Leap Motion offers a unique and intuitive way for users to interact with digital
 <br> 
 
 [Processing](https://processing.org)
+<br>
+
+[Developers](https://www.toptal.com/game/ultimate-guide-to-processing-the-fundamentals)
