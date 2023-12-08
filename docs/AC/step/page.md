@@ -1,6 +1,6 @@
-**How To Develop the website**
+## How To Develop the website
 
-**A: Installing necessary Tools**
+## A: Installing necessary Tools
 
 ` `We installed all the following tools to build the website
 
@@ -16,7 +16,7 @@
 
 \- [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.
 
-**B: Set up the page**
+## B: Set up the page
 
 ` `We visited the GitHub website (https://github.com) and registered a new account, login. 
 
