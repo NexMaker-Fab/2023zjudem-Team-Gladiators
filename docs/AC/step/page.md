@@ -1,35 +1,65 @@
-# How To Develop the website
+**How To Develop the website**
 
- ## A: Installing necessary Tools
- We installed all the following tools to build the website
-    
-- [Git](https://git-scm.com); It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
-- [Github](https://about.gitlab.com/);This is where our web page is hosted.
-- [Github desktop](https://www.gitbook.com/);Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
-- [VScode](https://code.visualstudio.com/); We enhanced our web development workflow with this versatile and customizable tool.
-- [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
-- [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.<br>
- ## B: Set up the page
- We visited the GitHub website (https://github.com) and registered a new account. Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository." Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, we wrote some description of the project.
+**A: Installing necessary Tools**
+
+` `We installed all the following tools to build the website
+
+\- [Git](https://git-scm.com); It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
+
+\- [Github](https://about.gitlab.com/);This is where our web page is hosted.
+
+\- [Github desktop](https://www.gitbook.com/);Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
+
+\- [VScode](https://code.visualstudio.com/); We enhanced our web development workflow with this versatile and customizable tool.
+
+\- [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
+
+\- [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.
+
+**B: Set up the page**
+
+` `We visited the GitHub website (https://github.com) and registered a new account, login. 
+
  <br>
 <img style="float: center;" width=100% src="image/login.jpg">
 <br>
+<br>
+Once logged in, we click the "+" button in the upper right corner of the GitHub homepage and select "New Repository.
+<br>
+<br>
 <img style="float: center;" width=100% src="image/plus.jpg">
 <br>
-<img style="float: center;" width=100% src="image/Createrepository.jpg">
 <br>
-<img style="float: center;" width=100% src="image/createrepository1.jpg">
-
+Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, click create repository.
+<br>
+<br>
+<img style="float: center;" width=100% src="image/merge.jpg">
+<br>
+<br>
+Then after, Go to setting located at the upper left side of Github homepage, then pages, go to main, enable root, save. 
+<br>
+<br>
+<img style="float: center;" width=100% src="image/link.jpg">
 
 ## C: Local setup
 
 ### 1. Github Desktop
 
- In GitHub Desktop, we go to Files and Clone Repository.
+In GitHub Desktop, we go to Files and Clone Repository.
 After selecting the repository to clone, We selected the directory to save the cloned repository. Then we click "Clone" to start the cloning process. Once the cloning is complete, we navigate to the location of the cloned repository.
+<br>
+<br>
+
+<img style="float: center;" width=100% src="image/gi.jpg">
 
 <br>
 <img style="float: center;" width=100% src="image/clone.jpg">
+<br>
+<br>
+We painted the VS code with red color to show that after installing vs code, we open it to start writing our documents.
+<br>
+<br>
+<img style="float: center;" width=100% src="image/opn.jpg">
 
 ### 2. Vs Code Installation and Its Menus
 <b>Download:</b>
@@ -61,7 +91,6 @@ Click on the "Download" button, which will automatically detect your operating s
 <br>
 
 ### 3. Install Docsify
-
 
  In the VS code, We opened the terminal and New terminal.
 
@@ -96,12 +125,17 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
 <img style="float: center;" width=100% src="image/des.jpg">
 <br>
 
-<b> 1. .nojekyll:<b>
+<b> 1. .nojekyll:</b>
+<br>
 <br>A file used by GitHub Pages to indicate that the site should not be processed as a Jekyll site.
 
-<b> 2. index.html:<b>
+<b> 2. index.html:</b>
+<br>
 <br>The main HTML file serving as the homepage of a website.
-<b> 2. README.md:<b>
+<br>
+<br>
+<b> 2. README.md:</b>
+<br>
 <br>A documentation file written in Markdown format, providing an overview and instructions for a project or repository.
 
 
@@ -178,8 +212,7 @@ And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installe
     </html>
   - To preview web pages, we installed the "Live Server" extension from the VS Code Marketplace.
   <br>
-
-<img style="float: center;" width=100% src="image/pre.jpg">
+<br><img style="float: center;" width=100% src="image/pre.jpg">
 
 <br>
 
@@ -253,8 +286,10 @@ Then insert the script into the document, just like the official plugin usage
  _navbar.md
 
  <img style="float: center;" width=100% src="image/nv.jpg">
- 
-<!--docs/_navbar.md -->
+
+ <br>
+
+      <!--docs/_navbar.md -->
              - [HOME](home.md)
              - [MEMBERS](INTRO/NAVBAR/member.md)
 
@@ -301,11 +336,13 @@ In short, we describe the process of creating an image folder to store pictures.
 
  [Template](https://bestjquery.com/tutorial/our-team/demo16/)
 <br>
+
  <img style="float: center;" width=100% src="image/mm.jpg">
  <br>
 <br>
- First we downloaded the "saveallresourse" tool and addded to the chrome extention. 
- The "saveallresource" saves all the files and assets of any website. It downloads resources like HTML, CSS, JavaScript files, images, and more, preserving the folder structure. The tool helped us to quickly gather and preserve all necessary website files.
+
+First we downloaded the "saveallresourse" tool and addded to the chrome extention. 
+The "saveallresource" saves all the files and assets of any website. It downloads resources like HTML, CSS, JavaScript files, images, and more, preserving the folder structure. The tool helped us to quickly gather and preserve all necessary website files.
 
 Here is the code to display the Members.   
 
@@ -454,16 +491,18 @@ Here is the code to display the Members.
                 </div>
             </div>
         </div>
- ### 8. Prepare and save documents In Vs Code
-In Summary,To prepare and save documents in VS Code:
 
+### 8. Prepare and save documents In Vs Code
+
+<br>
+In Summary,To prepare and save documents in VS Code:
 <br>Open VS Code.
-<br>Create a new file or open an existing one.
-<br>Edit the document.
-<br>To save, go to "File" > "Save" or use Ctrl+S (Windows/Linux) or Cmd+S (Mac).
-<br>To save with a different name or location, use "Save As" (Ctrl+Shift+S or Cmd+Shift+S).
-<br>To save all open files, use "Save All" (Ctrl+K S or Cmd+K S).
-<br>Consider using Auto Save for automatic saving (configure in "File" > "Auto Save"). 
+<br><br>Create a new file or open an existing one.
+<br><br>Edit the document.
+<br><br>To save, go to "File" > "Save" or use Ctrl+S (Windows/Linux) or Cmd+S (Mac).
+<br><br>To save with a different name or location, use "Save As" (Ctrl+Shift+S or Cmd+Shift+S).
+<br><br>To save all open files, use "Save All" (Ctrl+K S or Cmd+K S).
+<br><br>Consider using Auto Save for automatic saving (configure in "File" > "Auto Save"). 
 
 <br>The whole Picture of docs file in VS code looks like this.
 
@@ -473,6 +512,7 @@ In Summary,To prepare and save documents in VS Code:
 
 ### 9: Upload files
 
+<br>
   1. We established a connection between our local repository and the GitHub repository.
 We commit and push the file to GitHub:
 
@@ -488,154 +528,174 @@ The “push” command sends committed changes from our local repository to the 
   <br>
    
 <br>
- 2. 
-To publish our web page, we look for the settings for our GitHub repository. Then scroll down to the GitHub Pages section and select the branch that contains our web files.
+ 2. To publish our web page, we look for the settings for our GitHub repository. Then scroll down to the GitHub Pages section and select the branch that contains our web files.
 We select the folder or root directory where the web page file is located.
 Then click the "Save" or "Update" button to apply the changes.
 GitHub generates a URL for our published web page that we can share and access publicly. We can see this process as follows.
 <br>
 
 <br>
-<img style="float: center;" width=100% src="image/setting.jpg">
-
-<br>
-<img style="float: center;" width=100% src="image/page.jpg">
-<br>
-<img style="float: center;" width=100% src="image/save.jpg">
+<img style="float: center;" width=100% src="image/do.jpg">
 
 
 ## D. Collaboration
- ### Step1: 
-   As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
 
+ ### Step 1: 
+
+ <br>
+As admin, I login the github group account, Then click  "Settings". In the "Access" section of the sidebar, click "Collaborators and teams". Then "add people" displayed as follows.
+<br>
 <br>
 <img style="float: center;" width=100% src="image/add.jpg">
 <br>
 
- ### Step2: 
+ ### Step 2: 
+
+ <br>
 As shown in the figure, there is   "add people" section.
  by clicking "add people", I invited the members by writing Username, Full name, or Email. Then after the following image dispalyed.
-
+<br>
 <br>
 <img style="float: center;" width=100% src="image/select.jpg">
 <br>
 
- ### Step3:
+ ### Step 3: 
+ <br>
    After sent invitation, I chose the role of every member in the team to have a mentain role. Now, every member has the right to change or edit the website. 
+<br>
 <br>
 <img style="float: center;" width=100% src="image/list.png">
 <br>
 
-## E.Summary
+## E. How to write title,Header, content and picture
 
-### How to write title,Header, content and picture
+<br>
+ How to Add Title and Home Image
 
-To create title,Header, content and picture , we can use HTML syntax or Markdown syntax.
-<br><h3>HTML Syntax:</h3>
-<br><b>Flexibility in styling:</b> With HTML, you have fine-grained control over the styling of the title using CSS. 
-<br>You can apply custom styles, such as font size, color, alignment, and other visual properties, by using inline styles or CSS classes.
-<br><b> Integration with JavaScript:</b>
-If you need to add interactive behavior or dynamic changes to the title using JavaScript, HTML syntax allows you to easily integrate JavaScript code and event handlers.
-<br><b> Accessibility:</b>
-HTML provides attributes like aria-label and aria-labelledby that enhance the accessibility of the title, making it easier for screen readers and assistive technologies to interpret and present the content.
-<br><h3>Markdown Syntax:</h3>
-<br><b>Simplicity and ease of use:</b> 
-<br>Markdown offers a simpler and more intuitive syntax for writing titles. It requires less markup and is easier to read and write, especially for non-technical users.
-<br><b>Portability and platform independence:</b> 
-<br>Markdown files can be easily converted to HTML, PDF, or other formats, ensuring portability and compatibility across different platforms and tools.
-<br><b>Consistency and readability:</b>
-<br>Markdown syntax maintains a clean and readable structure in the source file, making it easier to understand and maintain the content.
-<br> Comparing the above descriptions, we chose to write our title using HTML syntax as follows.
 <BR>
 
-    <H3 style= "text-align: center; font-size:7vw" ><span style="color:orange"> Gladiators</span> </h3>
-    <H3 style= "text-align: center; font-size:2vw" > <span style="color:light black">Smart Home </span></h3>
-    <img src="image/home.png" alt="A beautiful image" class="center-image">
-<br>Title:</br>
-To create the title, We used a top-level header. Simply We prefixed our text with a # symbol. The number of # symbols indicates the level of the header.
-<br>
+        <H2 style= "text-align: center; font-size:7vw" ><span style="color:orange"> Gladiators</span> </h2>
+        <H3 style= "text-align: center; font-size:2vw" > <span style="color:light black">Smart Home</span>
 
-    # How to Develop the Website
-</br>For section headers, We used second-level or lower-level headers. Similar to the title, we prefixed our text with ## to create the headers.
+    <img style="display: block;
+        margin-left: auto;
+        margin-right: auto; " src="image/home.png" alt="A beautiful image" class="center-image">
+
+
+<img  style="display: block;
+     margin-left: auto;
+      margin-right: auto; " src="image/hm.jpg" alt="A beautiful image" class="center-image">
+<BR>
+
+
+ How to add Section 
 <br> 
 
-    ## A. Installing Necessary Tools
-    ## B. Set up the Page
-    ## C. Local Setup
-    ## D. Collaboration
-    ## E. The summary of  writing tile,Header, content and picture
-    ## F. References
-<BR>
-For the subsection headers, We used third-level. We prefixed our text with ### to create the headers.
-    <br>
+      ## A. Installing Necessary Tools
+      ## B. Set up the Page
+      ## C. Local Setup
+      ## D. Collaboration
+      ## E. How to write Title,Header, Content and Picture
+      ## F. References
 
-    ### 1. Github Desktop
-    ### 2. Vs Code
-    ### 3. Install Docsify
-    ### 4. Set up Index.html
-    ### 5. Add sidebar and navbar
-    ### 6. Upload Image
-    ### 7. Set up Members
-    ### 8. Prepare and Save Documents
-    ### 9. Upload Files
-<br>Other Subsections Under Collaboration are: 
-
-    ### Step 1
-    ### Step 2
-    ### Step 3
 <BR>
-<b>Content:</b>
-<br>To add regular content or paragraphs, We simply wrote as a normal text. The Markdown automatically treats consecutive lines of text as paragraphs.
-<BR>
-<b>Picture:</b>
-To add a picture or image, we can use either
-    ![Alt Text](image-url) or 
-
-    <img style="?" src="myimage.jpg/png">.
- <br> Using Markdown syntax offers simplicity, ease of use, portability, and improved readability in source files. Since Using "myimage.jpg/png" (HTML <"img"> tag) provides more flexibility in customizing the image display, integrating with JavaScript and CSS, and controlling image loading and fallbacks, We used 
+ How to add subsections
 <br>
 
-    <img style="?" src="myimage.jpg/png">.
-<b>Adding Links:</b>
-When adding links to our content, we can use HTML syntax or Markdown syntax. 
-<br>To create a link using HTML syntax, we use the <"a"> (anchor) tag with the "href" attribute to specify the URL or destination of the link. For example:
+        ### 1. Github Desktop
+        ### 2. Vs Code
+        ### 3. Install Docsify
+        ### 4. Set up Index.html
+        ### 5. Add sidebar and navbar
+        ### 6. Upload Image
+        ### 7. Set up Members
+        ### 8. Prepare and Save Documents
+        ### 9. Upload Files
 
-    <a href="https://nextmaker.com">Visit nextmaker</a>
-<br>We can also customize the link by adding additional attributes and styling using HTML and CSS.
-HTML syntax allows for more complex link structures, such as opening links in new tabs, linking to specific sections within a page (using anchor tags), or adding event-based interactions using JavaScript.
-
-In Markdown, we can create a link using the following format:
-
-    [Visit nextmaker](https://nextmaker.com)
-<br>The link text, in this case, "Visit nextmakr," is enclosed in square brackets [], followed by the URL or destination of the link in parentheses ().
-Markdown syntax provides a simpler and more concise way to create basic links without the need for HTML tags or attributes.
-<br>Our links do not require advanced link customization or additional attributes.Thus, We used markdown syntax as follows.
 <BR>
-
-    - [Git](https://git-scm.com);
- <br>It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
-
-    - [Github](https://about.gitlab.com/);
-This is where our web page is hosted.
-
-    - [Github desktop](https://www.gitbook.com/);
- <br>Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
-
-    - [VScode](https://code.visualstudio.com/);
-<br>We enhanced our web development workflow with this versatile and customizable tool.
-   
-    - [Nodejs](https://nodejs.org/en/);     
-<br>Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
-
-    - [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html);  
- <br>This language helps us format plain text by creating headings, lists, links, images, and emphasis.
+ How to Add Content and Picture .
 <BR>
-<b> Adding sidebar and navbar:</b>
+<br>
+Here is a Sample
 
-        _sidebar.md
+    ### 2. Vs Code Installation
+        <b>Download:</b>
 
-   - ACTIVITIES
+        Visit the official Visual Studio Code website at [visualstudio](https://code.visualstudio.com)
+        Click on the "Download" button, which will automatically detect your operating system and provide the appropriate download link.
 
+        <img style="float: center;" width=100% src="image/vs1.jpg">
+
+        <br>
+        <img style="float: center;" width=100% src="image/vs.jpg">
+
+        <br>
+
+        ### 3. Install Docsify
+
+
+        In the VS code, We opened the terminal and New terminal.
+
+        <br>
+        <img style="float: center;" width=100% src="image/term.jpg">
+
+        <br>
+
+        And by Writing "npm i docsify-cli -g" in the terminal and hit enter, we installed docsify.
+
+        <br>
+
+        <img style="float: center;" width=100% src="image/installingdocsify.jpg">
+        <br>
+
+        We then initialize it by typing “docsify init./docs” in the terminal command and hit enter so that Docsify creates the necessary files and folders in the specified directory.
+
+        <br>
+        <img style="float: center;" width=100% src="image/initialize.jpg">
+
+        We then type "docsify serve docs" into the command terminal to instruct Docsify to serve the documentation site. We open it in the browser by clicking CTRL + "https://losthost:3000".
+
+        <br>
+        <img style="float: center;" width=100% src="image/serve.png">
+
+        <br>
+
+        ### 4. Set up the index.html
+
+        <br>
+
+        <img style="float: center;" width=100% src="image/des.jpg">
+        <br>
+
+        <b> 1. .nojekyll:<b>
+        <br>A file used by GitHub Pages to indicate that the site should not be processed as a Jekyll site.
+
+        <b> 2. index.html:<b>
+        <br>The main HTML file serving as the homepage of a website.
+        <b> 2. README.md:<b>
+        <br>A documentation file written in Markdown format, providing an overview and instructions for a project or repository.
+            - To preview web pages, we installed the "Live Server" extension from the VS Code Marketplace.
+        <br>
+
+        <img style="float: center;" width=100% src="image/pre.jpg">
+
+        <br>
+
+        Once the live server preview is installed, We opened the HTML file, then right-click and select Open with Live Server. 
+        <br>
+
+        <img style="float: center;" width=100% src="image/live.jpg">
+        <br>
+
+        ### 5.  Add sidebar and navigation bar
+        _sindebar.md
+
+        <img style="float: center;" width=100% src="image/sd.jpg">
+        
+        <!--docs/_sidebar.md -->
+
+    - ACTIVITIES
+    
             + PROJECT MANAGEMENT
 
                 - [Website Development](AC/step/page.md)
@@ -670,61 +730,50 @@ This is where our web page is hosted.
             - FINAL PROJECT
 
             - [Proposal](AC/Project/proposal.md)
+            
+
+        
+            -We open the index file and go to window. .$docsify and then add
+                    loadSidebar: true,
+
+        - Collapsible sidebar
+        To make the sidebar collapsible,we just need to add this code in window.$docsify
+
+
+                    subMaxLevel: 3,
+                    sidebarDisplayLevel: 1, // Set sidebar display level
+
+        Then insert the script into the document, just like the official plugin usage
+
+                    <!-- plugins -->
+                    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
         _navbar.md
 
-                - [MEMBERS](INTRO/NAVBAR/member.md)
-
-<b> When we write them all in one</b> 
-
-        <p>&lt;H3 style= "text-align: center; font-size:7vw" &gt;&lt;span style="color:orange"&gt; Gladiators&lt;/span&gt; &lt;/h3&gt;</p>
-        <p>&lt;H3 style= "text-align: center; font-size:2vw" &gt; &lt;span style="color:light black"&gt;Smart Home &lt;/span&gt;&lt;/h3&gt;</p>
-        <p>&lt;img src="image/home.png" alt="A beautiful image" class="center-image"&gt;</p>
-        # How to Develop the Website
-        ## A. Installing Necessary Tools
-        ## B. Set up the Page
-        ## C. Local Setup
-        ### 1. Github Desktop
-        ### 2. Vs Code
-        ### 3. Install Docsify
-        ### 4. Set up Index.html
-        ### 5. Add sidebar and navbar
-        ### 6. Upload Image
-        ### 7. Set up Members
-        ### 8. Prepare and Save Documents
-        ### 9. Upload Files
-        ## D. Collaboration
-        ## E. The summary of writing title, header, content, and picture
-        ## F. References
-        <p>&lt;p&gt;Content&lt;/p&gt;</p>
-        [Github](https://about.gitlab.com/);
-        _sidebar.md
-    - ACTIVITIES
-    + PROJECT MANAGEMENT</p>
-        - [Website Development](AC/step/page.md)</p>
-    + CAD</p>
-        - [Introduction to Fusion 360](AC/CAD/installation.md)</p>
-        - [Design and Workspace Tools](AC/CAD/tools.md)</p>
-        - [Assignment](AC/CAD/handson.md)</p>
-    + ARDUINO</p>
-        - [Assessment](AC/Arduino/assessment.md)</p>
-    + 3D PRINTING</p>
-        - [Theory](AC/3Dprinting/theory.md)</p>
-        - [Practice](AC/3Dprinting/practice.md)</p>
-    + LASER</p>
-    
-       - [LASER CUTTING](#)</p>
-    
-    + PROGRAMMING</p>
-    
-      - [INTERFACE APPLICATION PROGRAMMING](#)</p>
+        <img style="float: center;" width=100% src="image/nv.jpg">
         
-    + IOT</p>
-    
-        - [IOT and INTERACTION](#)</p>
-    
-    - FINAL PROJECT
-    
-        - [Proposal](AC/Project/proposal.md)</p>
+        <!--docs/_navbar.md -->
+                    - [HOME](home.md)
+                    - [MEMBERS](INTRO/NAVBAR/member.md)
+
+        Open the index file go to window.$docsify and add
+
+                    loadNavbar: true,
+        
+            
+        <BR>
+
+ How to add link 
+<BR>
+
+
+    Installing Tools to build the website:
+
+    -[Git](https://git-scm.com); It serves as a control system for tracking changes to the code base, collaborating, managing project versions, which allows us to clone, commit, and push changes to GitHub。
+    - [Github](https://about.gitlab.com/);This is where our web page is hosted.
+    - [Github desktop](https://www.gitbook.com/);Since it is a user-friendly GUI application, we use it to streamline our Git workflow, allowing us to easily clone, commit, and sync repositories.
+    - [VScode](https://code.visualstudio.com/); We enhanced our web development workflow with this versatile and customizable tool.
+    - [Nodejs](https://nodejs.org/en/);  Since the tool includes NPM, we used it to manage packages, interact with the command line, and integrate with VScode
+    - [Markdown language](https://www.nexmaker.com/doc/1projectmanage/markdown.html); This language helps us format plain text by creating headings, lists, links, images, and emphasis.<br>
 
 ## F. References 
 
