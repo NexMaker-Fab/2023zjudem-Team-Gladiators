@@ -13,7 +13,8 @@
   
  + ARDUINO
 
-    - [Assessment](AC/Arduino/assessment.md)
+    - [practice](AC/Arduino/practice.md)
+    - [project](AC/Arduino/project.md)
 
  + 3D PRINTING
 
@@ -26,7 +27,8 @@
 
  + PROGRAMMING
 
-   - [INTERFACE APPLICATION PROGRAMMING](AC/programming.md)
+   - [ Theory and Practice](AC/programming.md)
+   - [Project](AC/program.md)
 
  + IOT
 
