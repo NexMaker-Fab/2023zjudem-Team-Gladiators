@@ -266,7 +266,7 @@ switch (relay) to turn on or off the device.</p>
 </li>
 </ol>
 <p>This project is divided in three parts . First, we use heroku to create an app . Second,we build an Amazon Alexa skill to implement our work (Most importantpart). Third, we setup our hardware and program it using Arduino IDE.</p>
-<p><br><div class="loader"><img src="image/image1.png" alt="#" width=100% height=56.25%/></div>
+<p><br><div class="loader"><img src="image/image1a.png" alt="#" width=100% height=56.25%/></div>
 <br></p>
 <h1 id="step-1-linking-heroku-with-github">Step 1: Linking Heroku With GitHub</h1>
 <p>Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model. First, go to heroku site create a new account or login there. Link is given below</p>
@@ -280,21 +280,21 @@ Click the &quot;Upload&quot; button and either drag and drop files or choose the
 Open the Heroku app, go to the deploy section, and click on GitHub.
 Enter the GitHub repository name (e.g., Smart-Relay). Copy and paste it, then click &quot;Connect.&quot;
 Click &quot;Deploy branch (manual).&quot; Once deployed, find the link in the build log or settings for later use in creating the Amazon skill.</p>
-<p><br><div class="loader"><img src="image/image2.png" alt="#" width=100% height=56.25%/></div>
+<p><br><div class="loader"><img src="image/image2a.png" alt="#" width=100% height=56.25%/></div>
 <br>
-<br><div class="loader"><img src="image/image3.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image3a.png" alt="#" width=100% height=56.25%/></div>
 <br>
-<br><div class="loader"><img src="image/image4.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image4a.png" alt="#" width=100% height=56.25%/></div>
 <br>
-<br><div class="loader"><img src="image/image5.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image5a.png" alt="#" width=100% height=56.25%/></div>
 <br>
-<br><div class="loader"><img src="image/image6.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image6a.png" alt="#" width=100% height=56.25%/></div>
 <br>
-<br><div class="loader"><img src="image/image7.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image7a.png" alt="#" width=100% height=56.25%/></div>
 <br></p>
-<p><br><div class="loader"><img src="image/image8.png" alt="#" width=100% height=56.25%/></div>
-<br><div class="loader"><img src="image/image9.png" alt="#" width=100% height=56.25%/></div>
-<br><div class="loader"><img src="image/image10.png" alt="#" width=100% height=56.25%/></div>
+<p><br><div class="loader"><img src="image/image8a.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image9a.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image10a.png" alt="#" width=100% height=56.25%/></div>
 <br><div class="loader"><img src="image/image11.png" alt="#" width=100% height=56.25%/></div>
 <br><div class="loader"><img src="image/image12.png" alt="#" width=100% height=56.25%/></div>
 <br><div class="loader"><img src="image/image13.png" alt="#" width=100% height=56.25%/></div>
