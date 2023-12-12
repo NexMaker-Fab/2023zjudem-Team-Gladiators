@@ -306,7 +306,7 @@ Click &quot;Deploy branch (manual).&quot; Once deployed, find the link in the bu
 <h1 id="step-2-amazon">Step 2: Amazon</h1>
 <p>Amazon service is used to control switch trigger by setting temperature and humidity on Amazon Developer site.</p>
 <p>Go to Amazon Developer Site. Link is for <a href="https://developer.amazon.com/">Amazon Developer Website</a></p>
-<p>Go to Developer console on top right as shown in figure i4</p>
+<p>Go to Developer console on top right</p>
 <p>Go to Alexa then select Alexa Skill Kit and then create new skill by clicking on Add new skill</p>
 <p>When you add new service you will see skill information page.</p>
 <ol>
@@ -328,12 +328,11 @@ English(India) . Select according to your country</p>
 <p>{query} switch {Switch_State}
 {query} is the current
 {Sensor_Values}</p>
-<p>After this save model and build it. Wait for model to be build after that click on configuration.After building you will see message.</p>
+<p>After this save model and build it. Wait for model to be build after that click on configuration. After building you will see message.</p>
 <ol>
 <li>Configuration</li>
 </ol>
-<p>Select HTTPS and add link which was generated while creating heroku app . In my case it is <a href="https://iottempswitch.herokuapp.com/">find</a> After adding link click on next as
-shown in image i23.</p>
+<p>Select HTTPS and add link which was generated while creating heroku app . Then you can <a href="https://iottempswitch.herokuapp.com/">find</a> After adding link click on next.</p>
 <ol>
 <li>SSL certificate</li>
 </ol>
