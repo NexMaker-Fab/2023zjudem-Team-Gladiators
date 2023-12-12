@@ -240,10 +240,10 @@ LedGreen: The digital pin (11) connected to the green LED.
 
 <h1 style="font-size:1.7vw"><span style="color:black">C. Open Source Project</span></h1>
 <br>
-<h1 style="font-size:1.5vw"><span style="color:black">Project Title: title: Voice Controlled Switch Using Alexa and Arduino</span></h1>
+<h1 style="font-size:1.5vw"><span style="color:black">Project Title: Voice Controlled Switch Using Alexa and Arduino</span></h1>
 
 <p><a href="https://www.instructables.com/Smart-Switch-1/">Source</a></p>
-<p>The main aim of this project is to use temperature sensor to control
+<p>The main aim of this project is to use sound sensor to control
 switch (relay) to turn on or off the device.</p>
 <p>List of materials</p>
 <ol>
@@ -265,13 +265,13 @@ switch (relay) to turn on or off the device.</p>
 <li><p>Push button </p>
 </li>
 </ol>
-<p>This project is divided in three parts . First, we use heroku to create an app . Second,we build an Amazon Alexa skill to implement our work (Most importantpart). Third, we setup our hardware and program it using Arduino IDE.</p>
+<p>This project is divided in three parts . First, heroku is applied to create an app . Second,Amazon Alexa is built to implement our work (Most importantpart). Third, Hardware is setup and programming is done using Arduino IDE.</p>
 <p><br><div class="loader"><img src="image/image1a.png" alt="#" width=100% height=56.25%/></div>
 <br></p>
 <h1 id="step-1-linking-heroku-with-github">Step 1: Linking Heroku With GitHub</h1>
 <p>Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model. First, go to heroku site create a new account or login there. Link is given below</p>
 <p><a href="https://www.heroku.com/">Heroku Website</a></p>
-<p>Lets start with creating a new app. I have given my app name
+<p>Let us start with creating a new app. App name is given
 \&quot;iottempswitch\&quot; when you deploy app, link is generated.</p>
 <p>Once app is made go to GitHub. <a href="https://github.com/">GitHub</a></p>
 <p>Log in or sign up and create a new repository on GitHub. Choose a name and click &quot;Create repository.&quot;
@@ -304,11 +304,11 @@ Click &quot;Deploy branch (manual).&quot; Once deployed, find the link in the bu
 <br><div class="loader"><img src="image/image15.png" alt="#" width=100% height=56.25%/></div>
 <br></p>
 <h1 id="step-2-amazon">Step 2: Amazon</h1>
-<p>On Amazon Developer site we use Amazon skill to control switch trigger by setting temperature and humidity .</p>
+<p>Amazon service is used to control switch trigger by setting temperature and humidity on Amazon Developer site.</p>
 <p>Go to Amazon Developer Site. Link is for <a href="https://developer.amazon.com/">Amazon Developer Website</a></p>
 <p>Go to Developer console on top right as shown in figure i4</p>
 <p>Go to Alexa then select Alexa Skill Kit and then create new skill by clicking on Add new skill</p>
-<p>When you add new skill you will see skill information page.</p>
+<p>When you add new service you will see skill information page.</p>
 <ol>
 <li>Skill Information </li>
 </ol>
@@ -328,7 +328,7 @@ English(India) . Select according to your country</p>
 <p>{query} switch {Switch_State}
 {query} is the current
 {Sensor_Values}</p>
-<p>After this save model and build it. Wait for model to be build after that click on configuration.After building you will see message as shown in image i21 and i22.</p>
+<p>After this save model and build it. Wait for model to be build after that click on configuration.After building you will see message.</p>
 <ol>
 <li>Configuration</li>
 </ol>
@@ -337,7 +337,7 @@ shown in image i23.</p>
 <ol>
 <li>SSL certificate</li>
 </ol>
-<p>Select second option and click on next as shown. we have successfully created our skill.</p>
+<p>Select second option and click on next. skill is successfully created</p>
 <p><br><div class="loader"><img src="image/image18.png" alt="#" width=100% height=56.25%/></div>
 <br>
 <br><div class="loader"><img src="image/image19.png" alt="#" width=100% height=56.25%/></div>
