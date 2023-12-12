@@ -372,7 +372,7 @@ shown in image i23.</p>
 <h1 id="step-3-arduino">Step 3: Arduino</h1>
 <p>Open Arduino IDE.Then go to File ==\  Preference.</p>
 <p>In Addition Boards Manager, copy and paste the URL and click ok.</p>
-<p>[http://arduino.esp8266.com/versions/2.4.0/package\_\...]
+<p>(URL(http://arduino.esp8266.com/stable/package_esp8266com_index.json)
 Open Board Manager by going to Tools ==\  Board ==\ 
 Board Manager. Open Boards Manager and search for nodemcu.
 After that download ESP8266WiFi library.
