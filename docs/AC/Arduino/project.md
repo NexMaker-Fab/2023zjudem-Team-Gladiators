@@ -2,19 +2,20 @@
 <br>
 <h1 style="font-size:1.5vw"><span style="color:black">Project Title: The Smart Proximity Lighting System</span></h1>
 
- Components needed:
+<p> Components needed:</p>
+<ul>
+<li>1 Arduino Uno</li>
+<li>1 Breadboard</li>
+<li>2 LED</li>
+<li>1 Ultrasonic Distance Sensor</li>
+</ul>
+<p><b>Description:</b>
+<br><br>The Smart Proximity Lighting System utilizes a switch-controlled ultrasonic distance sensor to create an intelligent lighting solution. <br>When integrated into home or office environments, the system dynamically adjusts lighting based on the presence or absence of individuals within a specified range. <br>The ultrasonic sensor detects proximity, triggering the switch to seamlessly control the lighting system. <br>This project not only enhances energy efficiency by ensuring lights are only active when needed but also offers a convenient and automated lighting experience. <br>The technology finds applications in home automation, security systems, and various settings where adaptive and energy-conscious lighting is desired. </p>
+<p><br><div class="loader"><img src="image/st1.jpg" alt="#" width=100% height=56.25%/></div>
+<br><div><br><video width=100% height=56.25% controls><source src="image/ds.mp4" type="video/mp4">
+</video></div></p>
 
-- 1 Arduino Uno
-- 1 Breadboard
-- 2 LED
-- 1 Ultrasonic Distance Sensor
-
-<b>Description:</b>
-<br><br>The Smart Proximity Lighting System utilizes a switch-controlled ultrasonic distance sensor to create an intelligent lighting solution. <br>When integrated into home or office environments, the system dynamically adjusts lighting based on the presence or absence of individuals within a specified range. <br>The ultrasonic sensor detects proximity, triggering the switch to seamlessly control the lighting system. <br>This project not only enhances energy efficiency by ensuring lights are only active when needed but also offers a convenient and automated lighting experience. <br>The technology finds applications in home automation, security systems, and various settings where adaptive and energy-conscious lighting is desired. 
-<br><div><br><video width=100% height=56.25% controls><source src="image/arp.mp4" type="video/mp4"></video></div>
-
-   
-        int switchState=0;
+    int switchState=0;
         long readUltrasonicDistance(int triggerPin, int echoPin) 
         {
         pinMode(triggerPin, OUTPUT);  // Clear the trigger
@@ -65,24 +66,20 @@
         }
         }
 
-<b>switchState:</b> 
+</code></pre><p><b>switchState:</b> 
 <br><br> An integer variable used to store the state of a switch connected to pin 7.
 <br> 
-<b>Function Definition:</b>
-
-<b>readUltrasonicDistance(int triggerPin, int echoPin):</b> 
+<b>Function Definition:</b></p>
+<p><b>readUltrasonicDistance(int triggerPin, int echoPin):</b> 
 <br>A function that calculates the distance measured by an ultrasonic sensor. It takes two parameters: triggerPin for the trigger pin of the sensor and echoPin for the echo pin of the sensor. It returns the sound wave travel time in microseconds.
-Setup Function:
-
-<b>setup():</b> This function runs once when the Arduino board is powered on or reset. It performs the following tasks:
+Setup Function:</p>
+<p><b>setup():</b> This function runs once when the Arduino board is powered on or reset. It performs the following tasks:
 Sets pin 9 and pin 10 as outputs to control external devices.
 Sets pin 7 as an input to read the state of a switch.
 Initializes the serial communication for debugging purposes.
-Loop Function:
-
-    <b>loop():</b>
-
-<br>This function runs repeatedly after the setup() function. It performs the following tasks:
+Loop Function:</p>
+<pre><code>&lt;b&gt;loop()<span class="hljs-symbol">:&lt;/b&gt;</span>
+</code></pre><p><br>This function runs repeatedly after the setup() function. It performs the following tasks:
 <br>Reads the state of the switch connected to pin 7 and stores it in the switchState variable.
 <br>Checks the value of switchState to determine the behavior of the output pins.
 <br>If switchState is equal to 1:
@@ -108,9 +105,8 @@ Loop Function:
 <br><b> When Switch is on.</b></div>
 <br>
 <br><video width=100% height=56.25% controls><source src="image/p1.mp4" type="video/mp4"></video>
-<br>
-
-<br>
+<br></p>
+<p><br></p>
 <h1 style="font-size:1.7vw"><span style="color:black">B. Project 2</span></h1>
 <br>
 <h1 style="font-size:1.5vw"><span style="color:black">Project Title: Fan Control System</span></h1>
@@ -126,7 +122,7 @@ Loop Function:
 - 1 Potentiometer (10k ohms)
 -  Jumper wires
 <br><br><b>Description:</b>
-<br><br>The Fan Control System is designed to optimize comfort and energy efficiency by dynamically adjusting fan speeds based on environmental conditions. <br>Utilizing temperature, the system intelligently regulates the fan's operation, ensuring optimal air circulation and cooling. <br>Users can set preferences or allow the system to autonomously respond to changes in the ambient environment. <br>This project is applicable for home automation, offices, and industrial settings, providing a smart and energy-conscious solution for maintaining a comfortable and well-ventilated environment.
+<br><br>The Fan Control System is designed to optimize comfort and energy efficiency by dynamically adjusting fan speeds based on environmental conditions. <br>Utilizing temperature, the system intelligently regulates the fan&#39;s operation, ensuring optimal air circulation and cooling. <br>Users can set preferences or allow the system to autonomously respond to changes in the ambient environment. <br>This project is applicable for home automation, offices, and industrial settings, providing a smart and energy-conscious solution for maintaining a comfortable and well-ventilated environment.
 
 <b>How to connect the components in the circuit:</b>
 
@@ -139,6 +135,8 @@ Loop Function:
 Once we have completed these connections, we have the components connected according to the code.
 
 <br><b>Here is the result on the tinkercad.</b>
+
+<br><div class="loader"><img src="image/ds1.jpg" alt="#" width=100% height=56.25%/></div>
 <br><br><video width=100% height=56.25% controls><source src="image/ddd.mp4" type="video/mp4"></video>
 
     // Libraries included
@@ -174,7 +172,7 @@ Once we have completed these connections, we have the components connected accor
     lcd.setCursor(6,0);
     lcd.print(Temperature); 
     lcd.setCursor(5,1);
-    
+
     if (Temperature > 50){
         digitalWrite(motor, HIGH);
         digitalWrite(LedRed, HIGH);
@@ -187,14 +185,14 @@ Once we have completed these connections, we have the components connected accor
         digitalWrite(LedGreen, HIGH);
         lcd.print("OFF");
     }
-    
+
     delay(1000);
     }
 
 <b>Code description</b>
 
 <b>Libraries:</b>
-<br>The code includes the necessary library, "LiquidCrystal.h," which allows the Arduino to communicate with and control the LCD display.
+<br>The code includes the necessary library, &quot;LiquidCrystal.h,&quot; which allows the Arduino to communicate with and control the LCD display.
 
 <b>Constants:</b> 
 <br>Several constants are declared to assign specific pin numbers for the components:
@@ -208,11 +206,11 @@ LedGreen: The digital pin (11) connected to the green LED.
 <br><br>In the setup() function, the code performs the following tasks:
 <br>Initializes the serial communication for debugging purposes.
 <br>Initializes the LCD display with the specified number of columns (16) and rows (2).
-<br>Prints "Welcome, Gladiators!" on the LCD display at first.
+<br>Prints &quot;Welcome, Gladiators!&quot; on the LCD display at first.
 <br>Sets the pin modes for the motor and LEDs as outputs.
 <br>Adds a 2-second delay before continuing.
 <br>Clears the LCD display.
-<br>Prints "Temp= " on the first row and "Fan= " on the second row of the LCD display.
+<br>Prints &quot;Temp= &quot; on the first row and &quot;Fan= &quot; on the second row of the LCD display.
 
 <b>Loop:</b>
 <br><br>main functionality of the project is implemented in the loop() function, which continuously repeats the following steps:
@@ -227,7 +225,7 @@ LedGreen: The digital pin (11) connected to the green LED.
 <br>If the temperature is above 50, it turns on the motor by setting the motor pin to HIGH and the red LED pin to HIGH. 
 <br>The green LED pin is set to LOW.
 <br>If the temperature is 50 degrees or below, it turns off the motor by setting the motor pin to LOW and the red LED pin to LOW. The green LED pin is set to HIGH.
-<br>Updates the LCD display with the corresponding status ("ON" or "OFF") at the specified position.
+<br>Updates the LCD display with the corresponding status (&quot;ON&quot; or &quot;OFF&quot;) at the specified position.
 
 <b>Delay:</b>
 <br><br>Delays the execution for 1 second before repeating the loop.
@@ -242,81 +240,245 @@ LedGreen: The digital pin (11) connected to the green LED.
 
 <h1 style="font-size:1.7vw"><span style="color:black">C. Open Source Project</span></h1>
 <br>
-<h1 style="font-size:1.5vw"><span style="color:black">Project Title: Voice-Controlled Light Switch</span></h1>
+<h1 style="font-size:1.5vw"><span style="color:black">Project Title: title: Voice Controlled Switch Using Alexa and Arduino</span></h1>
 
-[Source](https://www.instructables.com/search/?q=voice%20controlled%20light%20switch&projects=all)
-
-This project is related to our final project.
-
-<b>Description:</b>
-
-Voice-controlled light switch system that allowd users to control the lighting in their home using voice commands. The project involved integrating a voice recognition module with a microcontroller to control the switching of lights.
-
-<b>Components:</b>
-
-Arduino Microcontroller board 
-Amazon Alexa Voice recognition module 
-Relay module
-Light bulbs or LED strips
-Power supply
-Jumper wires
-Functionality:
-
-    <b>Setup:</b>
-
- the voice recognition module has been connected to the microcontroller board as per the module's instructions, the relay module to the microcontroller board, the light bulbs or LED strips to the relay module, Power the microcontroller board and other components.
-
-<b>Voice Recognition:</b>
-
-The voice recognition module has been trained to recognize specific voice commands for controlling the lights, such as "Turn on/off the lights" or "Dim the lights, Programed the microcontroller to listen for the recognized voice commands from the voice recognition module.
-
-<b>Light Control:</b>
-
-When a voice command is recognized, the microcontroller triggers the corresponding action.
-If the voice command is to turn on the lights, the microcontroller activates the relay module, which switches on the connected light bulbs or LED strips.
-If the voice command is to turn off the lights, the microcontroller deactivates the relay module, which switches off the lights.
-Additional functionality such as dimming the lights or controlling individual lights in different rooms can be implemented based on the specific requirements.
-
-<b>Feedback:</b>
-
-The microcontroller could send a response through a speaker or display a message on an LCD screen confirming the action taken.
-With this project, users havev been able to control the lighting in their home by simply speaking voice commands, offering convenience and a hands-free experience.
-
-<b>Advantages of the Voice-Controlled Light Switch project:</b>
-
-<b>Convenience:</b> 
-
-The project offers a hands-free and convenient way to control the lighting in your home. Users can simply use voice commands to turn on/off the lights, eliminating the need for physical switches or remote controls.
-
-<b>Accessibility:</b>
-
-Voice control provides accessibility benefits, particularly for individuals with mobility issues or disabilities, who may find it challenging to reach and operate physical light switches.
-
-<b>Flexibility:</b> 
-
-The project can be customized to control multiple lights or even different types of lights, such as dimming or adjusting the brightness levels. This flexibility allows users to create different lighting scenarios or moods with ease.
-
-<b>Integration with Home Automation Systems:</b> 
-
-This project can serve as a foundation for integrating with larger home automation systems. The voice-controlled light switch can be integrated with other smart devices, such as thermostats, security systems, or voice assistants, to create a comprehensive smart home ecosystem.
-
-<b>Disadvantages of the Voice-Controlled Light Switch project:</b>
-
-<b>Voice Recognition Accuracy:</b>
-
-The accuracy of voice recognition systems can vary based on the specific module or voice assistant used. In some cases, the system may misinterpret or fail to recognize voice commands accurately, leading to incorrect light control.
-
-<b>Dependency on Voice Recognition Module:</b>
-
-The project relies on the proper functioning of the voice recognition module. If the module malfunctions or encounters issues, it may affect the overall performance of the voice-controlled light switch.
-
-<b>Network Dependency:</b>
-
-If the voice recognition module or microcontroller relies on cloud-based voice assistants, such as Amazon Alexa or Google Assistant, a stable internet connection is required for the voice commands to be processed. Network outages or connectivity issues can temporarily disrupt the functionality of the system.
-
-<b>Learning Curve:</b>
-
-Setting up and programming the voice-controlled light switch requires some technical knowledge and familiarity with microcontrollers, voice recognition modules, and programming. Users who are new to these technologies may face a learning curve during the setup and troubleshooting process.
-
+<p><a href="https://www.instructables.com/Smart-Switch-1/">Source</a></p>
+<p>The main aim of this project is to use temperature sensor to control
+switch (relay) to turn on or off the device.</p>
+<p>List of materials</p>
+<ol>
+<li><p>12V Relay Module</p>
+</li>
+<li><p>Arduino uno</p>
+</li>
+<li><p>DHT11 temperature sensor </p>
+</li>
+<li>ESP8266 Module </li>
+<li><p>N26 optocoupler </p>
+</li>
+<li><p>LM1117 voltage regulator </p>
+</li>
+<li><p>Breadboard </p>
+</li>
+<li><p>Jumper wires </p>
+</li>
+<li><p>Push button </p>
+</li>
+</ol>
+<p>This project is divided in three parts . First, we use heroku to create an app . Second,we build an Amazon Alexa skill to implement our work (Most importantpart). Third, we setup our hardware and program it using Arduino IDE.</p>
+<p><br><div class="loader"><img src="image/image1.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-1-linking-heroku-with-github">Step 1: Linking Heroku With GitHub</h1>
+<p>Heroku is a cloud platform as a service (PaaS) supporting several programming languages that is used as a web application deployment model. First, go to heroku site create a new account or login there. Link is given below</p>
+<p><a href="https://www.heroku.com/">Heroku Website</a></p>
+<p>Lets start with creating a new app. I have given my app name
+\&quot;iottempswitch\&quot; when you deploy app, link is generated.</p>
+<p>Once app is made go to GitHub. <a href="https://github.com/">GitHub</a></p>
+<p>Log in or sign up and create a new repository on GitHub. Choose a name and click &quot;Create repository.&quot;
+On the next page, click on README and provide a description. Commit the new file.
+Click the &quot;Upload&quot; button and either drag and drop files or choose them. Commit changes.
+Open the Heroku app, go to the deploy section, and click on GitHub.
+Enter the GitHub repository name (e.g., Smart-Relay). Copy and paste it, then click &quot;Connect.&quot;
+Click &quot;Deploy branch (manual).&quot; Once deployed, find the link in the build log or settings for later use in creating the Amazon skill.</p>
+<p><br><div class="loader"><img src="image/image2.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image3.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image4.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image5.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image6.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image7.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image8.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image9.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image10.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image11.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image12.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image13.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image14.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image15.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-2-amazon">Step 2: Amazon</h1>
+<p>On Amazon Developer site we use Amazon skill to control switch trigger by setting temperature and humidity .</p>
+<p>Go to Amazon Developer Site. Link is for <a href="https://developer.amazon.com/">Amazon Developer Website</a></p>
+<p>Go to Developer console on top right as shown in figure i4</p>
+<p>Go to Alexa then select Alexa Skill Kit and then create new skill by clicking on Add new skill</p>
+<p>When you add new skill you will see skill information page.</p>
+<ol>
+<li>Skill Information </li>
+</ol>
+<p>we have to provide skill type,language,name,invocation name.</p>
+<p>Skill type ==\  select custom.</p>
+<p>Name ==\  select any name.</p>
+<p>Invocation name ==\  which you use while communicating with Alexa.For example ;- Alexa, ask sensor to turn switch trigger on or Alexa, ask light on here invocation names are sensor and light. Language ==\ 
+English(India) . Select according to your country</p>
+<p>click save and then next.</p>
+<ol>
+<li>Interaction Model</li>
+</ol>
+<p>The instructions guide the user through the process of setting up a skill using a skill builder. The skill, named &quot;smartswitch,&quot; involves defining multiple slot types, mapping these slots to intent slots, and adding a sample utterance for voice interaction. The intent is likely designed to handle queries related to switching states, sensor values, and temperature scales.</p>
+<p>{Switch_State} switch trigger</p>
+<p>set switch trigger to {Numbers} degree {tmp_scale}</p>
+<p>turn switch {Switch_State}</p>
+<p>{query} switch {Switch_State}
+{query} is the current
+{Sensor_Values}</p>
+<p>After this save model and build it. Wait for model to be build after that click on configuration.After building you will see message as shown in image i21 and i22.</p>
+<ol>
+<li>Configuration</li>
+</ol>
+<p>Select HTTPS and add link which was generated while creating heroku app . In my case it is <a href="https://iottempswitch.herokuapp.com/">find</a> After adding link click on next as
+shown in image i23.</p>
+<ol>
+<li>SSL certificate</li>
+</ol>
+<p>Select second option and click on next as shown. we have successfully created our skill.</p>
+<p><br><div class="loader"><img src="image/image18.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image19.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image20.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image21.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image22.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image23.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image24.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image25.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image26.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image27.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image28.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image29.png" alt="#" width=100% height=56.25%/>&lt;/div</p>
+<p><br></p>
+<p><br><div class="loader"><img src="image/image30.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image31.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image32.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image33.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image4.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image35.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image36.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image37.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image38.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-3-arduino">Step 3: Arduino</h1>
+<p>Open Arduino IDE.Then go to File ==\  Preference.</p>
+<p>In Additional Boards Manager, copy and paste the URL and click ok.</p>
+<p>[<a href="http://arduino.esp8266.com/versions/2.4.0/package\_\...]{}">http://arduino.esp8266.com/versions/2.4.0/package\_\...]{}</a>
+Open Board Manager by going to Tools ==\  Board ==\ 
+Board Manager. Open Boards Manager and search for nodemcu.
+After that download ESP8266WiFi library.
+Open library Manager : Sketch ==\  Include library ==\  Manage Libraries. 
+Search for ESP8266WiFi library and install it.
+Select board ==\  Generic ESP8266 Module. Before uploading the code we need
+three libraries. Required libraries</p>
+<p>Move this libraries to libraries folder of Arduino. You have to change three things in code SSID , PWD and your heroku app link. After that upload the code. For ESP Module you have to press flash button while uploading the code and then press reset button one time and then release the flash button. After uploading the code, open the terminal. you will see output.
+<br><div class="loader"><img src="image/image41.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image42.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image43.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-4-component-description">Step 4: Component Description</h1>
+<ol>
+<li>What is a Relay</li>
+</ol>
+<p>relays act as intermediaries, allowing the safe and controlled interaction between circuits operating at different voltage levels. This makes them valuable components in various electrical and electronic applications, enhancing safety and functionality in circuit design.</p>
+<p>How it works</p>
+<p>A relay switch comprises two sections: input and output. The input has a coil energized by a small operating voltage. Output consists of contactors, including normally open (NO), normally closed (NC), and common (COM). Relay configurations like SPST, SPDT, and DPDT offer different contact combinations for switching circuits. The COM terminal is common, and if the coil receives rated voltage, COM and NO have continuity. The NC terminal powers on even without sufficient voltage. The NO terminal activates the output when the relay gets its rated voltage. Overall, relays facilitate controlled electrical switching.</p>
+<ol>
+<li>DHT temperature sensor</li>
+</ol>
+<p>The DHT11, a low-cost Humidity and Temperature Sensor, produces calibrated digital output. It seamlessly interfaces with microcontrollers like Arduino and Raspberry Pi, offering instantaneous and reliable results with long-term stability.</p>
+<ol>
+<li>ESP8266 Description</li>
+</ol>
+<p>The ESP8266 WiFi Module is a self-contained SOC with integrated TCP/IP, offering WiFi access to any microcontroller. It supports APSD for VoIP, Bluetooth co-existence, and has a self-calibrated RF, requiring no external parts.</p>
+<p>Wi-Fi Direct (P2P),</p>
+<p>soft-APIntegrated TCP/IP protocol
+stack</p>
+<p>Integrated TR switch, balun, LNA,
+power amplifier and matching network</p>
+<p>Integrated PLLs, regulators, DCXO and
+power management units</p>
+<p>+19.5dBm output power in 802.11b mode</p>
+<p>Power down leakage current of \&lt;10uA</p>
+<p>1MB Flash Memory</p>
+<p>Integrated low power 32-bit CPU could
+be used as application processor
+SDIO 1.1 / 2.0, SPI, UART</p>
+<p>STBC, 1×1 MIMO, 2×1 MIMOA-MPDU &amp;
+A-MSDU aggregation &amp; 0.4ms guard interval</p>
+<p>Wake up and transmit packets in \&lt;
+2ms</p>
+<p>Standby power consumption of \&lt; 1.0mW
+(DTIM3)</p>
+<p>Pin Description as shown in image i34. For connecting ESP Module with Arduino UNO we need Lm1117 3.3 voltage regulator or any regulator because Arduino is not capable of providing 3.3 v to ESP8266.</p>
+<p><img src="media/image46.png" alt="">
+<img src="media/image47.png" alt=""></p>
+<p><img src="media/image50.png" alt=""><img src="media/image51.png" alt="">
+<img src="media/image52.png" alt=""></p>
+<h1 id="step-5-connections">Step 5: Connections</h1>
+<p>ESP8266 === \  DHT11</p>
+<p>GPIO0 === \  Output pin</p>
+<p>ESP8266 === \  Relay</p>
+<p>GPIO2 ===\  Input</p>
+<p>ARDUINO ==\ ESP8266</p>
+<p>Gnd ===\ Gnd TX === \  TX</p>
+<p>RX === \  RX</p>
+<p>Reset Button === \  RST Flash Button === \  GPIO0</p>
+<h1 id="step-6-checking-all-the-things">Step 6: Checking All the Things</h1>
+<p>App, skill, and hardware are ready. Ensure the ESP8266 is powered on as our server runs on it. While no sensor is connected, check connectivity by going to the Amazon skill&#39;s test page. Once verified, connect a sensor to the ESP8266. If used without ESP8266 connection, an error occurs. Utterance for testing.</p>
+<p>set switch trigger to {Numbers} percent {tmp_scale}</p>
+<p>ex :- set switch trigger to 50 percent humidity</p>
+<p>{query} is the switch state</p>
+<p>ex- on/off is the switch state</p>
+<p>{Switch_State} switch trigger</p>
+<p>ex -on/off switch trigger</p>
+<p>set switch trigger to {Numbers}
+degree {tmp_scale}</p>
+<p>ex - set switch trigger to 76 degree fahrenheit ex - set switch
+trigger to 24 degree celcius</p>
+<p>turn switch {Switch_State}</p>
+<p>ex - turn switch on/off</p>
+<p>Alexa, ask arduino to turn switch trigger on/off</p>
+<p>Alexa, ask arduino to set switch trigger to 24 degree celsius. Alexa,
+ask arduino to set switch trigger to 50 percent humidity Alexa, ask
+arduino to turn switch on/off</p>
+<p><br><div class="loader"><img src="image/image53.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br><div class="loader"><img src="image/image54.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image55.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image56.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image57.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image58.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<p><br><div class="loader"><img src="image/image60.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-7-vui-voice-user-interface-diagram">Step 7: VUI(Voice User Interface) Diagram</h1>
+<p><br><div class="loader"><img src="image/image59.png" alt="#" width=100% height=56.25%/></div>
+<br></p>
+<h1 id="step-8-demo">Step 8: Demo</h1>
+<p><video width=100% height=56.25% controls><source src="image/demo.mp4" type="video/mp4">
+</video></p>
+<ol>
+<li><p>Set trigger for temperature and humidity.</p>
+</li>
+<li><p>Set trigger to 20 degree celsius.</p>
+</li>
+<li><p>Set trigger to 80 percent humidity.</p>
+</li>
+</ol>
+<h1 id="step-9-schematic-diagram">Step 9: Schematic Diagram</h1>
+<p><br><div class="loader"><img src="image/image61.png" alt="#" width=100% height=56.25%/></div>
+<br><div class="loader"><img src="image/image62.png" alt="#" width=100% height=56.25%/></div></p>
 
 
