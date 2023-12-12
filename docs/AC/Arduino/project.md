@@ -11,8 +11,7 @@
 
 <b>Description:</b>
 <br><br>The Smart Proximity Lighting System utilizes a switch-controlled ultrasonic distance sensor to create an intelligent lighting solution. <br>When integrated into home or office environments, the system dynamically adjusts lighting based on the presence or absence of individuals within a specified range. <br>The ultrasonic sensor detects proximity, triggering the switch to seamlessly control the lighting system. <br>This project not only enhances energy efficiency by ensuring lights are only active when needed but also offers a convenient and automated lighting experience. <br>The technology finds applications in home automation, security systems, and various settings where adaptive and energy-conscious lighting is desired. 
-<br><div><br><video width=100% height=56.25% controls><source src="image/arp.mp4" type="video/mp4">
-</video></div>
+<br><div><br><video width=100% height=56.25% controls><source src="image/arp.mp4" type="video/mp4"></video></div>
 
    
         int switchState=0;
