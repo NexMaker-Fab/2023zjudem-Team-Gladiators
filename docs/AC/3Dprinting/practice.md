@@ -22,7 +22,7 @@ It is capable of delivering 3D print parts of industrial-grade accuracy and qual
 
 **Steps**
 
-<img src="image/s1.jpg" alt=""/>
+<img src="image/step1.jpg" alt=""/>
 
 **First trial:**  **Cat Standholder tool**
 
