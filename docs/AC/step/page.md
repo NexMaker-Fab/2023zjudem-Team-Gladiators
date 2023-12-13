@@ -30,7 +30,7 @@ Once logged in, we click the "+" button in the upper right corner of the GitHub 
 <img style="float: center;" width=100% src="image/plus.jpg">
 <br>
 <br>
-Then we gave it a name and selected whether it should be public or private. Then, after enabling the readme, click create repository.
+Then we gave it a name (Team-Gladiators) being in the admin's account and selected whether it should be public or private. Then, after enabling the readme, click create repository.
 <br>
 <br>
 <img style="float: center;" width=100% src="image/merge.jpg">
