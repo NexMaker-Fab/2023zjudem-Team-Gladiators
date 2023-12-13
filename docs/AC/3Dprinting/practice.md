@@ -151,7 +151,8 @@ This is how we preview the slice and download the gcode file
 <br>
 <img src="image/q3.jpg" alt=""/>
 
-**Step 3.** Printing
+**Step 3.**  Printing
+<br>
 <iframe width=100% height="450" src="image/q8.mp4" frameborder="0" allowfullscreen></iframe>
 <img src="image/q11.jpg" alt=""/>
 
