@@ -85,7 +85,7 @@ Set Parameters
 
 **Second:** Switch on the power and insert the flash drive containing the file
 
-<img width=100% height="450" src="image/s12.jpg" alt=""/>
+<img width=100% height="450" src="image/q12.jpg" alt=""/>
 
 **Third:** print your model
 
