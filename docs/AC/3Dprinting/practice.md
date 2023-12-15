@@ -37,7 +37,7 @@ This standholder tool model is downloaded from open source [website Cults 3D](ht
 
 **Step 2.** Use slice software to set printing parameter and slice
 
-**First:** open the exported STL or OBJ file on FlashPrint software
+**First:** open the downloaded STL or OBJ file on FlashPrint software
 
 <img src="image/s4.jpg" alt=""/>
 
@@ -62,7 +62,7 @@ Set Parameters
 <tr><td colspan="1" valign="top"><p>Fill density </p><p>(determines the interior solidity of the model)</p></td><td colspan="1" valign="top">15%</td></tr>
 <tr><td colspan="1" valign="top"><p>Fill pattern </p><p>(The pattern of filling shape which effects printing duration.)</p></td><td colspan="1" valign="top">Hexagon</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">Speed</td><td colspan="1" valign="top"><p>Print speed</p><p>(The moving speed of the extruder under printing status. Generally, the lower speed is, the better print you will get.)</p></td><td colspan="1" valign="top">60 mm/s</td></tr>
-<tr><td colspan="1" valign="top"><p>Travel Speed</p><p>(the moving speed of the extruder under</p><p>non-printing Status during work.)</p></td><td colspan="1" valign="top">80 mm/s</td></tr>
+<tr><td colspan="1" valign="top"><p>Travel Speed</p><p>(the moving speed of the extruder under non-printing Status during work.)</p></td><td colspan="1" valign="top">80 mm/s</td></tr>
 <tr><td colspan="1" valign="top">Cooling</td><td colspan="1" valign="top"><p>Cooling Fun control</p><p>(Cooling will increases the printing quality)</p></td><td colspan="1" valign="top">On when first layer printed</td></tr>
 <tr><td colspan="1" valign="top">Platform adhesion</td><td colspan="1" valign="top"><p>Raft</p><p>(This function will help the model to stick well on the platform.)</p></td><td colspan="1" valign="top">yes</td></tr>
 </table>
@@ -142,7 +142,7 @@ Set parameters
 <tr><td colspan="1" valign="top"><p>Fill density </p><p>(determines the interior solidity of the model)</p></td><td colspan="1" valign="top">15%</td></tr>
 <tr><td colspan="1" valign="top"><p>Fill pattern </p><p>(The pattern of filling shape which effects printing duration.)</p></td><td colspan="1" valign="top">line</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">Speed</td><td colspan="1" valign="top"><p>Print speed</p><p>(The moving speed of the extruder under printing status. Generally, the lower speed is, the better print you will get.)</p></td><td colspan="1" valign="top">60 mm/s</td></tr>
-<tr><td colspan="1" valign="top"><p>Travel Speed</p><p>(the moving speed of the extruder under</p><p>non-printing Status during work.)</p></td><td colspan="1" valign="top">80 mm/s</td></tr>
+<tr><td colspan="1" valign="top"><p>Travel Speed</p><p>(the moving speed of the extruder under non-printing Status during work.)</p></td><td colspan="1" valign="top">80 mm/s</td></tr>
 <tr><td colspan="1" valign="top">Cooling</td><td colspan="1" valign="top"><p>Cooling Fun control</p><p>(Cooling will increases the printing quality)</p></td><td colspan="1" valign="top">On when first layer printed</td></tr>
 <tr><td colspan="1" valign="top">Support</td><td colspan="1" valign="top">When print suspended structure models, support is necessary</td><td colspan="1" valign="top">yes</td></tr>
 <tr><td colspan="1" valign="top">Platform adhesion</td><td colspan="1" valign="top"><p>Raft</p><p>(This function will help the model to stick well on the platform.)</p></td><td colspan="1" valign="top">yes</td></tr>
@@ -160,7 +160,9 @@ This is how we preview the slice and download the gcode file
 
 This model requires post processing to remove the support structures. This can be achieved by breaking the support structures from the build material using needle nose pliers and metal scraper.
 <iframe width=100% height="450" src="image/q10.mp4" frameborder="0" allowfullscreen></iframe>
-
+Here is the postprocessing result.
+<br>
+<img src="image/q5.jpg" alt=""/>
 **Step 5.** Testing
 <br>Here we can check the printed model with the designed one in the movement of its upper part as well as in assembling of M10 Nut.
 <div style="display: flex; justify-content: space-between;">
