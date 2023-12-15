@@ -163,6 +163,8 @@ This model requires post processing to remove the support structures. This can b
 Here is the postprocessing result.
 <br>
 <img src="image/q5.jpg" alt=""/>
+<br>
+
 **Step 5.** Testing
 <br>Here we can check the printed model with the designed one in the movement of its upper part as well as in assembling of M10 Nut.
 <div style="display: flex; justify-content: space-between;">
