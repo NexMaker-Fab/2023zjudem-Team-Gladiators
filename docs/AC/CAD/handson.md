@@ -331,7 +331,55 @@ Go to documents setting and change the units to millimeter.
 
 ![Alt text](p14.png)
 
-## **Step 8: Introduction of another CAD Software**
+## **Step 8: Practice for Automated Modeling**
+
+  - First of all for automated modeling go to Automate section and click on it.
+
+  ![](A1.png)
+
+- Now Select faces that you want to connect to create new body or component for your model.
+
+  ![](A2.png)
+  
+  ![](A3.png)
+
+  - After selecting faces to connect now select bodies that you want to avoid and click on generate shapes.
+
+  ![](A4.png)
+
+  ![](A5.png)
+
+  - Now select any shape that you like and click on Ok.
+  
+  ![](A6.png)
+
+  ![](A7.png)
+
+- Now go to your new body that you have created and right click on it and select Isolate.
+
+  ![](A8.png)
+
+  ![](A9.png)
+
+- Now if you want to edit then go to design history and right click on automate and click on edit feature.
+
+  ![](A10.png)
+
+- Now again select any of alternative Shape and click on Ok.
+
+  ![](A11.png)
+
+  ![](A12.png)
+
+- Now go to appearance to paint your new body and drag and drop the colour on your selected body.
+
+  ![](A13.png)
+  
+- Here is the final design by using automate feature of Fusion 360.
+
+  ![](A14.png)
+
+## **Step 9: Introduction of another CAD Software**
 ### **AutoCAD** 
 AutoCAD is a popular computer-aided design (CAD) software developed by Autodesk. It has been an industry-standard for 2D and 3D design and drafting for many years. AutoCAD is used in various industries, including architecture, engineering, construction, manufacturing, and more. Its versatility, extensive user base, and compatibility with other software make it a valuable tool for professionals in these fields.
 
