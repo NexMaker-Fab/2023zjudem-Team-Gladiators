@@ -331,6 +331,51 @@ Go to documents setting and change the units to millimeter.
 
 ![Alt text](p14.png)
 
+### **Use of Parameters in Our Design Model**
+
+- First go to Modify section and click on change parameters.
+
+![](<pr 1.png>)
+
+![](<pr 2.png>)
+
+- Now here you will find your model parameters so you can change them directly from here.
+
+![](<pr 3.png>)
+
+- Here you will see your component parameters. So we selected base to change its lenght.
+
+![](<pr 4.png>)
+
+![](<pr 5.png>)
+
+- After changing the dimensions click Ok.
+
+![](<pr 6.png>)
+
+![](<pr 7.png>)
+
+- So you can change any of your design component parameters (also angle degree dimensions).
+
+![](<pr 8.png>)
+
+![](<pr 9.png>)
+
+- Now here we will change the vice jaw dimensions.
+
+![](<pr 10.png>)
+
+![](<pr 11.png>)
+
+- After changing dimensions click ok, then you will see the results.
+
+![](<pr 12.jpg>)
+
+- As we have changed the dimensions of vice jaw so now you can see the difference clearly. So in this way we can change our design parameters easily.
+
+![](<pr 13.jpg>)
+
+
 ## **Step 8: Practice for Automated Modeling**
 
   - First of all for automated modeling go to Automate section and click on it.
