@@ -1,3 +1,65 @@
+<h1 style="font-size:1.7vw"><span style="color:black"> Assessment</span></h1>
+<br>
+<h1 style="font-size:1.5vw"><span style="color:black">Title: Water Light program</span></h1>
+
+<p> Components needed:</p>
+<ul>
+<li>1 Arduino Uno</li>
+<li>1 Breadboard</li>
+<li>10 LEDs</li>
+<li>10 resistors</li>
+</ul>
+<p><b>Description:</b>
+<br><br>The purpose of a water light program is to monitor the water level in a container and provide a visual indication using an LED or a set of LEDs. The program is typically used in applications where it's important to know when the water level reaches a certain threshold. </p>
+<br><b> The wiring diagram.</b></div>
+<br>
+<p><br><div class="loader"><img src="image/run.png" alt="#" width=100% height=56.25%/></div>
+<br>
+<br>
+<br><b> The result.</b></div>
+<br>
+<br><div><br><video width=100% height=56.25% controls><source src="image/run.mp4" type="video/mp4">
+</video></div></p>
+
+      
+        int firstled=2;
+        int num=10;
+        void setup()
+        {
+        for (int i=firstled;i<firstled+num;i++)
+            //Start with 2 and count to 10
+        {
+            pinMode(i, OUTPUT);//Set i as output pin
+        }
+        }
+
+        void loop()
+        {
+        for(int i=firstled;i<firstled+num;i++)
+            //Start with 2 and count to 10
+        {
+            digitalWrite(i, LOW);
+            delay(500); 
+        }
+        for(int i=firstled;i<firstled+num;i++)
+        {
+            digitalWrite(i, HIGH);
+            delay(500); 
+        }
+        }
+
+
+<br><b> The wiring diagram.</b></div>
+<br>
+<p><br><div class="loader"><img src="image/run1.jpg" alt="#" width=100% height=56.25%/></div>
+</video>
+<br>
+<br><b> The result of the practical work.</b></div>
+<br>
+<br><video width=100% height=56.25% controls><source src="image/run1.mp4" type="video/mp4"></video>
+<br></p>
+<p><br></p>
+<br>
 <h1 style="font-size:1.7vw"><span style="color:black">A. Project 1</span></h1>
 <br>
 <h1 style="font-size:1.5vw"><span style="color:black">Project Title: The Smart Proximity Lighting System</span></h1>
