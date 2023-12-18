@@ -114,7 +114,7 @@ Go to documents setting and change the units to millimeter.
 ### **2.6 GIF of Working Condition**
 
 <br>
-<img style="float: center;" width=100% src="AC/CAD/image13.gif">
+<img style="float: center;" width=100% src="AC/CAD/5.gif">
 <br>
 
 ### **2.7 Video of Design History**
