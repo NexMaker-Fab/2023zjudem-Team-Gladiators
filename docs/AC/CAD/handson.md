@@ -114,7 +114,7 @@ Go to documents setting and change the units to millimeter.
 ### **2.6 GIF of Working Condition**
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/image13.gif">
+<img style="float: center;" width=100% src="AC/CAD/image13.gif">
 <br>
 
 ### **2.7 Video of Design History**
@@ -126,23 +126,23 @@ Go to documents setting and change the units to millimeter.
 ## **Step 3: Test Contact Set/Motion link (gif)**
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/1.gif">
+<img style="float: center;" width=100% src="AC/CAD/1.gif">
 <br>
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/GIF 10.gif">
+<img style="float: center;" width=100% src="AC/CAD/GIF 10.gif">
 <br>
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/3.gif">
+<img style="float: center;" width=100% src="AC/CAD/3.gif">
 <br>
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/4.gif">
+<img style="float: center;" width=100% src="AC/CAD/4.gif">
 <br>
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/5.gif">
+<img style="float: center;" width=100% src="AC/CAD/5.gif">
 <br>
 
 ### **3D Model Live**
@@ -241,13 +241,13 @@ Go to documents setting and change the units to millimeter.
 **Working of Model**
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/Shahar Yar GIF 1.gif">
+<img style="float: center;" width=100% src="AC/CAD/Shahar Yar GIF 1.gif">
 <br>
 
 **Components of Cam and Follower Assembly**
 
 <br>
-<img style="float: center;" width=1000 src="AC/CAD/Shaharyar 2.gif">
+<img style="float: center;" width=100% src="AC/CAD/Shaharyar 2.gif">
 <br>
 
 **Engineering Drawing of Cam**
