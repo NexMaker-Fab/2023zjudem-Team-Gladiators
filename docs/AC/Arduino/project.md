@@ -198,8 +198,8 @@ Once we have completed these connections, we have the components connected accor
 
 <br><b>Here is the result on the tinkercad.</b>
 
-<br><div class="loader"><img src="image/ds1.jpg" alt="#" width=100% height=56.25%/></div>
-<br><br><video width=100% height=56.25% controls><source src="image/ddd.mp4" type="video/mp4"></video>
+<br><div class="loader"><img src="image/tu.jpg" alt="#" width=100% height=56.25%/></div>
+<br><br><video width=100% height=56.25% controls><source src="image/tu.mp4" type="video/mp4"></video>
 
     // Libraries included
 
