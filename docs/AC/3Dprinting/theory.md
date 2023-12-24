@@ -77,6 +77,35 @@ Since the advent of commercial 3D printers, the industry has undergone significa
 **New Research papers or publication** 
 
 1. **Thomas, “3D printed jellyfish robots created to monitor fragile coral reefs,” *3D Printer and 3D Printing News*, 2018. [Online]. Available: <http://www.3ders.org/articles/20181003-3d-printed-jellyfish-robots-created-to-monitor-fragile-coral-reefs.html>. [ Accessed 2019].**
+
+1. **3D printed jellyfish robots created to monitor fragile coral reefs**
+
+Scientists from [Florida Atlantic University](http://www.fau.edu/) (FAU) and the [US Office of Naval Research](https://www.onr.navy.mil/) have designed and created 3D printed soft robot jellyfish capable of monitoring fragile coral reefs.
+
+SOFT ROBOTS HAVE TREMENDOUS POTENTIAL TO EXPLORE AND MONITOR DELICATE MARINE ECOSYSTEMS LIKE CORAL REEFS WITHOUT CAUSING UNINTENTIONAL DAMAGE TO FRAGILE OBJECTS.”
+<br>
+<iframe width=100% height="450" src="image/gif0.mp4" frameborder="0" allowfullscreen></iframe>
+<br>
+The jellyfish robot navigating through the ocean.
+
+According to Dr. Erik Engeberg, Associate Professor at the Department of Ocean and Mechanical Engineering, FAU, the study of fragile aquatic environments has always been challenging for marine researchers. Coral reefs, in particular, are important to monitor as they provide habitats and shelter for various marine organisms.
+
+Thus, the team of researchers, recognizing the excellent swimming capabilities of the jellyfish, have developed five unique soft robots capable of maneuvering “untethered in the ocean, squeezing through orifices more narrow than the nominal diameter of the jellyfish, and steering from side to side.”
+
+The jellyfish robots maintain a 3D printed body with eight soft hydraulic network actuators extending from the center, similar to the form of a moon jellyfish. These actuators were chosen to minimize inadvertent damage to fragile biological systems. The study explains, “live jellyfish essentially have neutral buoyancy, so water was chosen as the medium to inflate the hydraulic network actuators while freely swimming in the ocean, pool, or aquarium.”
+
+The researchers designed mold models for the jellyfish robot in [SolidWorks ](https://3dprintingindustry.com/news/took-solidworks-training-course-solid-solutions-132740/)and subsequently 3D printed with an Ultimaker 2 using PLA. “Each tentacle had a common channel extending radially outward from the center of the robot; four of these channels were connected on each side of the jellyfish so that four tentacles could be driven by a single impeller pump,” the study states.  Furthermore, two pumps were used to actuate the eight tentacles.
+
+The tentacle actuators and segmented flap molds which made the body of the jellyfish robot was then filled with silicon rubber. A cylindrical housing for the jellyfish microcontroller and electronics was also 3D printed out with ABS using an [Axiom AirWolf](https://3dprintingindustry.com/news/airwolf-3ds-axiom-3d-printer-gets-a-dual-head-upgrade-65612/) 3D printer.
+
+Dr. Engeberg added: “We found the robots were able to swim through openings narrower than the nominal diameter of the robot. In the future, we plan to incorporate environmental sensors like sonar into the robot’s control algorithm, along with a navigational algorithm. This will enable it to find gaps and determine if it can swim through them.”
+
+Their [**findings**](http://iopscience.iop.org/article/10.1088/1748-3190/aadcb3/meta) were published in the journal Bioinspiration and Biomimetics.
+<br>
+<iframe width=100% height="450" src="image/gif1.mp4" frameborder="0" allowfullscreen></iframe>
+<br>
+The Jellyfish robot swimming through small holes
+
 1. **Tess, “Indian jewelry brand Isharya unveils ‘Infinite Petals’ 3D printer jewelry collection,” *3D Printer and 3D Printing News*, 2017. [Online]. Available: <http://www.3ders.org/articles/20170412-indian-jewelry-brand-isharya-unveils-infinite-petals-3d-printed-kewelry-collection.html>. [Accessed 2019].**
 1. **Thomas, “GE Transportation to produce up to 250 3D printed locomotive parts by 2025,” *3D Printer and 3D Printing News*, 2018 a. [Online]. Available: [http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html**](http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html)**
 1. **Thomas, “Paul G. Allen’s Stratolaunch space venture uses 3D printing to develop PGA rocket engine.”, *3D Printer and 3D Printing News*. 2018 b, [Online]. Available: <http://www.3ders.org/articles/20181001-paul-g-allens-stratolaunch-space-venture-uses-3d-printing-to-develop-pga-rocket-engine.html>. [Accessed 2019].**
