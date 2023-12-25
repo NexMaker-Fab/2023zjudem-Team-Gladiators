@@ -80,7 +80,7 @@ Since the advent of commercial 3D printers, the industry has undergone significa
 
 Scientists from [Florida Atlantic University](http://www.fau.edu/) (FAU) and the [US Office of Naval Research](https://www.onr.navy.mil/) have designed and created 3D printed soft robot jellyfish capable of monitoring fragile coral reefs.
 
-SOFT ROBOTS HAVE TREMENDOUS POTENTIAL TO EXPLORE AND MONITOR DELICATE MARINE ECOSYSTEMS LIKE CORAL REEFS WITHOUT CAUSING UNINTENTIONAL DAMAGE TO FRAGILE OBJECTS.”
+SOFT ROBOTS HAVE TREMENDOUS POTENTIAL TO EXPLORE AND MONITOR DELICATE MARINE ECOSYSTEMS LIKE CORAL REEFS WITHOUT CAUSING UNINTENTIONAL DAMAGE TO FRAGILE OBJECTS.
 <br>
 <iframe width=100% height="450" src="image/gif0.mp4" frameborder="0" allowfullscreen></iframe>
 <br>
