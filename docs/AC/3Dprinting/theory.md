@@ -78,8 +78,6 @@ Since the advent of commercial 3D printers, the industry has undergone significa
 
 1. **Thomas, “3D printed jellyfish robots created to monitor fragile coral reefs,” *3D Printer and 3D Printing News*, 2018. [Online]. Available: <http://www.3ders.org/articles/20181003-3d-printed-jellyfish-robots-created-to-monitor-fragile-coral-reefs.html>. [ Accessed 2019].**
 
-1. **3D printed jellyfish robots created to monitor fragile coral reefs**
-
 Scientists from [Florida Atlantic University](http://www.fau.edu/) (FAU) and the [US Office of Naval Research](https://www.onr.navy.mil/) have designed and created 3D printed soft robot jellyfish capable of monitoring fragile coral reefs.
 
 SOFT ROBOTS HAVE TREMENDOUS POTENTIAL TO EXPLORE AND MONITOR DELICATE MARINE ECOSYSTEMS LIKE CORAL REEFS WITHOUT CAUSING UNINTENTIONAL DAMAGE TO FRAGILE OBJECTS.”
