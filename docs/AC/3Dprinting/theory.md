@@ -105,6 +105,174 @@ Their [**findings**](http://iopscience.iop.org/article/10.1088/1748-3190/aadcb3
 The Jellyfish robot swimming through small holes
 
 1. **Tess, “Indian jewelry brand Isharya unveils ‘Infinite Petals’ 3D printer jewelry collection,” *3D Printer and 3D Printing News*, 2017. [Online]. Available: <http://www.3ders.org/articles/20170412-indian-jewelry-brand-isharya-unveils-infinite-petals-3d-printed-kewelry-collection.html>. [Accessed 2019].**
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
+
+<div class="cleared reset-box"></div>
+<div class="art-box art-sheet">
+        <div class="art-box-body art-sheet-body">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content">
+<div class="art-box art-post">
+    <div class="art-box-body art-post-body">
+<div class="art-post-inner art-article">
+                                <div class="art-postmetadataheader">
+                                        <h2 class="art-postheader"><span class="art-postheadericon">3D Printing Basics
+                                        </span></h2>
+                                                                            </div>
+                                <div class="art-postcontent">
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">Table of contents:</span></span><br /></p>
+<ol>
+    <li><a href="#what-is-3d-printing">What is 3D printing?</a></li>
+    <li><a href="#technologies">3D printing technologies</a></li>
+    <li><a href="#history">3D Printing history</a></li>
+    <li><a href="#applications">3D printing applications</a></li>
+    <li><a href="#what-is-a-3d-printer">What is a 3D printer?</a></li>
+    <li><a href="#difference-between-rapid-prototypting-and-3d-printer">Whats the difference between rapid prototyping machine and a 3D printer?</a></li>
+    <li><a href="#what-can-3d-printer-make">What can you make with a 3D printer?</a></li>
+    <li><a href="#3d-printer-manufacturers">Who make 3D printers?</a></li>
+    <li><a href="#3d-printer-price-compare">How much cost a 3D printer?</a></li>
+    <li><a href="#build-3d-printer">How to build a 3D printer?</a></li>
+    <li><a href="#materials">What are the materials used to print 3D objects?</a></li>
+    <li><a href="#3d-software-for-beginners">What 3D modeling software is suitable for a beginner in 3D design?</a></li>
+    <li><a href="#learn-3d-modeling">I have no 3D design experience, how long does it take to learn 3D modeling?</a></li>
+    <li><a href="#3d-models-online-database">Where can I get 3D models online?</a></li>
+    <li><a href="#3d-printer-service">Where can I find online 3D printing service?</a></li>
+</ol>
+<p>_________________________________________________________________________________________</p><a name="what-is-3d-printing" id="what-is-3d-printing"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">1. What is 3D printing?</span></span></p>
+<p>3D printing is also known as desktop fabrication or additive manufacturing. It is a prototyping process whereby a real object is created from a 3D design. The digital 3D-model is saved in STL format and then sent to a 3D printer. The 3D printer then prints the design layer by layer and forms a real object. <a href="./3d-printing.html" target="_blank">Read more..</a></p>
+<p><br /></p><a name="technologies" id="technologies"></a>
+<p><span style="font-size: 14px;"><span style="font-weight: bold;">2. 3D printing technologies</span></span></p>
+<p>There are several different 3D printing technologies. The main differences are how layers are built to create parts. </p>
+<p>SLS (selective laser sintering), FDM (fused deposition modeling) &amp; SLA (stereolithograhpy) are the most widely used technologies for 3D printing. Selective laser sintering (SLS) and fused deposition modeling (FDM) use melted or softened materials to produce layers. </p>
+<p>This video describes how laser-sintering processes melt fine powders, bit by bit, into 3D shapes.</p>
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wD9-QEo-qDk" frameborder="0" allowfullscreen=""></iframe>
+</p>
+<p>This video shows how FDM works.</p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/SPtkOmP_HoA" frameborder="0" allowfullscreen=""></iframe></p>
+<p>The video below explains the process of Stereolithography (SLA). </p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/iceiNb_1E0I" frameborder="0" allowfullscreen=""></iframe></p>
+<p>Generally, the main considerations are speed, cost of the printed prototype, cost of the 3D printer, choice and cost of materials and color capabilities.</p>
+<p style="text-align: center;"><br /></p><a name="history" id="history"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">3. The history of 3D printing</span></span></p>
+<p>October 5, 2011 - Roland DG Corporation introduced the new iModela iM-01.</p>
+<p>Sep, 2011 - Vienna University of Technology, a smaller, lighter and cheaper printing device has now been developed.</p>
+<p>This smallest 3D printer weighs 1.5 kilograms, it costs around 1200 Euros.</p>
+<p>Aug, 2011 - The world's first 3D printed aircraft created by Engineers at the University of Southampton.</p>
+<a href="./3d-printing/3d-printing-history.html">Read more..</a>
+<p><br /></p><a name="applications" id="applications"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">4. 3D printing applications</span></span></p>
+<p>One of the most important applications of 3D printing is in the medical industry. With 3D printing, surgeons can produce patient-specific 3D printed models of patients' body parts or organs. They can use these models to plan and practice surgeries, potentially saving lives.</p>
+<p>3D printing makes it possible to make a part from scratch in just hours. It allows designers and developers to go from flat screen to exact, physical part.</p>
+<p>Nowadays almost everything from aerospace components to toys are being built with the help of 3D printers. 3D printing is also used for jewelry and art, architecture, fashion design, art, architecture and interior design.</p>
+
+<ul>
+    <li><span style="font-weight: bold;">World's first chocolate 3D printer</span></li>
+</ul>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/BIFi8but3Vw" frameborder="0" allowfullscreen=""></iframe></p>
+<ul>
+    <li><span style="font-weight: bold;">World's first 3D printed bikini</span></li>
+</ul>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/d2iT8S0m3m4" frameborder="0" allowfullscreen=""></iframe></p>
+<p><br /></p><a name="what-is-a-3d-printer" id="what-is-a-3d-printer"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">5. What is a 3D printer?</span></span></p>
+<p>A 3D printer is unlike your standard, 2D inkjet printer. On a 3D printer the object is printed in three dimensions. A 3D model is built up layer by layer. Therefore the whole process is called rapid prototyping, or 3D printing. <a href="./3d-printer.html" target="_blank">Read more..</a></p>
+<p>The resolution of the current printers is around 328 x 328 x 606 DPI (xyz) at 656 x 656 x 800 DPI (xyz) in ultra-HD resolution. The accuracy is 0.025 mm - 0.05 mm per inch. The model size is up to 737 mm x 1257 mm x 1504 mm.<br /></p>
+<p>The biggest drawback for the individual home user is still the high <a href="./3d-printer/3d-printer-price.html" target="_blank">cost of 3D printer</a>. Another drawback is that it takes hours or even days to print a 3D model (depending on the complexity and resolution of the model). Besides above, the professional 3D software and 3D model design is also in a high cost range. </p>
+<p>Alternatively there are already simplified 3D printers for hobbyist which are much cheaper. And the materials it uses is also less expensive. These <a href="./3d-printer/who-make-3d-printers.html" target="_blank">3D printers for home use</a> are not as accurate as <a href="./3d-printer/who-make-3d-printers.html" target="_blank">commercial 3D printer</a>.  </p>
+<p><br /></p><a name="difference-between-rapid-prototypting-and-3d-printer" id="difference-between-rapid-prototypting-and-3d-printer"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">6. Whats the difference between a basic rapid prototyping machine and a 3D printer?</span></span></p>
+<p>3D printers are the simple version of rapid prototyping machines. It is lower lost and less capable. </p>
+<p>Rapid prototyping is a conventional method that has been used by automotive and aircraft industries for years.</p>
+<p>In general 3D printers are compact and smaller than RP machines. They are ideal for use in offices. They use less energy and take less space. They are designed for low volume reproduction of real objects made of nylon or other plastics. That also means 3D printers make smaller parts. Rapid prototyping machines have build chambers at least 10 inches on a side, a 3D printer has less than 8 inches on a side. However a 3D printer is capable of all the functions of rapid prototyping machine such as verifying and validating design, creating prototype, remote sharing of information etc.<br />
+<br />
+Consequently 3D printers are easy to handle and cheap to maintain. You can buy one of those DIY kit in the market and build up yourself. It is cheaper than the professional rapid prototyping, for $1000 or less you can have one 3D printer. While the professional rapid prototyping cost at least $50,000.<br />
+<br />
+3D printers are less accurate than rapid prototyping machines. Because of its simplicity the material choices are also limited.<br /></p>
+<p><br /></p><a name="what-can-3d-printer-make" id="what-can-3d-printer-make"></a>
+<p><span style="font-size: 14px;"><span style="font-weight: bold;">7. What can you make with a 3D printer?</span></span></p>
+<p>In 3D printing area, people say "If You Can Draw It, You Can Make It". In the video below shows many items can be made with a 3D printer. However complicated objects can only be made by professional 3D printers, they are not yet affortable for common family. </p>
+<p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HdzooQQDWGg" frameborder="0" allowfullscreen=""></iframe></p>
+<p><br /></p><a name="3d-printer-manufacturers"></a>
+<p><span style="font-weight: bold;"><span style="font-size: 14px;">8. <a href="./3d-printer/who-make-3d-printers.html" target="_blank">Who make 3D printers</a>?</span></span></p>
+<p><span style="font-weight: bold;">Industrial 3D printer manufacturers:</span></p>
+<ul>
+  <li><a href="http://www.stratasys.com/" target="_blank"><span style="color: rgb(47, 101, 142);">Stratasys</span></a></li>
+    <li><a href="http://printin3d.com/" target="_blank"><span style="color: rgb(47, 101, 142);">3DSystems</span></a></li>
+</ul>
+<p>    </p>
+<p><span style="font-weight:bold;">Home 3D printers manufacturers:</span></p>
+<ul>
+    <li><a href="http://www.reprap.org/wiki/Main_Page" target="_blank"><span style="color: rgb(47, 101, 142);">Reprap.org</span></a><span style="color: #2F658E;"> </span></li>
+    <li><a href="http://www.makerbot.com/" target="_blank"><span style="color: rgb(47, 101, 142);">Makerbot Industries</span></a></li>
+    <li><a href="http://blog.ultimaker.com/" target="_blank"><span style="color: rgb(47, 101, 142);">Ultimaker</span></a></li>
+    <li><a href="http://store02.prostores.com/servlet/kobask8/StoreFront" style="color: #1A364D;"><span style="color: rgb(47, 101, 142);">Fab@Home</span></a></li>
+</ul><span style="color:rgb(12, 16, 18);"><br /></span>
+<p><span style="font-size: 14px; font-weight: bold;">9. How much cost a 3D printer?</span></p><a name="materials" id="materials"></a>
+<p>Here are <a href="./pricecompare/3dprinters/" target="_blank">list of DIY 3D printer price comparison and list of fully assembled or commercial 3D printers price comparison</a> (less than $25,000). </p>
+<p><br /></p><a name="build-3d-printer" id="build-3d-printer"></a>
+<p><span style="color: rgb(14, 19, 21);"><span style="font-weight: bold;"><span style="font-size: 14px;">10. How to build a 3D printer?</span></span></span><br /></p>
+<p><span style="font-weight: bold;">The MakerGear Mosaic 3D Printer</span></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-I-The-Frame/1616/1" target="_blank">Part I: The Frame</a><br /></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-II-The-Y-Axis/1625/1" target="_blank">Part II: The Y-Axis</a><br /></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-III-The-X-Axis/1651/1" target="_blank">Part III: The X-Axis</a><br /></p>
+<p><a href="http://makeprojects.com/Project/Building-The-MakerGear-Mosaic-Part-IV-The-Z-Axis/1693/1" target="_blank">Part IV: The Z-Axis</a></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-V-The-Extruder/1747/1" target="_blank">Part V: The Extruder</a></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-VI-The-Build-Platform/1763/1" target="_blank">Part VI: The Build Platform</a><br /></p>
+<p><a href="http://makeprojects.com/Project/The-MakerGear-Mosaic-3D-Printer-Part-VII-The-Electronics/1764/1" target="_blank">Part VII: The Electronics</a><br /></p>
+<p><span style="font-weight: bold;">Reprap</span></p>
+<p><a href="http://www.reprap.org/wiki/RepRapOneDarwin" target="_blank">How to build a reprap 3D printer - RepRapOneDarwin</a> (1st generation)</p>
+<p><a href="http://www.reprap.org/wiki/Mendel_Buyers_Guide" target="_blank">How to build a reprap 3D printer - Huxley</a><a href="http://www.reprap.org/wiki/RepRapOneDarwin" target="_blank"></a> (mini-reprap, portable)<br /></p>
+<p><a href="http://www.reprap.org/wiki/Mendel_Build_Manual" target="_blank">How to build a reprap 3D printer - Mendel</a><a href="http://www.reprap.org/wiki/RepRapOneDarwin" target="_blank"></a> (RepRap Version II)<br /></p>
+<p><a href="http://www.reprap.org/wiki/Prusa_Mendel_Assembly" target="_blank">How to build a reprap 3D printer - Prusa</a><a href="http://www.reprap.org/wiki/RepRapOneDarwin" target="_blank"></a> (easy to asembly)</p>
+<p><a href="./3d-printer/how-to-build-3d-printer.html" target="_blank">More...</a></p>
+<p><a href="./3d-printer/how-to-build-3d-printer.html" target="_blank"></a><br /></p>
+<p><span style="font-size: 14px; font-weight: bold;">11. What are the materials used to print 3D objects?</span></p>
+<p>Many different materials can be used for 3D printing, such as ABS plastic, PLA, polyamide (nylon), glass filled polyamide, stereolithography materials (epoxy resins), silver, titanium, steel, wax, photopolymers and polycarbonate.<br /></p>
+<p><br /></p><a name="3d-software-for-beginners"></a>
+<p><span style="color: #2D3B43;"><span style="font-size: 14px;"><span style="font-weight: bold;">12. Wh</span></span></span><span style="color: #2D3B43;"><span style="font-size: 14px;"><span style="font-weight: bold;">at 3D modeling software is suitable for a beginner in 3D design?</span></span></span></p><span style="color: #2D3B43;">  </span>
+<p><span style="color: #2D3B43;">If you’re just getting started you can try some of 3D modeling software which can be downloaded for free.</span><span style="font-weight: bold;"><span style="font-size: 16px;"></span></span></p>
+<ul>
+    <li><a href="http://sketchup.google.com/" target="_blank">Google SketchUp</a> - <span style="color: #2D3B43;">This Google SketchUp is fun and free, and is known for being easy to use. To build models in SketchUp, you draw edges and faces using a few simple tools that you can learn in a short time. With with Push/Pull tool you can extrude any flat surface into a 3D form. Furthermore, it works together with Google Earth, that you can import a scaled aerial photograph directly from Google Earth, or use SketchUp to build models which can be seen in Google Earth.</span></li>
+</ul>
+<ul>
+    <li><a href="http://www.3dtin.com/" target="_blank">3Dtin</a> - <span style="color: #2D3B43;">The simplest 3D software. You can draw directly from your browser. </span></li>
+</ul>
+<ul>
+    <li><a href="http://www.blender.org/" target="_blank">Blender</a> - <span style="color: #2D3B43;">Blender is the free open source 3D content creation suite, available for all major operating systems under the GNU General Public License. Blender was developed as an in-house application by the Dutch animation studio NeoGeo and Not a Number Technologies (NaN). It is a powerful program contains features that are characteristic of high-end 3D software. </span></li>
+</ul>
+<ul>
+    <li><a href="http://www.openscad.org/" target="_blank">OpenSCAD</a> - <span style="color: #2D3B43;">OpenSCAD is a software for creating solid 3D CAD objects. It is free software and available for Linux/UNIX, MS Windows and Mac OS X. it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects.</span></li>
+</ul>
+<ul>
+    <li><a href="http://tinkercad.com/" target="_blank">Tinkercad</a> - <span style="color: #2D3B43;">Tinkercad is a new and faster way of creating designs for your 3D printer. With only three basic tools you can create a wide range of useful things. Once your project is ready simply download the STL file and start your 3D print.</span></li>
+</ul>
+<p><span style="color: #2D3B43;">Check out the more software in the <a href="./3d-software/3d-software-list.html" target="_blank">free software list</a>. </span></p><span style="color: #2D3B43;">  </span>
+<p><span style="color: #2D3B43;">Commercial software such as CAD software AutoCAD and Pro Engineer, s</span><span style="color: #2D3B43;">oftware packages Rhino, Maya, and SolidWorks are all pretty good for designing 3D models.</span></p>
+<p><span style="color: #2D3B43;"><br /></span></p><span style="color: #2D3B43;">  </span> <a name="learn-3d-modeling" id="learn-3d-modeling"></a>
+<p><span style="color: #2D3B43;"><span style="font-weight: bold;"><span style="font-size: 14px;">13.  I have no 3D design experience, how long does it take to learn 3D modeling?</span></span></span></p>
+<div class="txt-answer" sizcache="6" sizset="8" jquery16405897106320635727="39">
+    <p>You can learn how to 3D model by learning how to use 3D modeling tools such as Rhino, Blender or SketchUp. It will take you some weeks to be familiar with 3D modeling tools such as SketchUp, Rhino and Blender. To become a professional user will take you at least half a year to study and practice.</p>
+    <p><br /></p><a name="3d-models-online-database"></a>
+    <p><span style="font-weight: bold;"><span style="font-size: 14px;">14. Where can I get 3D models online?</span></span></p>
+    <p>Here are some website with 3D models database:<br /></p>
+    <ul>
+        <li><a href="http://www.3dmarvels.com/" target="_blank">3D Marvels</a></li>
+        <li><a href="http://www.3dvia.com/">3D Via</a></li>
+        <li><a href="http://grabcad.com/library" target="_blank">GrabCAD</a></li>
+        <li><a href="http://sketchup.google.com/3dwarehouse/" style="color: rgb(54, 114, 161);" target="_blank"><span style="color: rgb(37, 79, 111);">Google 3D Warehouse</span></a></li>
+        <li><a href="http://www.ponoko.com/showroom/product-plans/" target="_blank">Ponoko Product Plans</a></li>
+        <li><a href="http://www.shapeways.com/themes/3dparts" target="_blank">Shapeways 3D Parts Database</a></li>
+        <li><a href="http://thingiverse.com/" target="_blank">Thingiverse</a></li>
+        <li><a id="id103" onclick="n2(this)" href="http://www.turbosquid.com/HTMLClient/Search/Index.cfm?INTFILETYPE_3=-1&amp;INTFILETYPE_1=-1&amp;INTSORTORDER=0&amp;INTRATINGCOUNT=0&amp;INTFILETYPE_2=-1&amp;INTMAXRESULTS=50&amp;BLKEEPCHECK=y&amp;ISTINCAUTHOR=&amp;ISTEXCAUTHOR=&amp;FLTRATING=0&amp;DATEBEFOREPUB=&amp;STGORDERCOLUMN=0&amp;INTMAXPRICE=0&amp;DATEAFTERPUB=&amp;ISTEXCKEY=&amp;INTMINPRICE=&amp;stgAD=15J244404040441&amp;FuseAction=ProcessSearch&amp;stgAD=15J244404040441&amp;intStartRow=1&amp;intMediaType=2&amp;istSearchKey=free&amp;blPreserveSmart=on&amp;stgBoolean=L" name="id103" target="_blank">Turbosquid: Free objects</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
 1. **Thomas, “GE Transportation to produce up to 250 3D printed locomotive parts by 2025,” *3D Printer and 3D Printing News*, 2018 a. [Online]. Available: [http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html**](http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html)**
 1. **Thomas, “Paul G. Allen’s Stratolaunch space venture uses 3D printing to develop PGA rocket engine.”, *3D Printer and 3D Printing News*. 2018 b, [Online]. Available: <http://www.3ders.org/articles/20181001-paul-g-allens-stratolaunch-space-venture-uses-3d-printing-to-develop-pga-rocket-engine.html>. [Accessed 2019].**
 1. **David, “MX3D to install world’s first 3D printed steel bridge over Amsterdam canal,” *3D Printer and 3D Printing News*, 2018. [Online]. Available: [https://www.3ders.org/articles/20180403-mx3d-to-install-worlds-first-3d-printed-steel-bridge-over-amsterdam-canal.html](http://www.3ders.org/articles/20180403-mx3d-to-install-worlds-first-3d-printed-steel-bridge-over-amsterdam-canal.html). [Accessed 2019].**
