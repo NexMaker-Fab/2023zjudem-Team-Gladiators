@@ -273,6 +273,7 @@ Consequently 3D printers are easy to handle and cheap to maintain. You can buy o
 
 </body>
 </html>
+
 1. **Thomas, “GE Transportation to produce up to 250 3D printed locomotive parts by 2025,” *3D Printer and 3D Printing News*, 2018 a. [Online]. Available: [http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html**](http://www.3ders.org/articles/20180928-ge-transportation-to-produce-up-to-250-3d-printed-locomotive-parts-by-2025.html)**
 1. **Thomas, “Paul G. Allen’s Stratolaunch space venture uses 3D printing to develop PGA rocket engine.”, *3D Printer and 3D Printing News*. 2018 b, [Online]. Available: <http://www.3ders.org/articles/20181001-paul-g-allens-stratolaunch-space-venture-uses-3d-printing-to-develop-pga-rocket-engine.html>. [Accessed 2019].**
 1. **David, “MX3D to install world’s first 3D printed steel bridge over Amsterdam canal,” *3D Printer and 3D Printing News*, 2018. [Online]. Available: [https://www.3ders.org/articles/20180403-mx3d-to-install-worlds-first-3d-printed-steel-bridge-over-amsterdam-canal.html](http://www.3ders.org/articles/20180403-mx3d-to-install-worlds-first-3d-printed-steel-bridge-over-amsterdam-canal.html). [Accessed 2019].**
