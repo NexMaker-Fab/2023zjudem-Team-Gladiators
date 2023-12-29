@@ -64,7 +64,7 @@ A foam is a broad term that refers to materials formed by trapping pockets of ga
 
 Laser cutting of foams requires very low power and high feed rates, good ventilation, and a breathing mask, as most foams release toxic gasses when heated. Blowers should also be set to a low level for thin materials.
 
-![Alt text](foam-cut-system.jpg)
+![Alt text](misc-foam-01.jpg)
 
 ### 6. Metal
 
