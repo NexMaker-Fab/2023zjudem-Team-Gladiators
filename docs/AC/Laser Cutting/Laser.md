@@ -1,6 +1,6 @@
-# Assesment
+# **Assesment**
 
-## What is Laser Cutting?
+## **What is Laser Cutting?**
 
 Laser cutting is a high precision CNC thermal process that uses a high-power laser beam to cut, melt, or burn a material sheet. It uses a focussed beam of light to cut and etch sheet material to the design specification. Ideal for a variety of material types (including metals, wood and polymers), it is capable of producing complicated parts without using a custom-designed tool.
 
@@ -8,7 +8,7 @@ The process is suitable for both one-off jobs and low, medium volume production 
 
 ![](<WhatsApp Image 2023-12-29 at 15.43.23_ac7fcfd7.jpg>)
 
-## Types Of Laser Cutting
+## **Types Of Laser Cutting**
 For cutting, there are three primary types of lasers. They are CO2, Nd-YAG (neodymium yttrium aluminum garnet), and fiber lasers. They differ in the base material used to generate the laser beam.
 
 ### CO2 lasers
@@ -26,7 +26,7 @@ Fiber lasers are a newer form of laser that emits light using optical fibers rat
 
 It is known that when light passes through an optical fiber, it stays inside with minimal energy loss. This makes optical fibers more stable than other types requiring accurate alignment.
 
-## Material used for laser Cutting:
+## **Material used for laser Cutting:**
 
 ### 1. Acrylic
 
@@ -78,7 +78,7 @@ Two methods are employed in the laser cutting of metals: reactive laser cutting 
 
 A leather is a strong and flexible material that is traditionally made of animal skins, although faux leather (artificial) is now available. CO2 lasers are generally the most effective at cutting leather. Modestly powered lasers will make good cuts in leather, although multiple passes may be required. Laser cutting in leather is clean and leaves no torn or damaged fibers. Laser cutting leather avoids the stress distortion that occurs with even the sharpest hand tools. 
 
-![Alt text](<Screenshot (374).png>)
+![Alt text](<Screenshot (374)-1.png>)
 
 ### 8. Plastic
 
