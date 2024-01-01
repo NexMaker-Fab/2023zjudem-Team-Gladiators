@@ -136,3 +136,37 @@ Thus, consult with the suppliers before buying supplies for any project to see w
 Novice users frequently leave while the machine is still on. It will be a safety hazard because various mishaps could occur when you're not paying attention. For example, if the laser's relentless heat gets too high for your machine to manage, it could result in flames and destroyed electronics. So, it is necessary to keep an eye on the laser cutting machine when your projects are in progress.
 
 ![Alt text](<image (2).jpg>)
+
+## **Power and Speed Test**
+
+- First of all we draw 7 circles in LaserCAD with different dimensions.
+
+![Alt text](<Screenshot (380).png>)
+
+- Then we gave different colours to every circle and set different power for each circle 90, 80, 70, 60, 50, 40, 30 respectively and set the speed to 70mm/s.
+
+![Alt text](<Screenshot (379).png>)
+
+![Alt text](<Screenshot (382).png>)
+
+- Then we connect the machine to laptop and turn it on. Detail to operate the machine and to connect it to laptop is given in our project of laser cutting. 
+
+![Alt text](20231230_002659.jpg)
+
+- We have used 2mm Acrylic sheet for this test.
+
+![Alt text](20231230_003007.jpg)
+
+- In our case all circles cut excluding the small one having power is 30 with a speed of 70mm/s.
+
+![Alt text](20231230_003218.jpg)
+
+![Alt text](20231230_003408.jpg)
+
+![Alt text](image.png)
+
+### What is Kerf?
+
+When a laser cuts through a piece of material, the laser's own width displaces a little extra material than is specified in the original design. The amount of material that is burned away is known as the kerf in laser cutting.
+
+![Alt text](laser-cutting-kerf-768x720.png)
