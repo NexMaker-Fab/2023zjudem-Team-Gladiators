@@ -103,3 +103,36 @@ Natural textiles such as cotton, silk, and wool are great candidates for laser c
 Paper is very well suited to laser cutting. Any small laser-cutting machine will do a great job with paper, but it’s not well suited to larger industrial machines. Paper requires low power settings and high feed speeds, as it cuts very fast. Heavier papers may need slightly lower feed rates. Very clean cuts with no visible HAZ can be made.
 
 ![Alt text](<maxresdefault (1).jpg>)
+
+## **Safety Precautions**
+
+Below are the Safety Precautions While Using Laser Cutting Machines:
+### 1. Read the Manual
+First and foremost, it is crucial to become familiar with your machine. Before beginning any laser project, read your laser cutting machine's manual carefully. Manufacturers build every brand and model of this equipment differently. So, don't assume that you understand how to use the machine just because you have used one previously.
+
+### 2. Maintain A User Record
+Maintaining a log helps ensure that the user has all essential information regarding the laser cutting machine. The record must include information about who was using the device, how they used it, what materials they processed with it, any significant findings or issues, and the length of time they utilized it.
+
+### 3. Keep Your Eyes Safe
+Exposure to a beam of laser might cause catastrophic harm to the eyes. These lasers can pass right past someone's pupils and then into the eyes. The degree of damage resulting from this incident depends on the laser beam's focus, the region it strikes, the quantity of energy consumed, and other parameters.
+
+However, using decent-quality protective goggles is the best method to avoid the issue. Additionally, maintaining appropriate tool handling and staying at a safe distance is another approach to minimizing potential injury.
+
+### 4. Clean The Machine Frequently
+You must remove any dirt that becomes stuck in the cutter. Dust may cause big fires, harm the equipment, or the substance getting processed if you don't remove them. So, clean your laser cutting machine's internal cavity and cutting deck with a vacuum after each usage.
+
+### 5. Beware Of The Fumes
+When you use a laser cutting machine to cut your substance, it will release fumes. However, if you use suitable air filters, almost all fumes will evaporate and won't start building up inside. Since some of these vapors are potentially harmful, you must avoid inhaling them directly. So, keep a safe distance from the machine and use a face mask, which filters out harmful metallic particles whenever you breathe. For example, you can wear an N95 mask while using the tool.
+
+### 6. Prepare For Probable Fires
+Additionally, there seems to be a minimal probability of starting fires with a laser cutter if you utilize it correctly and in a suitable location. Nonetheless, it is always a good idea to stay prepared in case of a fire. So, keep a fire blanket and a fire extinguisher at your workspace to swiftly extinguish any flames that may erupt. And, if a minor fire does form while using your laser cutter, put it out before it grows.
+
+### 7. Know The Materials
+Understanding what kind of material you're going to use for the laser cutting job is crucial for personal safety. Materials emit diverse debris and odors as you process them, based on the type. Some plastic coatings and materials can emit potentially fatal fumes. So, it would be best if you avoid using them.
+
+Thus, consult with the suppliers before buying supplies for any project to see whether the metals have any harmful safety warnings. However, you must be particularly careful while using materials that create zinc, argon, carbon dioxide, or helium fumes.
+
+### 8. Always Keep An Eye On Your Machine
+Novice users frequently leave while the machine is still on. It will be a safety hazard because various mishaps could occur when you're not paying attention. For example, if the laser's relentless heat gets too high for your machine to manage, it could result in flames and destroyed electronics. So, it is necessary to keep an eye on the laser cutting machine when your projects are in progress.
+
+![Alt text](<image (2).jpg>)
