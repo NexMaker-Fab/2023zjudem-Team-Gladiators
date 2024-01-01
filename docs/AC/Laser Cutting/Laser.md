@@ -170,3 +170,65 @@ Novice users frequently leave while the machine is still on. It will be a safety
 When a laser cuts through a piece of material, the laser's own width displaces a little extra material than is specified in the original design. The amount of material that is burned away is known as the kerf in laser cutting.
 
 ![Alt text](laser-cutting-kerf-768x720.png)
+
+## **Laser-Cut lamp**
+
+- First we created our lamp components in fusion 360.
+
+![Alt text](<Screenshot (393).png>)
+
+![Alt text](<Screenshot (394).png>)
+
+![Alt text](<Screenshot (397).png>)
+
+- After that we exported our model into dxf file so that we can open it in LaserCAD Software.
+
+![Alt text](<Screenshot (395).png>)
+
+- Now open LaserCAD and Import your design which you have saved in dxf file format.
+
+![Alt text](<Screenshot (404).png>)
+
+![Alt text](<Screenshot (398).png>)
+
+- Now connect your laptop to machine with a wire after turning the machine on and click on select mode in LaserCAD.
+
+![Alt text](20231230_002403.jpg)
+
+![Alt text](<Screenshot (399).png>)
+
+- And then click on add button and click Findcom. Then the machine will be added automatically.
+
+![Alt text](<Screenshot (400).png>)
+
+- Then click on download button and then to download document to load your design to Laser Machine. We can also use Flash drive instead of this method.
+
+![Alt text](<Screenshot (403).png>)
+
+- During our cutting process we cut our components one by one due to material shortage. Next Process is shown in the video
+  
+  <video width=100% height=56.25% controls>
+  <source src="Videos/Laser.mp4" type="video/mp4">
+</video>
+
+- Here are all of our components after laser cutting. Then we assembled all the components one by one.
+
+![Alt text](20231228_215805.jpg)
+
+![Alt text](IMG_20231229_084106_9.jpg)
+
+- Here is the final result of our model.
+
+![Alt text](<image (3).jpg>)
+
+## **Laser-cut Lamp with Arduino**
+
+![Alt text](20231229_165917.jpg)
+
+![Alt text](20231229_171800.jpg)
+
+Here is the final video of our Arduino operated Laser-Cut lamp.
+
+<video width=100% height=56.25% controls>
+  <source src="Videos/Laser cut with arduino.mp4" type="video/mp4">
+</video>
