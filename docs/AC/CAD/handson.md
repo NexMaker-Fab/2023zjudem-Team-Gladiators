@@ -111,11 +111,6 @@ Go to documents setting and change the units to millimeter.
 
 ![](vertopal_bd95cf7762df4f4ab8388baa9bdf37f3/media/image12.png)
 
-### **2.6 GIF of Working Condition**
-
-<br>
-<img style="float: center;" width=100% src="AC/CAD/5.gif">
-<br>
 
 ### **2.7 Video of Design History**
 
@@ -123,7 +118,13 @@ Go to documents setting and change the units to millimeter.
   <source src="Videos/Video1.mp4" type="video/mp4">
 </video>
 
-## **Step 3: Test Contact Set/Motion link (gif)**
+## **Step 3: Test Contact Set/Motion Link and GIF of Working Condition**
+
+<br>
+<img style="float: center;" width=100% src="AC/CAD/5.gif">
+<br>
+
+## **3.1: Motion link of Components (gif)**
 
 <br>
 <img style="float: center;" width=100% src="AC/CAD/1.gif">
@@ -139,10 +140,6 @@ Go to documents setting and change the units to millimeter.
 
 <br>
 <img style="float: center;" width=100% src="AC/CAD/4.gif">
-<br>
-
-<br>
-<img style="float: center;" width=100% src="AC/CAD/5.gif">
 <br>
 
 ### **3D Model Live**
@@ -414,15 +411,13 @@ Go to documents setting and change the units to millimeter.
 
   ![](A11.png)
 
-  ![](A12.png)
-
-- Now go to appearance to paint your new body and drag and drop the colour on your selected body.
-
-  ![](A13.png)
+  ![Alt text](<Screenshot (410).png>)
   
 - Here is the final design by using automate feature of Fusion 360.
 
-  ![](A14.png)
+![Alt text](<Screenshot (408).png>)
+
+![Alt text](<image (5).jpg>)
 
 ## **Step 9: Introduction of another CAD Software**
 ### **AutoCAD** 
