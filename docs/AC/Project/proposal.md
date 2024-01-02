@@ -44,10 +44,11 @@ According to our review, voice controlled light and door system doesn't secure i
 
 The house shown below is designed and assembled on Fusion 360.
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro23.mp4" type="video/mp4">
+</video></div>
 
 **Design History**
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro24.mp4" type="video/mp4">
-</video></div></p>
+</video></div>
 Section view and 2D drawing views with detail dimension
 <img style="float: center;" width=700 src="image/pro25.jpg">
 **Lamp**
@@ -98,7 +99,8 @@ Within the web interface, there are buttons designed to control the high-power L
 The server's handleCommand function processes incoming POST requests, including those for controlling the LED. When a command such as 'turn-on-led' or 'turn-off-led' is received, it triggers the corresponding action in the code.
 
   <img style="float: center;" width=auto src="image/pro16.jpg">
-  <br><div><br><video width=100% height=56.25% controls><source src="image/pro27.mp4" type="video/mp4">
+ <br><div><br><video width=100% height=56.25% controls><source src="image/pro27.mp4" type="video/mp4">
+</video></div>
 
 **Summary:**
 The system integrates a high-power LED as a controllable light source within a WiFi-controlled environment. Users can access a web interface served by the ESP8266 to turn the LED on and off, providing a convenient and remote means of controlling the lighting in their application. This demonstrates the versatility of the ESP8266 microcontroller for creating IoT (Internet of Things) projects with web-based interfaces.
@@ -125,6 +127,7 @@ The server's handleCommand function processes incoming POST requests, including 
 
 <img style="float: center;" width=auto src="image/pro17.jpg">
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro28.mp4" type="video/mp4">
+</video></div>
 
 **Summary:**
 The door control system in this WiFi-controlled environment allows users to remotely open and close a physical door through the web interface. The integration of a servo motor and the corresponding code functions demonstrate how the ESP8266 microcontroller can be used to control real-world devices, making it suitable for home automation or access control applications. This adds a practical dimension to the IoT project, allowing users to interact with and control physical elements within their environment over the internet.
@@ -150,6 +153,7 @@ The server's handleCommand function processes incoming POST requests, including 
 
 <img style="float: center;" width=700 src="image/pro18.jpg">
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro29.mp4" type="video/mp4">
+</video></div>
 
 **Summary:**
 The fan control system in this WiFi-controlled environment allows users to remotely turn a physical fan on and off through the web interface. The integration of a relay or transistor and the corresponding code functions demonstrate how the ESP8266 microcontroller can be used to control real-world devices, making it suitable for home automation or climate control applications. This adds practical functionality to the IoT project, enabling users to interact with and control physical elements within their environment over the internet.
@@ -160,6 +164,7 @@ In this WiFi-controlled system, the ESP8266 microcontroller facilitates remote c
 **Web Interface:**
 <img style="float: center;" width=auto src="image/pro22.jpg">
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro30.mp4" type="video/mp4">
+</video></div>
 
 ## Innovation
 WiFi-enabled solutions for lights, doors, and fans are poised to revolutionize the way we interact with our surroundings. These cutting-edge technologies boast innovative features meticulously crafted to enhance accessibility, offering a seamless experience for individuals with diverse needs. Tailored customization settings provide users with unprecedented control over their environment, allowing them to personalize their surroundings according to their preferences.
@@ -182,6 +187,10 @@ By using a web interface, individuals can control their devices without causing 
 The development of the web interface includes robust privacy and security measures. These measures ensure encryption protocols, secure authentication methods, and data protection mechanisms are in place to safeguard user privacy and prevent unauthorized access to the devices.
 ### Market Analysis for WiFi-Controlled Lighting, Door, and Fan Systems
 The assistive technology market is expanding rapidly, with a significant portion of this growth attributed to smart home solutions that cater to the needs of disabled individuals. The integration of WiFi-controlled systems for lighting, doors, and fans is a prime example of how technology is being adapted to improve the quality of life for this demographic.
+#### 1: Projected Market Growth:
+The global assistive technology market is expected to reach a value of $27.9 billion by 2024, growing at a compound annual growth rate (CAGR) of 7.8% [(1)](https://www.va.gov/housing-assistance/disability-housing-grants/#:~:text=Changing%20a%20home%20might%20involve%20installing%20ramps%20or%20widening%20doorways). This growth is indicative of the increasing demand for assistive devices and smart home solutions that offer greater independence and improved living conditions for people with disabilities.
+#### 2: Opportunities for WiFi-Controlled Solutions
+The projected market growth presents a significant opportunity for the development and implementation of WiFi-controlled light, door, and fan solutions. These systems are designed to provide users with disabilities the ability to easily manage their environment, contributing to a more accessible and convenient home setting[(2)](https://www.va.gov/housing-assistance/disability-housing-grants/#:~:text=Disability%20housing%20grants%20for%20Veterans).
 #### 1: Projected Market Growth:
 The global assistive technology market is expected to reach a value of $27.9 billion by 2024, growing at a compound annual growth rate (CAGR) of 7.8% [(1)](https://www.va.gov/housing-assistance/disability-housing-grants/#:~:text=Changing%20a%20home%20might%20involve%20installing%20ramps%20or%20widening%20doorways). This growth is indicative of the increasing demand for assistive devices and smart home solutions that offer greater independence and improved living conditions for people with disabilities.
 #### 2: Opportunities for WiFi-Controlled Solutions
