@@ -34,7 +34,10 @@ According to our review, voice controlled light and door system doesn't secure i
 
 #### B: Software Required:
 [IDE](https://www.arduino.cc/en/software)
+<br>
+<br>
 [LaserCAD v8.13.7](https://www.joystarlaser.com/m/index.php?a=lists&catid=15)
+<br><br>
 <img style="float: center;" width=700 src="image/pro43.png">
 <img style="float: center;" width=700 src="image/pro44.png">
 <img style="float: center;" width=700 src="image/pro45.png">
@@ -51,7 +54,10 @@ The house shown below is designed and assembled on Fusion 360.
 </video></div>
 Section view and 2D drawing views with detail dimension
 <img style="float: center;" width=700 src="image/pro25.jpg">
+<br>
+
 **Lamp**
+
 <img style="float: center;" width=700 src="image/pro36.png">
 <img style="float: center;" width=700 src="image/pro37.png">
 <img style="float: center;" width=700 src="image/pro38.png">
@@ -63,26 +69,37 @@ Section view and 2D drawing views with detail dimension
 [3D printer](https://www.flashforge.com/product-detail/FlashPrint-slicer-for-flashforge-fdm-3d-printers)
 
 The house designed on fusion 360 is printed using a Flash Forge Guider IIs printer to demonstrate the opening and closing doors automatically using Arduino.
+<br><br>
 <img style="float: center;" width=700 src="image/pro26.jpg">
 
 #### C: Programming Used
 **C++**
+
 C++ is used as the programming language for the microcontroller firmware. The C++ code controls the ESP8266 module, handles HTTP requests, and interacts with the hardware components such as the servo motor, LED, and fan. It sets up the web server, defines request handlers, and performs the desired actions based on the incoming requests. C++ is commonly used for low-level programming tasks and is well-suited for embedded systems.
+
 **HTML**:
+
 HTML (Hypertext Markup Language) is used for creating the web page that allows users to interact with the microcontroller. In the code, HTML is embedded within the C++ code as strings. The HTML code defines the structure, layout, and content of the web page. It includes buttons to control the LED, servo motor (door), and fan. When a user interacts with the buttons, HTTP requests are sent to the microcontroller to perform the requested actions.
+
 **JAVASCRIPT**
+
 JavaScript is used to add interactivity to the web page. In the code, JavaScript code is embedded within the HTML code as inline scripts. JavaScript is responsible for handling button clicks and sending HTTP requests to the microcontroller. When a user clicks a button, the JavaScript code triggers an HTTP request with the appropriate command to control the microcontroller. It enables the web page to dynamically update and communicate with the microcontroller in real-time.
 
 In summary, C++ is used for the microcontroller firmware and handling HTTP requests, HTML is used for creating the web page structure and content, and JavaScript is used for adding interactivity to the web page and sending HTTP requests to control the microcontroller.
 ## How this project has been done?
 **1. Working Principle of Light Bulb:**
-In this WiFi-controlled system, a high-power Light is utilized as a controllable light source. This Light, physically larger than standard indicator LEDs, is connected to pin D3 on an ESP8266 microcontroller. The ESP8266, equipped with WiFi capabilities, hosts a web server that allows users to control the connected light through a user-friendly web interface.
+<br> <br> In this WiFi-controlled system, a high-power Light is utilized as a controllable light source. This Light, physically larger than standard indicator LEDs, is connected to pin D3 on an ESP8266 microcontroller. The ESP8266, equipped with WiFi capabilities, hosts a web server that allows users to control the connected light through a user-friendly web interface.
 
 **Code Integration:**
+<br>
+
 **Physical Setup:**
 
 The high-power light is connected to pin D3 (const int ledPin = D3;) on the ESP8266.
+<br>
+<br>
 <img style="float: center;" width=auto src="image/pro33.jpg">
+
 **Web Interface:**
 
 The web interface is accessible through the root endpoint (/). Users can interact with the interface to control various functions, including the high-power LED.
@@ -103,15 +120,19 @@ The server's handleCommand function processes incoming POST requests, including 
 </video></div>
 
 **Summary:**
+
 The system integrates a high-power LED as a controllable light source within a WiFi-controlled environment. Users can access a web interface served by the ESP8266 to turn the LED on and off, providing a convenient and remote means of controlling the lighting in their application. This demonstrates the versatility of the ESP8266 microcontroller for creating IoT (Internet of Things) projects with web-based interfaces.
 
 **2. Working Principle of the Door System:**
+<br><br>
 In this WiFi-controlled system, a physical door is integrated, and its movement is controlled through the web interface. The door system involves a servo motor connected to pin D5 on the ESP8266 microcontroller, allowing users to remotely open and close the door through a user-friendly web interface.
 
 **Code Integration:**
-**Physical Setup:**
 
+**Physical Setup:**
+<br><br>
 A real door is connected to a servo motor, which is connected to pin D5 (const int servoPin = D5;) on the ESP8266. The servo motor is responsible for physically moving the door.
+<br><br>
 <img style="float: center;" width=auto src="image/pro34.jpg">
 **Web Interface:**
 
@@ -130,14 +151,19 @@ The server's handleCommand function processes incoming POST requests, including 
 </video></div>
 
 **Summary:**
+
 The door control system in this WiFi-controlled environment allows users to remotely open and close a physical door through the web interface. The integration of a servo motor and the corresponding code functions demonstrate how the ESP8266 microcontroller can be used to control real-world devices, making it suitable for home automation or access control applications. This adds a practical dimension to the IoT project, allowing users to interact with and control physical elements within their environment over the internet.
+
 **3. Working Principle of the Fan:**
+
 In this WiFi-controlled system, a physical fan is integrated, and its operation is controlled through the web interface. The fan system involves a relay or transistor connected to pin D8 on the ESP8266 microcontroller, allowing users to remotely turn the fan on and off through a user-friendly web interface.
 
 **Code Integration:**
+
 **Physical Setup:**
 
 A real fan is connected to a relay or transistor, which, in turn, is connected to pin D8 (const int fanPin = D8;) on the ESP8266. The relay or transistor is responsible for controlling the electrical power to the fan, enabling remote control.
+<br><br>
 <img style="float: center;" width=auto src="image/pro31.jpg">
 
 **Web Interface:**
@@ -156,12 +182,19 @@ The server's handleCommand function processes incoming POST requests, including 
 </video></div>
 
 **Summary:**
+
 The fan control system in this WiFi-controlled environment allows users to remotely turn a physical fan on and off through the web interface. The integration of a relay or transistor and the corresponding code functions demonstrate how the ESP8266 microcontroller can be used to control real-world devices, making it suitable for home automation or climate control applications. This adds practical functionality to the IoT project, enabling users to interact with and control physical elements within their environment over the internet.
+
 **The Overall Physical and Web Interface Description**
-In this WiFi-controlled system, the ESP8266 microcontroller facilitates remote control over real-world devices. The system includes a high-power LED on pin D3, a physical door controlled by a servo motor on pin D5, and a real fan controlled by a relay or transistor on pin D8. Through a user-friendly web interface hosted on the ESP8266, users can turn the LED on/off, open/close the door, and turn the fan on/off, showcasing the versatility of the microcontroller in managing diverse physical elements within an IoT framework. 
+
+In this WiFi-controlled system, the ESP8266 microcontroller facilitates remote control over real-world devices. The system includes a high-power LED on pin D3, a physical door controlled by a servo motor on pin D5, and a real fan controlled by a relay or transistor on pin D8. Through a user-friendly web interface hosted on the ESP8266, users can turn the LED on/off, open/close the door, and turn the fan on/off, showcasing the versatility of the microcontroller in managing diverse physical elements within an IoT framework.
+
 **The Physical Setup:**
-<img style="float: center;" width=700 src="image/pro32.jpg">
+
+<img style="float: center;" width=auto src="image/pro32.jpg">
+
 **Web Interface:**
+
 <img style="float: center;" width=auto src="image/pro22.jpg">
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro30.mp4" type="video/mp4">
 </video></div>
