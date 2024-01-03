@@ -139,37 +139,50 @@ Novice users frequently leave while the machine is still on. It will be a safety
 
 ## **Power and Speed Test**
 
-- First of all we draw 7 circles in LaserCAD with different dimensions.
+- First of all we draw these rectangles in LaserCAD and then we gave different colours to every rectangle and set different powers and speed as shown in pic. ( **We have done this test with the collaboration of team Innogeniuses**)
+  
+![Alt text](<Screenshot (412).png>)
 
-![Alt text](<Screenshot (380).png>)
-
-- Then we gave different colours to every circle and set different power for each circle 90, 80, 70, 60, 50, 40, 30 respectively and set the speed to 70mm/s.
-
-![Alt text](<Screenshot (379).png>)
-
-![Alt text](<Screenshot (382).png>)
+![Alt text](<Screenshot (417).png>)
 
 - Then we connect the machine to laptop and turn it on. Detail to operate the machine and to connect it to laptop is given in our project of laser cutting. 
 
-![Alt text](20231230_002659.jpg)
+![Alt text](20240102_173831.jpg)
 
-- We have used 2mm Acrylic sheet for this test.
+- We have used 3mm Wooden sheet for this test.
 
-![Alt text](20231230_003007.jpg)
+![Alt text](20240102_174335.jpg)
 
-- In our case all circles cut excluding the small one having power is 30 with a speed of 70mm/s.
+- All the calculated data of this test is shown in the table below:
 
-![Alt text](20231230_003218.jpg)
+| Power/Speed | 10 | 20 | 30 | 40 | 50 | 70 | 90 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 30 | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| 40 | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
+| 50 | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ |
+| 60 | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
+| 70 | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
+| 80 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
+| 90 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 
-![Alt text](20231230_003408.jpg)
 
-![Alt text](image.png)
-
-### What is Kerf?
+### **What is Kerf?**
 
 When a laser cuts through a piece of material, the laser's own width displaces a little extra material than is specified in the original design. The amount of material that is burned away is known as the kerf in laser cutting.
 
 ![Alt text](laser-cutting-kerf-768x720.png)
+
+### **Kerf Test**
+
+- First of all we design these strips in LaserCAD, its total size is 100mm and then we give speed and power to test kerf in laser machine.
+
+![Alt text](<Screenshot (418).png>)
+
+![Alt text](20240102_234937.jpg)
+
+- After the test we have calculated the remaining size decreases to 98mm as its actual size is 100mm(10cm). So the kerf is 2mm in this test.
+
+![Alt text](20240104_014504.jpg)
 
 ## **Laser-Cut lamp**
 
