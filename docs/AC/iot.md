@@ -1,4 +1,4 @@
-<h1 class="h1">IoT (Internet of Things) Tutorial</h1>
+<h1 class="h1">Internet of Things (IoT )</h1>
 <img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right;padding-left:15px" />
 <p>IoT tutorial provides basic and advanced concepts of IoT. Our Internet of Things tutorial is designed for beginners and professionals.</p>
 <p>IoT stands for Internet of Things, which means accessing and controlling daily usable equipments and devices using Internet. </p>
