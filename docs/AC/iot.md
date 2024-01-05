@@ -74,6 +74,8 @@
 **Assessment**
 
 **Turning light on and off using NodeMCU ESP8266 with wifi and Bluetooth**
+ <br
+   
  **Materials**
   <br>
  ESP8266
@@ -87,7 +89,8 @@
  Light Bulb
   <br>
  Jumper Wires
-  <br>
+  <br
+    
  **platforms**
  <br>
  IDE
