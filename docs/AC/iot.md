@@ -237,6 +237,7 @@ The system gracefully falls back to Bluetooth control when Wi-Fi connectivity is
 
 Users may not even notice a connectivity issue when controlling the light via Bluetooth. The system redirects web interface users to the root page, providing a consistent and user-friendly experience.
  <br>
+ 
 **Versatility Across Environments:**
 
 In scenarios where Wi-Fi signals are unreliable or when deploying the system in environments with intermittent connectivity, Bluetooth support ensures the system remains operational.
@@ -254,14 +255,18 @@ In conclusion, integrating Bluetooth capability ensures the robustness and conti
 <br>
 First, download the Arduino Bluetooth Controller from the app store
 <br>
+<br>
 <img style="float: center;" height = 900 width=700 src="image/bf.jpg">
+<br>
 <br>
 Then open it and click terminal as follows
 <br>
+<br>
 <img style="float: center;" height = 700 width=700 src="image/bs.jpg">
 <br>
-
+<br>
 Finally, Write a command to control the light
+<br>
 <br>
 <img style="float: center;" height = 700 width=700 src="image/bt.jpg">
    <br>
@@ -274,7 +279,7 @@ Here is the Demo
     Your browser does not support the video tag.
 </video>
  <br>
- 
+ <br>
 Here is the code
 
     #include <ESP8266WiFi.h>
