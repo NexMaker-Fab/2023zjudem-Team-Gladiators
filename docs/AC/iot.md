@@ -70,7 +70,7 @@
 **Assessment**
 
 **Turning light on and off using NodeMCU ESP8266 with wifi and Bluetooth**
- <be>
+ <br>
    
  **Materials**
   <br>
@@ -85,7 +85,7 @@
  Light Bulb
   <br>
  Jumper Wires
-  <br
+  <br>
     
  **platforms**
  <br>
@@ -124,23 +124,35 @@ To delve deeper into the implementation of an ESP8266 Web Server in Access Point
 
 **WiFi Connection:**
 
-<img style="float: center;" width=700 src="image/i.png">
+    WiFi.begin(ssid, password);
+      
+      // Wait for connection
+      while (WiFi.status() != WL_CONNECTED) {
+        delay(1000);
+        Serial.print(".");
+      }
 
 This part of the code connects the ESP8266 to the Wi-Fi network using the provided SSID and password. It waits until the connection is established.
 
 **Web Server Setup:**
 
 <br>
-<img style="float: center;" width=700 src="image/i1.png">
+    ESP8266WebServer server(80);
 <br>
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
- <br
+
+    server.on("/", HTTP_GET, handleRoot);
+      server.on("/on", HTTP_POST, [](){ handleCommand("on"); });
+      server.on("/off", HTTP_POST, [](){ handleCommand("off"); });
+      server.begin();
+
+<br>
   
 **Handling Requests**
 
 <br>
 
-<img style="float: center;" width=700 src="image/i2.png">
+<img style="float: center;" width=100%  src="image/i2.png">
 <br>
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
@@ -149,7 +161,22 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
 
 <br>
 <br>
-<img style="float: center;" width=700 src="image/i3.png">
+
+    void handleRoot() {
+      String html = "<html><head><style>";
+      html += "body { margin: 0; font-family: Arial, sans-serif; }";
+      html += "h1 { text-align: center; padding: 20px; background-color: #333; color: #fff; margin: 0; font-size: 60px; }";
+      html += "form { text-align: center; margin: 20px; }";
+      html += "input#on { padding: 10px; font-size: 50px; margin: 5px; background-color: red; color: white; }";
+      html += "input#off { padding: 10px; font-size: 50px; margin: 5px; background-color: black; color: white; }";
+      html += "</style></head><body>";
+      html += "<h1>Light Control</h1>";
+      html += "<form action='/on' method='post'><input id='on' type='submit' value='Turn On Light'></form>";
+      html += "<form action='/off' method='post'><input id='off' type='submit' value='Turn Off Light'></form>";
+      html += "</body></html>";
+      server.send(200, "text/html", html);
+    }
+
 <br>
 The handleRoot function generates an HTML page with two buttons ("Turn On light" and "Turn Off light") and sends it as a response when the root ("/") route is accessed.
  <br>
@@ -166,9 +193,16 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
 **Server-Side Handling**
 
 <br>
-<img style="float: center;" width=700 src="image/i4.png">
-<br
- <br>
+
+    void handleCommand(String command) {
+      
+
+      server.sendHeader("Location", "/");
+      server.send(303);
+    }
+
+<br>
+<br>
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
  <br>
  <br>
@@ -180,7 +214,14 @@ The handleCommand function is called when a POST request is received on the "/on
 The light control is performed inside the handle command function:
 
 <br>
-<img style="float: center;" width=700 src="image/i5.png">
+
+
+    if (command == "on") {
+          digitalWrite(LightPin, LOW); // code to turn on Light
+        } else if (command == "off") {
+          digitalWrite(LightPin, HIGH); // code to turn off Light
+        }
+
 <br>
 Depending on the received command ("on" or "off"), the digital output pin connected to the light (D3) is set to HIGH or LOW.
  <br>
@@ -191,16 +232,29 @@ Depending on the received command ("on" or "off"), the digital output pin connec
 <br>
 After processing the command, a redirect response is sent back to the client:
 <br>
-<img style="float: center;" width=700 src="image/i6.png">
+
+    server.sendHeader("Location", "/");
+    server.send(303);
+
 <br>
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
  <br>
- <br
+ <br>
   
 **Bluetooth Integration**
 
 <br>
-<img style="float: center;" width=700 src="image/i7.png">
+
+    if (bluetoothSerial.available() > 0) {
+        char command = bluetoothSerial.read();
+
+        if (command == '0') {
+          digitalWrite(LightPin, HIGH); // Turn on Light
+        } else if (command == '1') {
+          digitalWrite(LightPin, LOW); // Turn off Light
+        }
+      }
+
 This part of the code checks if there are incoming characters available from the Bluetooth serial connection (Bluetooth serial).
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
  <br>
@@ -209,7 +263,7 @@ If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth
 **Wifi case**
 
 <br>
-<img style="float: center;" width=700 src="image/iotf.jpg">
+<img style="float: center;" width=100%  src="image/iotf.jpg">
 <br>
  <br><div><br><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
 </video></div>
@@ -261,19 +315,19 @@ In conclusion, integrating Bluetooth capability ensures the robustness and conti
 First, download the Arduino Bluetooth Controller from the app store
 <br>
 <br>
-<img style="float: center;" height = 900 width=700 src="image/bf.jpg">
+<img style="float: center;" height = 900 width=100%  src="image/bf.jpg">
 <br>
 <br>
 Then open it and click terminal as follows
 <br>
 <br>
-<img style="float: center;" height = 600 width=700 src="image/bs.jpg">
+<img style="float: center;" height = 600 width=100% src="image/bs.jpg">
 <br>
 <br>
 Finally, Write a command to control the light
 <br>
 <br>
-<img style="float: center;" height = 600 width=700 src="image/bt.jpg">
+<img style="float: center;" height = 600 width=100%  src="image/bt.jpg">
    <br>
    <br>
 Here is the Demo
@@ -379,9 +433,9 @@ Here is the code
 ThingSpeak is an Internet of Things (IoT) platform that enables users to collect, analyze, visualize, and act on data from IoT devices. It provides an easy-to-use interface for managing and analyzing data streams, making it a popular choice for IoT applications.
 First log in to the official website.
 To create your channel, Click on channel.
-<img style="float: center;" width=700 src="image/ths.jpg">
-<img style="float: center;" width=700 src="image/ths1.jpg">
-<img style="float: center;" width=700 src="image/ths2.jpg">
+<img style="float: center;" width=100%  src="image/ths.jpg">
+<img style="float: center;" width=100%  src="image/ths1.jpg">
+<img style="float: center;" width=100%  src="image/ths2.jpg">
 
  Here are some of the applications.
   <br>
@@ -398,7 +452,7 @@ Limited Visibility: Private views ensure that the channel's data is not publicly
 Overview: Public views in ThingSpeak allow users to share their channel's data with a wider audience. This is useful for scenarios where open access to data is desired.
 Public Channel: When a channel is set to public, its data is accessible without authentication. This is suitable for cases where the information is intended for a broader audience.
 Sharing URL: ThingSpeak provides a public URL for public channels, allowing users to easily share and embed their data visualizations.
-<img style="float: center;" width=700 src="image/ths3.jpg">
+<img style="float: center;" width=100%  src="image/ths3.jpg">
  <br>
   
 **Channel Settings:**
@@ -415,7 +469,7 @@ Metadata: Additional information, such as channel descriptions, can be added to 
 Overview: ThingSpeak facilitates collaboration by allowing users to share access to their channels with others.
 Collaborative Access: Users can add collaborators to their channels, specifying whether collaborators have read-only or read-write access.
 Access Control: Sharing is done through email invitations, and collaborators need a ThingSpeak account to access the shared channel.
-<img style="float: center;" width=700 src="image/ths4.jpg">
+<img style="float: center;" width=100%  src="image/ths4.jpg">
  <br
   
 **API Keys:**
@@ -423,7 +477,7 @@ Access Control: Sharing is done through email invitations, and collaborators nee
 Overview: API keys in ThingSpeak are essential for authentication and authorization when interacting with channels programmatically.
 Creation: Users can generate API keys associated with their accounts. Different keys may have different permissions (e.g., read-only, read-write).
 Secure Interaction: API keys ensure that only authorized applications or devices can read from or write to a channel.
-<img style="float: center;" width=700 src="image/ths6.jpg">
+<img style="float: center;" width=100%  src="image/ths6.jpg">
  <br>
  
 **Data Import / Export:**
@@ -432,7 +486,7 @@ Overview: ThingSpeak supports versatile methods for importing and exporting data
 Data Import: Users can send data to their channels using protocols like HTTP, MQTT, or ThingSpeak's REST API. This is typically done by IoT devices or sensors.
 Data Export: Reading data from ThingSpeak channels can be done using the Read API. Additionally, MATLAB analysis allows users to perform advanced computations within the platform.
 Integration: ThingSpeak integrates with other platforms and services, allowing users to export data for further analysis or visualization.
-<img style="float: center;" width=700 src="image/ths7.jpg">
+<img style="float: center;" width=100%  src="image/ths7.jpg">
  <br
   
 Here is the Arduino code
@@ -543,6 +597,8 @@ Demo in Arduino serial monitor and Thingspeak
 **References**
 
  <br>
-[Nextmaker](https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html)
+ 
+[Nexmaker](https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html)
  <br>
+ 
 [JavaTpoints](https://www.javatpoint.com/iot-internet-of-things)
