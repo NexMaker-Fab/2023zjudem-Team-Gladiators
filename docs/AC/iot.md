@@ -119,9 +119,14 @@
 <p>This part of the code connects the ESP8266 to the Wi-Fi network using the provided SSID and password. It waits until the connection is established.</p>
 <p><strong>Web Server Setup:</strong></p>
 <br>
-    ESP8266WebServer server(80);
+      ESP8266WebServer server(80);
 <br>
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
+
+<br>
+  
+<p><strong>Handling Requests</strong></p>
+<br>
 
 <pre><code>server.on(&quot;/&quot;, HTTP_GET, handleRoot);
   server.on(&quot;/on&quot;, HTTP_POST, [](){ handleCommand(&quot;on&quot;); });
@@ -129,16 +134,10 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
   server.begin();
 </code></pre>
 <br>
-  
-<p><strong>Handling Requests</strong></p>
-<br>
-
-<img style="float: center;" width=100%  src="image/i2.png">
-<br>
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
  
-<p><em>HTML Response</em>*</p>
+<p><em>HTML Response</em></p>
 <br>
 <br>
 
