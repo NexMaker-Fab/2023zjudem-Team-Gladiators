@@ -1,11 +1,11 @@
 <h1 class="h1">Internet of Things (IoT )</h1>
  <br>
-<img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right;padding-left:15px" />
+<img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right" />
  <br>
 <br>
 <h2 class="h2">What is an Internet of Things (IoT)</h2>
 <p>Let's us look closely at our mobile device which contains GPS Tracking, Mobile Gyroscope, Adaptive brightness, Voice detection, Face detection etc. These components have their own individual features, but what about if these all communicate with each other to provide a better environment? For example, the phone brightness is adjusted based on my GPS location or my direction.</p>
-<p>Connecting everyday things embedded with electronics, software, and sensors to internet enabling to collect and exchange data without human interaction callight as the Internet of Things (IoT).</p>
+<p>Connecting everyday things embedded with electronics, software, and sensors to Internet enabling to collect and exchange data without human interaction callight as the Internet of Things (IoT).</p>
 <p>The term "Things" in the Internet of Things refers to anything and everything in day to day life which is accessed or connected through the internet.</p>
 <img src="https://static.javatpoint.com/tutorial/iot/images/what-is-an-internet-of-things.png" alt="IoT Introdoction" />
 <p>IoT is an advanced automation and analytics system which deals with artificial intelligence, sensor, networking, electronic, cloud messaging etc. to deliver complete systems for the product or services. The system created by IoT has greater transparency, control, and performance. </p>
@@ -149,6 +149,7 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
  <br>
  
 **HTML Response**
+
 <br>
 <br>
 <img style="float: center;" width=700 src="image/i3.png">
@@ -158,6 +159,7 @@ The handleRoot function generates an HTML page with two buttons ("Turn On light"
  <br>
  
 **Form Submission**
+
 <br>
 <br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
@@ -175,6 +177,7 @@ The handleCommand function is called when a POST request is received on the "/on
  <br>
  
 **Light Control**
+
 <br>
 <br>
 The light control is performed inside the handle command function:
