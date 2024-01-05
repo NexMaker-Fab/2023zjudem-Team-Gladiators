@@ -156,11 +156,13 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
 The handleRoot function generates an HTML page with two buttons ("Turn On light" and "Turn Off light") and sends it as a response when the root ("/") route is accessed.
  <br>
  <br>
+ 
 **Form Submission:**
 <br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
  <br>
  <br>
+ 
 **Server-Side Handling:**
 <br>
 <img style="float: center;" width=700 src="image/i4.png">
@@ -180,6 +182,7 @@ The light control is performed inside the handle command function:
 Depending on the received command ("on" or "off"), the digital output pin connected to the light (D3) is set to HIGH or LOW.
  <br>
  <br>
+ 
 **Redirect and Response:**
 <br>
 After processing the command, a redirect response is sent back to the client:
@@ -209,10 +212,12 @@ If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth
 Integrating Bluetooth functionality into the system is crucial for providing a reliable and alternative means of controlling the light when the Wi-Fi connection is down. Here's why it's important:
  <br>
  <br>
+ 
 **Redundancy and Reliability:**
 <br>
 By incorporating Bluetooth, the system gains redundancy in communication methods. In the event of a Wi-Fi connection failure, Bluetooth serves as a reliable backup, ensuring continuous control over the light.
  <br>
+ 
 **Uninterrupted Operation:**
 
 Users can still manage and control the light even if the primary Wi-Fi network is unavailable. This is especially important for critical applications where uninterrupted operation is essential.
@@ -226,7 +231,8 @@ Bluetooth integration enhances user convenience by allowing seamless control thr
 **Fallback Mechanism:**
 
 The system gracefully falls back to Bluetooth control when Wi-Fi connectivity is lost. This fallback mechanism prevents a complete loss of functionality and maintains user access to essential features.
- <br>
+ <br
+  
 **Enhanced User Experience:**
 
 Users may not even notice a connectivity issue when controlling the light via Bluetooth. The system redirects web interface users to the root page, providing a consistent and user-friendly experience.
@@ -235,6 +241,7 @@ Users may not even notice a connectivity issue when controlling the light via Bl
 
 In scenarios where Wi-Fi signals are unreliable or when deploying the system in environments with intermittent connectivity, Bluetooth support ensures the system remains operational.
  <br>
+ 
 **Extended Use Cases:**
 
 Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enlight device, offering flexibility beyond traditional web-based control.
@@ -508,7 +515,7 @@ Here is the Arduino code
     }
 
 [Source](https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak)
- <br
+ <br>
   
 Demo in Arduino serial monitor and Thingspeak
 
