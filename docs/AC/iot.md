@@ -25,7 +25,7 @@
 <p><strong>Active Engagement:</strong> IoT makes the connected technology, product, or services to active engagement between each other. </p>
 <p><strong>Endpoint Management:</strong> It is important to be the endpoint management of all the IoT system otherwise, it makes the complete failure of the system. For example, if a coffee machine itself order the coffee beans when it goes to end but what happens when it orders the beans from a retailer and we are not present at home for a few days, it leads to the failure of the IoT system. So, there must be a need for endpoint management.</p>
 
-**Here are the links for more detail tutorials**
+**Here are the links for more detailed tutorials**
 <hr/>
 <div class="responsivediv">
 <div class="col-3">
@@ -132,6 +132,7 @@ To delve deeper into the implementation of an ESP8266 Web Server in Access Point
 This part of the code connects the ESP8266 to the Wi-Fi network using the provided SSID and password. It waits until the connection is established.
 
 **Web Server Setup:**
+
 <br>
 <img style="float: center;" width=700 src="image/i1.png">
 <br>
@@ -139,6 +140,7 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
  <br
   
 **Handling Requests:**
+
 <br>
 
 <img style="float: center;" width=700 src="image/i2.png">
@@ -147,6 +149,7 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
  <br>
  
 **HTML Response:**
+
 <br>
 <img style="float: center;" width=700 src="image/i3.png">
 <br>
@@ -165,7 +168,9 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
  <br>
  <br>
+ 
 **Light Control:**
+
 <br>
 The light control is performed inside the handle command function:
 
@@ -183,15 +188,19 @@ After processing the command, a redirect response is sent back to the client:
 <br>
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
  <br>
- <br>
+ <br
+  
 **Bluetooth Integration:**
+
 <br>
 <img style="float: center;" width=700 src="image/i7.png">
 This part of the code checks if there are incoming characters available from the Bluetooth serial connection (Bluetooth serial).
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
  <br>
  <br>
+ 
 **Wifi case**
+
 <br>
 <img style="float: center;" width=700 src="image/iotf.jpg">
 <br>
@@ -208,10 +217,12 @@ By incorporating Bluetooth, the system gains redundancy in communication methods
 
 Users can still manage and control the light even if the primary Wi-Fi network is unavailable. This is especially important for critical applications where uninterrupted operation is essential.
  <br>
+ 
 **User Convenience:**
 
 Bluetooth integration enhances user convenience by allowing seamless control through a secondary interface. Users don't need to rely solely on the web interface and can switch to Bluetooth effortlessly when needed.
  <br>
+ 
 **Fallback Mechanism:**
 
 The system gracefully falls back to Bluetooth control when Wi-Fi connectivity is lost. This fallback mechanism prevents a complete loss of functionality and maintains user access to essential features.
@@ -230,7 +241,9 @@ Bluetooth integration opens up new use cases, such as controlling the light from
 
 In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
  <br>
+ 
 **Bluetooth case**
+
 <br>
 First, download the Arduino Bluetooth Controller from the app store
 <br>
@@ -240,17 +253,21 @@ Then open it and click terminal as follows
 <br>
 <img style="float: center;" height = 700 width=700 src="image/bs.jpg">
 <br>
+
 Finally, Write a command to control the light
 <br>
 <img style="float: center;" height = 700 width=700 src="image/bt.jpg">
    <br>
+   <br>
 Here is the Demo
+<br>
  <br>
 <video width="640" height="360" controls>
     <source src="image/bl.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
  <br>
+ 
 Here is the code
 
     #include <ESP8266WiFi.h>
@@ -351,33 +368,39 @@ To create your channel, Click on channel.
 
  Here are some of the applications.
   <br>
+  
 **Private View:**
 
 Overview: In ThingSpeak, a private view refers to the ability to configure your channel's visibility. Private views restrict access to the channel's data, requiring authentication for users to view or interact with it.
 Channel Privacy: Users can set a channel to be private, making it accessible only to those with the appropriate API key. This adds a layer of security, preventing unauthorized access to sensitive data.
 Limited Visibility: Private views ensure that the channel's data is not publicly accessible without the necessary credentials.
  <br>
+ 
 **Public View:**
 
 Overview: Public views in ThingSpeak allow users to share their channel's data with a wider audience. This is useful for scenarios where open access to data is desired.
 Public Channel: When a channel is set to public, its data is accessible without authentication. This is suitable for cases where the information is intended for a broader audience.
 Sharing URL: ThingSpeak provides a public URL for public channels, allowing users to easily share and embed their data visualizations.
 <img style="float: center;" width=700 src="image/ths3.jpg">
- <br>
+ <br
+  
 **Channel Settings:**
+
  <br>
 Overview: Channel settings in ThingSpeak provide users with control over various configurations related to their data channels.
 Field Configuration: Users can define and customize fields within a channel, specifying the type of data they will store (e.g., temperature, humidity).
 Timezone Settings: Channels can be configured to display data in a specific timezone, ensuring accurate timestamp representation.
 Metadata: Additional information, such as channel descriptions, can be added to provide context for collaborators and viewers.
- <br>
+ <br
+  
 **Sharing:**
 
 Overview: ThingSpeak facilitates collaboration by allowing users to share access to their channels with others.
 Collaborative Access: Users can add collaborators to their channels, specifying whether collaborators have read-only or read-write access.
 Access Control: Sharing is done through email invitations, and collaborators need a ThingSpeak account to access the shared channel.
 <img style="float: center;" width=700 src="image/ths4.jpg">
- <br>
+ <br
+  
 **API Keys:**
 
 Overview: API keys in ThingSpeak are essential for authentication and authorization when interacting with channels programmatically.
@@ -385,6 +408,7 @@ Creation: Users can generate API keys associated with their accounts. Different 
 Secure Interaction: API keys ensure that only authorized applications or devices can read from or write to a channel.
 <img style="float: center;" width=700 src="image/ths6.jpg">
  <br>
+ 
 **Data Import / Export:**
 
 Overview: ThingSpeak supports versatile methods for importing and exporting data to and from channels.
@@ -392,7 +416,8 @@ Data Import: Users can send data to their channels using protocols like HTTP, MQ
 Data Export: Reading data from ThingSpeak channels can be done using the Read API. Additionally, MATLAB analysis allows users to perform advanced computations within the platform.
 Integration: ThingSpeak integrates with other platforms and services, allowing users to export data for further analysis or visualization.
 <img style="float: center;" width=700 src="image/ths7.jpg">
- <br>
+ <br
+  
 Here is the Arduino code
 
     #include <ESP8266WiFi.h>
@@ -483,7 +508,8 @@ Here is the Arduino code
     }
 
 [Source](https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak)
- <br>
+ <br
+  
 Demo in Arduino serial monitor and Thingspeak
 
 
@@ -498,6 +524,7 @@ Demo in Arduino serial monitor and Thingspeak
 </video>
 
 **References**
+
  <br>
 [Nextmaker](https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html)
  <br>
