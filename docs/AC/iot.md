@@ -1,7 +1,5 @@
 <h1 class="h1">Internet of Things (IoT )</h1>
  <br>
-<img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right" />
- <br>
 <br>
 <h2 class="h2">What is an Internet of Things (IoT)</h2>
 <p>Let's us look closely at our mobile device which contains GPS Tracking, Mobile Gyroscope, Adaptive brightness, Voice detection, Face detection etc. These components have their own individual features, but what about if these all communicate with each other to provide a better environment? For example, the phone brightness is adjusted based on my GPS location or my direction.</p>
