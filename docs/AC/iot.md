@@ -163,7 +163,7 @@ The handleCommand function is called when a POST request is received on the "/on
  <br>
 **Light Control:**
 
-The light control is performed inside the handleCommand function:
+The light control is performed inside the handle command function:
 
 
 <img style="float: center;" width=700 src="image/i5.png">
@@ -180,7 +180,7 @@ This redirects the client to the root ("/") route, and the updated HTML page wit
 **Bluetooth Integration:**
 
 <img style="float: center;" width=700 src="image/i7.png">
-This part of the code checks if there are incoming characters available from the Bluetooth serial connection (bluetoothSerial).
+This part of the code checks if there are incoming characters available from the Bluetooth serial connection (Bluetooth serial).
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
  <br>
 **Wifi case**
@@ -225,14 +225,14 @@ In conclusion, integrating Bluetooth capability ensures the robustness and conti
 
 First, download the Arduino Bluetooth Controller from the app store
 
-<img style="float: center;" width=700 src="image/bf.jpg">
+<img style="float: center;" height = 900 width=700 src="image/bf.jpg">
 
 Then open it and click terminal as follows
- <img style="float: center;" width=700 src="image/bs.jpg">
+ <img style="float: center;" height = 900 width=700 src="image/bs.jpg">
 
 Finally, Write a command to control the light
 
-  <img style="float: center;" width=700 src="image/bt.jpg">
+  <img style="float: center;" height = 900 width=700 src="image/bt.jpg">
    <br>
 Here is the Demo
  <br>
