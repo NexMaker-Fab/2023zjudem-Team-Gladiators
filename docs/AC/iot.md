@@ -149,7 +149,7 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
  <br>
  
 **HTML Response**
-
+<br>
 <br>
 <img style="float: center;" width=700 src="image/i3.png">
 <br>
@@ -158,7 +158,7 @@ The handleRoot function generates an HTML page with two buttons ("Turn On light"
  <br>
  
 **Form Submission**
-
+<br>
 <br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
  <br>
@@ -168,13 +168,14 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
 
 <br>
 <img style="float: center;" width=700 src="image/i4.png">
-<br>
+<br
+ <br>
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
  <br>
  <br>
  
 **Light Control**
-
+<br>
 <br>
 The light control is performed inside the handle command function:
 
@@ -266,13 +267,13 @@ First, download the Arduino Bluetooth Controller from the app store
 Then open it and click terminal as follows
 <br>
 <br>
-<img style="float: center;" height = 700 width=700 src="image/bs.jpg">
+<img style="float: center;" height = 600 width=700 src="image/bs.jpg">
 <br>
 <br>
 Finally, Write a command to control the light
 <br>
 <br>
-<img style="float: center;" height = 700 width=700 src="image/bt.jpg">
+<img style="float: center;" height = 600 width=700 src="image/bt.jpg">
    <br>
    <br>
 Here is the Demo
