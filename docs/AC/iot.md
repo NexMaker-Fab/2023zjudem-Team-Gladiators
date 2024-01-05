@@ -139,7 +139,7 @@ This part of the code connects the ESP8266 to the Wi-Fi network using the provid
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
  <br
   
-**Handling Requests:**
+**Handling Requests**
 
 <br>
 
@@ -148,7 +148,7 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
  
-**HTML Response:**
+**HTML Response**
 
 <br>
 <img style="float: center;" width=700 src="image/i3.png">
@@ -157,13 +157,15 @@ The handleRoot function generates an HTML page with two buttons ("Turn On light"
  <br>
  <br>
  
-**Form Submission:**
+**Form Submission**
+
 <br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
  <br>
  <br>
  
 **Server-Side Handling:**
+
 <br>
 <img style="float: center;" width=700 src="image/i4.png">
 <br>
@@ -171,7 +173,7 @@ The handleCommand function is called when a POST request is received on the "/on
  <br>
  <br>
  
-**Light Control:**
+**Light Control**
 
 <br>
 The light control is performed inside the handle command function:
@@ -184,6 +186,7 @@ Depending on the received command ("on" or "off"), the digital output pin connec
  <br>
  
 **Redirect and Response:**
+
 <br>
 After processing the command, a redirect response is sent back to the client:
 <br>
@@ -214,6 +217,7 @@ Integrating Bluetooth functionality into the system is crucial for providing a r
  <br>
  
 **Redundancy and Reliability:**
+
 <br>
 By incorporating Bluetooth, the system gains redundancy in communication methods. In the event of a Wi-Fi connection failure, Bluetooth serves as a reliable backup, ensuring continuous control over the light.
  <br>
