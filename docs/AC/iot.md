@@ -1,5 +1,7 @@
 <h1 class="h1">Internet of Things (IoT )</h1>
+ <br>
 <img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right;padding-left:15px" />
+ <br>
 <p>IoT tutorial provides basic and advanced concepts of IoT. Our Internet of Things tutorial is designed for beginners and professionals.</p>
 <p>IoT stands for Internet of Things, which means accessing and controlling daily usable equipments and devices using Internet. </p>
 <p>Our IoT tutorial includes all topics of IoT such as introduction, features, advantage and disadvantage, ecosystem, decision framework, architecture and domains, biometric, security camera and door unlock system, devices, etc.</p>
@@ -140,6 +142,7 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
 
 
 <img style="float: center;" width=700 src="image/i2.png">
+
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
 **HTML Response:**
@@ -171,6 +174,7 @@ Depending on the received command ("on" or "off"), the digital output pin connec
 After processing the command, a redirect response is sent back to the client:
 
 <img style="float: center;" width=700 src="image/i6.png">
+
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
  <br>
 **Bluetooth Integration:**
@@ -213,20 +217,20 @@ In scenarios where Wi-Fi signals are unreliable or when deploying the system in 
  <br>
 **Extended Use Cases:**
 
-Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enablight device, offering flexibility beyond traditional web-based control.
+Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enlight device, offering flexibility beyond traditional web-based control.
 
 In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
  <br>
-**bluetooth case**
+**Bluetooth case**
 
-First download Arduino Bluetooth Controller from app store
+First, download the Arduino Bluetooth Controller from the app store
 
 <img style="float: center;" width=700 src="image/bf.jpg">
 
 Then open it and click terminal as follows
  <img style="float: center;" width=700 src="image/bs.jpg">
 
-Finally Write a command to control the light
+Finally, Write a command to control the light
 
   <img style="float: center;" width=700 src="image/bt.jpg">
    <br>
