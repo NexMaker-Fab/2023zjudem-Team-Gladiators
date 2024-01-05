@@ -78,39 +78,28 @@
   <br>
  ESP8266
   <br>
-   <br>
  Breadboard
   <br>
-   <br>
  Resistor
   <br>
-   <br>
  Bluetooth Module
   <br>
-   <br>
  Light Bulb
   <br>
-   <br>
  Jumper Wires
   <br>
  **platforms**
  <br>
- <br>
  IDE
   <br>
-   <br>
  HTML
   <br>
-   <br>
  JAVASCRIPT
   <br>
-   <br>
  CSS
   <br>
-   <br>
  Arduino Bluetooth Controller
   <br>
-   <br>
 
 Before we start our acual assessment, Let's introduce the componets we used. In recent years, the ESP8266 has emerged as a pivotal component in Internet of Things (IoT) and WiFi-related ventures. As a cost-effective WiFi module, the ESP8266 can be ingeniously programmed to operate as an autonomous web server, opening up a myriad of possibilities for innovative projects.
 
