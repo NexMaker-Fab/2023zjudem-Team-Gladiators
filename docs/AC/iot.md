@@ -2,9 +2,7 @@
  <br>
 <img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right;padding-left:15px" />
  <br>
-<p>IoT tutorial provides basic and advanced concepts of IoT. Our Internet of Things tutorial is designed for beginners and professionals.</p>
-<p>IoT stands for Internet of Things, which means accessing and controlling daily usable equipments and devices using Internet. </p>
-<p>Our IoT tutorial includes all topics of IoT such as introduction, features, advantage and disadvantage, ecosystem, decision framework, architecture and domains, biometric, security camera and door unlock system, devices, etc.</p>
+
 <h2 class="h2">What is an Internet of Things (IoT)</h2>
 <p>Let's us look closely at our mobile device which contains GPS Tracking, Mobile Gyroscope, Adaptive brightness, Voice detection, Face detection etc. These components have their own individual features, but what about if these all communicate with each other to provide a better environment? For example, the phone brightness is adjusted based on my GPS location or my direction.</p>
 <p>Connecting everyday things embedded with electronics, software, and sensors to internet enabling to collect and exchange data without human interaction callight as the Internet of Things (IoT).</p>
