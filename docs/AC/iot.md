@@ -134,27 +134,28 @@ This part of the code connects the ESP8266 to the Wi-Fi network using the provid
 **Web Server Setup:**
 
 <img style="float: center;" width=700 src="image/i1.png">
+
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
  <br>
 **Handling Requests:**
-
+<br>
 
 <img style="float: center;" width=700 src="image/i2.png">
-
+<br>
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
 **HTML Response:**
-
+<br>
 <img style="float: center;" width=700 src="image/i3.png">
-
+<br>
 The handleRoot function generates an HTML page with two buttons ("Turn On light" and "Turn Off light") and sends it as a response when the root ("/") route is accessed.
  <br>
 **Form Submission:**
-
+<br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
  <br>
 **Server-Side Handling:**
-
+<br>
 <img style="float: center;" width=700 src="image/i4.png">
 <br>
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
@@ -165,12 +166,13 @@ The light control is performed inside the handle command function:
 
 
 <img style="float: center;" width=700 src="image/i5.png">
+<br>
 Depending on the received command ("on" or "off"), the digital output pin connected to the light (D3) is set to HIGH or LOW.
  <br>
 **Redirect and Response:**
-
+<br>
 After processing the command, a redirect response is sent back to the client:
-
+<br>
 <img style="float: center;" width=700 src="image/i6.png">
 
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
@@ -220,17 +222,18 @@ Bluetooth integration opens up new use cases, such as controlling the light from
 In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
  <br>
 **Bluetooth case**
-
+<br>
 First, download the Arduino Bluetooth Controller from the app store
-
+<br>
 <img style="float: center;" height = 900 width=700 src="image/bf.jpg">
-
+<br>
 Then open it and click terminal as follows
- <img style="float: center;" height = 900 width=700 src="image/bs.jpg">
-
+<br>
+<img style="float: center;" height = 900 width=700 src="image/bs.jpg">
+<br>
 Finally, Write a command to control the light
-
-  <img style="float: center;" height = 900 width=700 src="image/bt.jpg">
+<br>
+<img style="float: center;" height = 900 width=700 src="image/bt.jpg">
    <br>
 Here is the Demo
  <br>
