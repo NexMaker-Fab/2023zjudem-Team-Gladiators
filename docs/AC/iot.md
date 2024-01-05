@@ -145,7 +145,7 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
  
-**HTML Response**
+*HTML Response**
 
 <br>
 <br>
@@ -163,7 +163,7 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
  <br>
  <br>
  
-**Server-Side Handling:**
+**Server-Side Handling**
 
 <br>
 <img style="float: center;" width=700 src="image/i4.png">
@@ -186,7 +186,7 @@ Depending on the received command ("on" or "off"), the digital output pin connec
  <br>
  <br>
  
-**Redirect and Response:**
+**Redirect and Response**
 
 <br>
 After processing the command, a redirect response is sent back to the client:
@@ -197,7 +197,7 @@ This redirects the client to the root ("/") route, and the updated HTML page wit
  <br>
  <br
   
-**Bluetooth Integration:**
+**Bluetooth Integration**
 
 <br>
 <img style="float: center;" width=700 src="image/i7.png">
@@ -217,38 +217,38 @@ Integrating Bluetooth functionality into the system is crucial for providing a r
  <br>
  <br>
  
-**Redundancy and Reliability:**
+**Redundancy and Reliability**
 
 <br>
 By incorporating Bluetooth, the system gains redundancy in communication methods. In the event of a Wi-Fi connection failure, Bluetooth serves as a reliable backup, ensuring continuous control over the light.
  <br>
  
-**Uninterrupted Operation:**
+**Uninterrupted Operation**
 
 Users can still manage and control the light even if the primary Wi-Fi network is unavailable. This is especially important for critical applications where uninterrupted operation is essential.
  <br>
  
-**User Convenience:**
+**User Convenience**
 
 Bluetooth integration enhances user convenience by allowing seamless control through a secondary interface. Users don't need to rely solely on the web interface and can switch to Bluetooth effortlessly when needed.
  <br>
  
-**Fallback Mechanism:**
+**Fallback Mechanism**
 
 The system gracefully falls back to Bluetooth control when Wi-Fi connectivity is lost. This fallback mechanism prevents a complete loss of functionality and maintains user access to essential features.
  <br
   
-**Enhanced User Experience:**
+**Enhanced User Experience**
 
 Users may not even notice a connectivity issue when controlling the light via Bluetooth. The system redirects web interface users to the root page, providing a consistent and user-friendly experience.
  <br>
  
-**Versatility Across Environments:**
+**Versatility Across Environments**
 
 In scenarios where Wi-Fi signals are unreliable or when deploying the system in environments with intermittent connectivity, Bluetooth support ensures the system remains operational.
  <br>
  
-**Extended Use Cases:**
+**Extended Use Cases**
 
 Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enlight device, offering flexibility beyond traditional web-based control.
 
@@ -399,7 +399,7 @@ Overview: Public views in ThingSpeak allow users to share their channel's data w
 Public Channel: When a channel is set to public, its data is accessible without authentication. This is suitable for cases where the information is intended for a broader audience.
 Sharing URL: ThingSpeak provides a public URL for public channels, allowing users to easily share and embed their data visualizations.
 <img style="float: center;" width=700 src="image/ths3.jpg">
- <br
+ <br>
   
 **Channel Settings:**
 
