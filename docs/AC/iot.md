@@ -2,7 +2,7 @@
  <br>
 <img src="https://static.javatpoint.com/tutorial/iot/images/iot-tutorial.png" alt="IoT Tutorial" style="float:right;padding-left:15px" />
  <br>
-
+<br>
 <h2 class="h2">What is an Internet of Things (IoT)</h2>
 <p>Let's us look closely at our mobile device which contains GPS Tracking, Mobile Gyroscope, Adaptive brightness, Voice detection, Face detection etc. These components have their own individual features, but what about if these all communicate with each other to provide a better environment? For example, the phone brightness is adjusted based on my GPS location or my direction.</p>
 <p>Connecting everyday things embedded with electronics, software, and sensors to internet enabling to collect and exchange data without human interaction callight as the Internet of Things (IoT).</p>
@@ -132,11 +132,12 @@ To delve deeper into the implementation of an ESP8266 Web Server in Access Point
 This part of the code connects the ESP8266 to the Wi-Fi network using the provided SSID and password. It waits until the connection is established.
 
 **Web Server Setup:**
-
+<br>
 <img style="float: center;" width=700 src="image/i1.png">
-
+<br>
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
- <br>
+ <br
+  
 **Handling Requests:**
 <br>
 
@@ -144,15 +145,18 @@ The ESP8266WebServer instance is created, listening on port 80, which is the def
 <br>
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
  <br>
+ 
 **HTML Response:**
 <br>
 <img style="float: center;" width=700 src="image/i3.png">
 <br>
 The handleRoot function generates an HTML page with two buttons ("Turn On light" and "Turn Off light") and sends it as a response when the root ("/") route is accessed.
  <br>
+ <br>
 **Form Submission:**
 <br>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
+ <br>
  <br>
 **Server-Side Handling:**
 <br>
@@ -160,39 +164,44 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
 <br>
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
  <br>
+ <br>
 **Light Control:**
-
+<br>
 The light control is performed inside the handle command function:
 
-
+<br>
 <img style="float: center;" width=700 src="image/i5.png">
 <br>
 Depending on the received command ("on" or "off"), the digital output pin connected to the light (D3) is set to HIGH or LOW.
+ <br>
  <br>
 **Redirect and Response:**
 <br>
 After processing the command, a redirect response is sent back to the client:
 <br>
 <img style="float: center;" width=700 src="image/i6.png">
-
+<br>
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
  <br>
+ <br>
 **Bluetooth Integration:**
-
+<br>
 <img style="float: center;" width=700 src="image/i7.png">
 This part of the code checks if there are incoming characters available from the Bluetooth serial connection (Bluetooth serial).
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
  <br>
+ <br>
 **Wifi case**
-
+<br>
 <img style="float: center;" width=700 src="image/iotf.jpg">
-
+<br>
  <br><div><br><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
 </video></div>
 Integrating Bluetooth functionality into the system is crucial for providing a reliable and alternative means of controlling the light when the Wi-Fi connection is down. Here's why it's important:
  <br>
+ <br>
 **Redundancy and Reliability:**
-
+<br>
 By incorporating Bluetooth, the system gains redundancy in communication methods. In the event of a Wi-Fi connection failure, Bluetooth serves as a reliable backup, ensuring continuous control over the light.
  <br>
 **Uninterrupted Operation:**
@@ -229,11 +238,11 @@ First, download the Arduino Bluetooth Controller from the app store
 <br>
 Then open it and click terminal as follows
 <br>
-<img style="float: center;" height = 900 width=700 src="image/bs.jpg">
+<img style="float: center;" height = 700 width=700 src="image/bs.jpg">
 <br>
 Finally, Write a command to control the light
 <br>
-<img style="float: center;" height = 900 width=700 src="image/bt.jpg">
+<img style="float: center;" height = 700 width=700 src="image/bt.jpg">
    <br>
 Here is the Demo
  <br>
