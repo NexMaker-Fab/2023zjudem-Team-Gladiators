@@ -240,8 +240,13 @@ When a laser cuts through a piece of material, the laser's own width displaces a
 
 ![Alt text](20231229_171800.jpg)
 
+<p><br><div class="loader"><img src="image/la.jpg" alt="#" width=100% height=56.25%/></div>
+
 Here is the final video of our Arduino operated Laser-Cut lamp.
 
 <video width=100% height=56.25% controls>
   <source src="Videos/Laser cut with arduino.mp4" type="video/mp4">
+</video>
+<video width=100% height=56.25% controls>
+  <source src="image/la.mp4" type="video/mp4">
 </video>
