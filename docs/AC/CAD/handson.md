@@ -120,11 +120,27 @@ Go to documents setting and change the units to millimeter.
 
 ## **Step 3: Test Contact Set/Motion Link and GIF of Working Condition**
 
+- To set the motion link of the design model click on assemble section and then click on the motion link.
+
+![Alt text](<Screenshot (443).png>)
+
+- Now select those joints in which you want to create motion link.
+
+![Alt text](<Screenshot (439).png>)
+
+- After selecting the joint we set 10mm distance covers on every 360 degree rotation. It means if we rotate our screw bar 360 degree then our Vice Jaw covers 10mm distance.
+  
+![Alt text](<Screenshot (440).png>)
+
+- Now right click on slidebar or revolute and then click on animate joint relationships to check the motion link.
+
+![Alt text](<Screenshot (442).png>)
+
 <br>
-<img style="float: center;" width=100% src="AC/CAD/5.gif">
+<img style="float: center;" width=100% src="AC/CAD/GIF Working.gif">
 <br>
 
-## **3.1: Motion link of Components (gif)**
+## **3.1: Motion of Components (gif)**
 
 <br>
 <img style="float: center;" width=100% src="AC/CAD/1.gif">
@@ -139,7 +155,7 @@ Go to documents setting and change the units to millimeter.
 <br>
 
 <br>
-<img style="float: center;" width=100% src="AC/CAD/4.gif">
+<img style="float: center;" width=100% src="AC/CAD/GIF Working.gif">
 <br>
 
 ### **3D Model Live**
@@ -373,7 +389,7 @@ Go to documents setting and change the units to millimeter.
 ![](<pr 13.jpg>)
 
 
-## **Step 8: Practice for Automated Modeling**
+## **Step 8: Practice for Automated Modeling (New Model)**
 
 - We choose Cam Shaft Assembly designed by Shahar Yar for automated Modeling.
   
