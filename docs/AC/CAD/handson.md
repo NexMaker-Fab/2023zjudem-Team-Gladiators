@@ -375,49 +375,44 @@ Go to documents setting and change the units to millimeter.
 
 ## **Step 8: Practice for Automated Modeling**
 
+- We choose Cam Shaft Assembly designed by Shahar Yar for automated Modeling.
+  
+  ![Alt text](<Screenshot (421).png>)
+
   - First of all for automated modeling go to Automate section and click on it.
 
-  ![](A1.png)
+  ![Alt text](<Screenshot (421)-1.png>)
 
 - Now Select faces that you want to connect to create new body or component for your model.
-
-  ![](A2.png)
-  
-  ![](A3.png)
+- ![Alt text](<Screenshot (424).png>)
 
   - After selecting faces to connect now select bodies that you want to avoid and click on generate shapes.
 
-  ![](A4.png)
-
-  ![](A5.png)
+![Alt text](<Screenshot (425).png>)
 
   - Now select any shape that you like and click on Ok.
-  
-  ![](A6.png)
 
-  ![](A7.png)
+![Alt text](<Screenshot (426).png>)
+
+![Alt text](<Screenshot (427).png>)
 
 - Now go to your new body that you have created and right click on it and select Isolate.
 
-  ![](A8.png)
+![Alt text](<Screenshot (428).png>)
 
-  ![](A9.png)
+![Alt text](<Screenshot (429).png>)
 
-- Now if you want to edit then go to design history and right click on automate and click on edit feature.
-
-  ![](A10.png)
-
-- Now again select any of alternative Shape and click on Ok.
-
-  ![](A11.png)
-
-  ![Alt text](<Screenshot (410).png>)
-  
 - Here is the final design by using automate feature of Fusion 360.
 
-![Alt text](<Screenshot (408).png>)
+![Alt text](<Screenshot (430).png>)
 
-![Alt text](<image (5).jpg>)
+![Alt text](<image (6).jpg>)
+
+### **Working Condition of this design after Automated Modeling**
+
+<video width=100% height=56.25% controls>
+  <source src="Videos/Automated Modeling Part.mp4" type="video/mp4">
+</video>
 
 ## **Step 9: Introduction of another CAD Software**
 ### **AutoCAD** 
