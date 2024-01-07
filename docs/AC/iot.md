@@ -343,10 +343,10 @@ Installing **Fritzing** is a straightforward process. The software is availabl
 **Project Sharing**: Users can share their completed projects on the community platform. They can export their designs in various formats, such as PDF, SVG, and Gerber, making it easy to showcase and collaborate on projects.
   
 <p><strong>Wifi case</strong></p>
-<br>>
+<br>
 <img style="float: center;" width=100%  src="image/iotf.jpg">
 <br>
- <br>><div><br>><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
+ <br><div><br><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
 </video></div>
 Integrating Bluetooth functionality into the system is crucial for providing a reliable and alternative means of controlling the light when the Wi-Fi connection is down. Here's why it's important:
  <br>
@@ -512,20 +512,20 @@ Metadata: Additional information, such as channel descriptions, can be added to 
 Collaborative Access: Users can add collaborators to their channels, specifying whether collaborators have read-only or read-write access.
 Access Control: Sharing is done through email invitations, and collaborators need a ThingSpeak account to access the shared channel.
 <img style="float: center;" width=100%  src="image/ths4.jpg">
- &lt;br</p>
+ &lt;</p>
 <p><strong>API Keys:</strong></p>
 <p>Overview: API keys in ThingSpeak are essential for authentication and authorization when interacting with channels programmatically.
 Creation: Users can generate API keys associated with their accounts. Different keys may have different permissions (e.g., read-only, read-write).
 Secure Interaction: API keys ensure that only authorized applications or devices can read from or write to a channel.
 <img style="float: center;" width=100%  src="image/ths6.jpg">
- <br>></p>
+ <br></p>
 <p><strong>Data Import / Export:</strong></p>
 <p>Overview: ThingSpeak supports versatile methods for importing and exporting data to and from channels.
 Data Import: Users can send data to their channels using protocols like HTTP, MQTT, or ThingSpeak&#39;s REST API. This is typically done by IoT devices or sensors.
 Data Export: Reading data from ThingSpeak channels can be done using the Read API. Additionally, MATLAB analysis allows users to perform advanced computations within the platform.
 Integration: ThingSpeak integrates with other platforms and services, allowing users to export data for further analysis or visualization.
 <img style="float: center;" width=100%  src="image/ths7.jpg">
- &lt;br</p>
+ &lt;</p>
 <p>Here is the Arduino code</p>
 <pre><code>#include &lt;ESP8266WiFi.h&gt;
 
