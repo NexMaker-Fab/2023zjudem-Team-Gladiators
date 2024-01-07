@@ -4,14 +4,18 @@
 <p>Let's us look closely at our mobile device which contains GPS Tracking, Mobile Gyroscope, Adaptive brightness, Voice detection, Face detection etc. These components have their own individual features, but what about if these all communicate with each other to provide a better environment? For example, the phone brightness is adjusted based on my GPS location or my direction.</p>
 <p>Connecting everyday things embedded with electronics, software, and sensors to Internet enabling to collect and exchange data without human interaction callight as the Internet of Things (IoT).</p>
 <p>The term "Things" in the Internet of Things refers to anything and everything in day to day life which is accessed or connected through the internet.</p>
-<img src="https://static.javatpoint.com/tutorial/iot/images/what-is-an-internet-of-things.png" alt="IoT Introdoction" />
+
+![Alt text](internet-of-things-scaled.jpeg)
+
+[**Reference**](https://dmexco.com/stories/thats-why-the-internet-of-things-needs-artificial-intelligence/)
+
 <p>IoT is an advanced automation and analytics system which deals with artificial intelligence, sensor, networking, electronic, cloud messaging etc. to deliver complete systems for the product or services. The system created by IoT has greater transparency, control, and performance. </p>
 <p>As we have a platform such as a cloud that contains all the data through which we connect all the things around us. For example, a house, where we can connect our home appliances such as air conditioner, light, etc. through each other and all these things are managed at the same platform. Since we have a platform, we can connect our car, track its fuel meter, speed level, and also track the location of the car.</p>
-<img src="https://static.javatpoint.com/tutorial/iot/images/what-is-an-internet-of-things2.png" alt="IoT Introdoction" />
+
 <p>If there is a common platform where all these things can connect to each other would be great because based on my preference, I can set the room temperature. For example, if I love the room temperature to to be set at 25 or 26-degree Celsius when I reach back home from my office, then according to my car location, my AC would start before 10 minutes I arrive at home. This can be done through the Internet of Things (IoT).</p>
 <h2 class="h2">How does Internet of Thing (IoT) Work?</h2>
 <p>The working of IoT is different for different IoT echo system (architecture). However, the key concept of there working are similar. The entire working process of IoT starts with the device themselves, such as smartphones, digital watches, electronic appliances, which securely communicate with the IoT platform. The platforms collect and analyze the data from all multiple devices and platforms and transfer the most valuable data with applications to devices.</p>
-<img src="https://static.javatpoint.com/tutorial/iot/images/what-is-an-internet-of-things3.png" alt="IoT Introdoction" />
+
 <h2 class="h2">Features of IOT</h2>
 <p>The most important features of IoT on which it works are connectivity, analyzing, integrating, active engagement, and many more. Some of them are listed below:</p>
 <p><strong>Connectivity:</strong> Connectivity refers to establish a proper connection between all the things of IoT to IoT platform it may be server or cloud. After connecting the IoT devices, it needs a high speed messaging between the devices and cloud to enable reliable, secure and bi-directional communication.</p>
@@ -623,9 +627,11 @@ void fwd_to_Thingspeak()
   <source src="Videos/thsd.mp4" type="video/mp4">
 </video>
 
+
+<br>
 <p><strong>References</strong></p>
- <br>
- 
+
+
 <p><a href="https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html">Nexmaker</a>
  <br></p>
 <p><a href="https://www.javatpoint.com/iot-internet-of-things">JavaTpoints</a></p>
