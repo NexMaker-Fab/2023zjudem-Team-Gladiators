@@ -367,11 +367,11 @@ By incorporating Bluetooth, the system gains redundancy in communication methods
  <br></p>
 <p><strong>Versatility Across Environments</strong></p>
 <p>In scenarios where Wi-Fi signals are unreliable or when deploying the system in environments with intermittent connectivity, Bluetooth support ensures the system remains operational.
- <br>></p>
+ <br></p>
 <p><strong>Extended Use Cases</strong></p>
 <p>Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enlight device, offering flexibility beyond traditional web-based control.</p>
 <p>In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
- <br>></p>
+ <br></p>
 <p><strong>Bluetooth case</strong></p>
 
 First, download the Arduino Bluetooth Controller from the app store. Then open it and click terminal as follows. Finally, Write a command to control the light
@@ -379,14 +379,14 @@ First, download the Arduino Bluetooth Controller from the app store. Then open i
 ![Alt text](image2.jpg)
 
 Here is the Demo
-<br>>
- <br>>
+<br>
+ <br>
 <video width="100%" height="360" controls>
     <source src="image/bl.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
- <br>>
- <br>>
+ <br>
+ <br>
 Here is the code
 
 <pre><code>#include &lt;ESP8266WiFi.h&gt;
@@ -611,7 +611,7 @@ void fwd_to_Thingspeak()
 }
 </code></pre>
 <p><a href="https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak">Source</a>
- <br>></p>
+ <br></p>
 <p>Demo in Arduino serial monitor and Thingspeak</p>
 <video width="100%" height="360" controls>
     <source src="image/thsdd.mp4" type="video/mp4">
@@ -627,5 +627,5 @@ void fwd_to_Thingspeak()
  <br>
  
 <p><a href="https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html">Nexmaker</a>
- <br>></p>
+ <br></p>
 <p><a href="https://www.javatpoint.com/iot-internet-of-things">JavaTpoints</a></p>
