@@ -363,19 +363,19 @@ By incorporating Bluetooth, the system gains redundancy in communication methods
 First, download the Arduino Bluetooth Controller from the app store
 <br>
 <br>
-<img style="float: center;" height = 900 width=100%  src="image/bf.jpg">
+<img style="float: center;" height = 900 width=100%  src="image/bf1.jpg">
 <br>
 <br>
 Then open it and click terminal as follows
 <br>
 <br>
-<img style="float: center;" height = 600 width=100% src="image/bs.jpg">
+<img style="float: center;" height = 600 width=100% src="image/bs2.jpg">
 <br>
 <br>
 Finally, Write a command to control the light
 <br>
 <br>
-<img style="float: center;" height = 600 width=100%  src="image/bt.jpg">
+<img style="float: center;" height = 600 width=100%  src="image/bt3.jpg">
    <br>
    <br>
 Here is the Demo
