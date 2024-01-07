@@ -234,7 +234,7 @@ If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth
  <br>
  <br></p>
 
-We used fritzing to draw the picture.
+We used Fritzing to connect the diagram.
 
  Download from [**Fritzing**](https://www.filehorse.com/download-fritzing-64/)
  
