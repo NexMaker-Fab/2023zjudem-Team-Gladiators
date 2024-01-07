@@ -613,14 +613,14 @@ void fwd_to_Thingspeak()
 <p><a href="https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak">Source</a>
  <br></p>
 <p>Demo in Arduino serial monitor and Thingspeak</p>
-<video width="100%" height="360" controls>
-    <source src="image/thsdd.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+
+<video width=100% height=56.25% controls>
+  <source src="Videos/iot video.mp4" type="video/mp4">
 </video>
 
-<video width="100%" height="360" controls>
-    <source src="image/thsd.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+
+<video width=100% height=56.25% controls>
+  <source src="Videos/thsd.mp4" type="video/mp4">
 </video>
 
 <p><strong>References</strong></p>
