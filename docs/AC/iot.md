@@ -69,33 +69,33 @@
 
 <p><strong>Assessment</strong></p>
 <p><strong>Turning light on and off using NodeMCU ESP8266 with wifi and Bluetooth</strong>
- <br></p>
+ <br>></p>
 <p> <strong>Materials</strong>
-  <br>
+  <br>>
  ESP8266
-  <br>
+  <br>>
  Breadboard
-  <br>
+  <br>>
  Resistor
-  <br>
+  <br>>
  Bluetooth Module
-  <br>
+  <br>>
  Light Bulb
-  <br>
+  <br>>
  Jumper Wires
-  <br></p>
+  <br>></p>
 <p> <strong>platforms</strong>
- <br>
+ <br>>
  IDE
-  <br>
+  <br>>
  HTML
-  <br>
+  <br>>
  JAVASCRIPT
-  <br>
+  <br>>
  CSS
-  <br>
+  <br>>
  Arduino Bluetooth Controller
-  <br></p>
+  <br>></p>
 <p>Before we start our actual assessment, Let&#39;s introduce the components we used. In recent years, the ESP8266 has emerged as a pivotal component in Internet of Things (IoT) and WiFi-related ventures. As a cost-effective WiFi module, the ESP8266 can be ingeniously programmed to operate as an autonomous web server, opening up a myriad of possibilities for innovative projects.</p>
 <p>A web server, in essence, serves as a repository where web pages are stored, processed, and subsequently delivered to web clients. These clients, typically web browsers on computers and smartphones, engage in communication with web servers through the Hypertext Transfer Protocol (HTTP).</p>
 <p>To elaborate, when a client initiates a conversation, it sends an HTTP request for a specific web page to the server. In turn, the server responds by furnishing the content of the requested web page or an error message, such as the well-known 404 Error if the page cannot be found.</p>
@@ -118,28 +118,28 @@
 </code></pre>
 <p>This part of the code connects the ESP8266 to the Wi-Fi network using the provided SSID and password. It waits until the connection is established.</p>
 <p><strong>Web Server Setup:</strong></p>
-<br>
+<br>>
       ESP8266WebServer server(80);
-<br>
+<br>>
 The ESP8266WebServer instance is created, listening on port 80, which is the default port for HTTP.
 
-<br>
+<br>>
   
 <p><strong>Handling Requests</strong></p>
-<br>
+<br>>
 
 <pre><code>server.on(&quot;/&quot;, HTTP_GET, handleRoot);
   server.on(&quot;/on&quot;, HTTP_POST, [](){ handleCommand(&quot;on&quot;); });
   server.on(&quot;/off&quot;, HTTP_POST, [](){ handleCommand(&quot;off&quot;); });
   server.begin();
 </code></pre>
-<br>
+<br>>
 The code sets up three routes: "/" for the root, "/on" for turning the light on, and "/off" for turning the light off. These routes are configured to execute specific functions when accessed.
- <br>
+ <br>>
  
 <p><em>HTML Response</em></p>
-<br>
-<br>
+<br>>
+<br>>
 
 <pre><code>void handleRoot() {
   String html = &quot;&lt;html&gt;&lt;head&gt;&lt;style&gt;&quot;;
@@ -156,20 +156,20 @@ The code sets up three routes: "/" for the root, "/on" for turning the light on,
   server.send(200, &quot;text/html&quot;, html);
 }
 </code></pre>
-<br>
+<br>>
 The handleRoot function generates an HTML page with two buttons ("Turn On light" and "Turn Off light") and sends it as a response when the root ("/") route is accessed.
- <br>
- <br>
+ <br>>
+ <br>>
  
 <p><strong>Form Submission</strong></p>
-<br>
-<br>
+<br>>
+<br>>
 The two buttons are part of HTML forms. When a button is clicked, a POST request is sent to the corresponding route ("/on" or "/off").
- <br>
- <br>
+ <br>>
+ <br>>
  
 <p><strong>Server-Side Handling</strong></p>
-<br>
+<br>>
 
 <pre><code>void handleCommand(String command) {
   
@@ -178,18 +178,18 @@ The two buttons are part of HTML forms. When a button is clicked, a POST request
   server.send(303);
 }
 </code></pre>
-<br>
-<br>
+<br>>
+<br>>
 The handleCommand function is called when a POST request is received on the "/on" or "/off" route. It processes the command and controls the light accordingly.
- <br>
- <br>
+ <br>>
+ <br>>
  
 <p><strong>Light Control</strong></p>
-<br>
-<br>
+<br>>
+<br>>
 The light control is performed inside the handle command function:
 
-<br>
+<br>>
 
 
 <pre><code>if (command == &quot;on&quot;) {
@@ -198,26 +198,26 @@ The light control is performed inside the handle command function:
       digitalWrite(LightPin, HIGH); // code to turn off Light
     }
 </code></pre>
-<br>
+<br>>
 Depending on the received command ("on" or "off"), the digital output pin connected to the light (D3) is set to HIGH or LOW.
- <br>
- <br>
+ <br>>
+ <br>>
  
 <p><strong>Redirect and Response</strong></p>
-<br>
+<br>>
 After processing the command, a redirect response is sent back to the client:
-<br>
+<br>>
 
 <pre><code>server.sendHeader(&quot;Location&quot;, &quot;/&quot;);
 server.send(303);
 </code></pre>
-<br>
+<br>>
 This redirects the client to the root ("/") route, and the updated HTML page with the current light state is displayed.
- <br>
- <br>
+ <br>>
+ <br>>
   
 <p><strong>Bluetooth Integration</strong></p>
-<br>
+<br>>
 
 <pre><code>if (bluetoothSerial.available() &gt; 0) {
     char command = bluetoothSerial.read();
@@ -231,10 +231,10 @@ This redirects the client to the root ("/") route, and the updated HTML page wit
 </code></pre>
 <p>This part of the code checks if there are incoming characters available from the Bluetooth serial connection (Bluetooth serial).
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
- <br>
- <br></p>
+ <br>>
+ <br>></p>
 
-We used fritzing to draw the picture.
+We used Fritzing to connect the diagram.
 
  Download from [**Fritzing**](https://www.filehorse.com/download-fritzing-64/)
  
@@ -339,39 +339,39 @@ Installing **Fritzing** is a straightforward process. The software is availabl
 **Project Sharing**: Users can share their completed projects on the community platform. They can export their designs in various formats, such as PDF, SVG, and Gerber, making it easy to showcase and collaborate on projects.
   
 <p><strong>Wifi case</strong></p>
-<br>
+<br>>
 <img style="float: center;" width=100%  src="image/iotf.jpg">
-<br>
- <br><div><br><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
+<br>>
+ <br>><div><br>><video width=100% height=56.25% controls><source src="image/iots.mp4" type="video/mp4">
 </video></div>
 Integrating Bluetooth functionality into the system is crucial for providing a reliable and alternative means of controlling the light when the Wi-Fi connection is down. Here's why it's important:
- <br>
- <br>
+ <br>>
+ <br>>
  
 <p><strong>Redundancy and Reliability</strong></p>
-<br>
+<br>>
 By incorporating Bluetooth, the system gains redundancy in communication methods. In the event of a Wi-Fi connection failure, Bluetooth serves as a reliable backup, ensuring continuous control over the light.
- <br>
+ <br>>
  
 <p><strong>Uninterrupted Operation</strong></p>
 <p>Users can still manage and control the light even if the primary Wi-Fi network is unavailable. This is especially important for critical applications where uninterrupted operation is essential.
- <br></p>
+ <br>></p>
 <p><strong>User Convenience</strong></p>
 <p>Bluetooth integration enhances user convenience by allowing seamless control through a secondary interface. Users don&#39;t need to rely solely on the web interface and can switch to Bluetooth effortlessly when needed.
- <br></p>
+ <br>></p>
 <p><strong>Fallback Mechanism</strong></p>
 <p>The system gracefully falls back to Bluetooth control when Wi-Fi connectivity is lost. This fallback mechanism prevents a complete loss of functionality and maintains user access to essential features.
  &lt;br</p>
 <p><strong>Enhanced User Experience</strong></p>
 <p>Users may not even notice a connectivity issue when controlling the light via Bluetooth. The system redirects web interface users to the root page, providing a consistent and user-friendly experience.
- <br></p>
+ <br>></p>
 <p><strong>Versatility Across Environments</strong></p>
 <p>In scenarios where Wi-Fi signals are unreliable or when deploying the system in environments with intermittent connectivity, Bluetooth support ensures the system remains operational.
- <br></p>
+ <br>></p>
 <p><strong>Extended Use Cases</strong></p>
 <p>Bluetooth integration opens up new use cases, such as controlling the light from a mobile app or a Bluetooth-enlight device, offering flexibility beyond traditional web-based control.</p>
 <p>In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
- <br></p>
+ <br>></p>
 <p><strong>Bluetooth case</strong></p>
 
 First, download the Arduino Bluetooth Controller from the app store. Then open it and click terminal as follows. Finally, Write a command to control the light
@@ -379,14 +379,14 @@ First, download the Arduino Bluetooth Controller from the app store. Then open i
 ![Alt text](image2.jpg)
 
 Here is the Demo
-<br>
- <br>
-<video width="640" height="360" controls>
+<br>>
+ <br>>
+<video width="100%" height="360" controls>
     <source src="image/bl.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
- <br>
- <br>
+ <br>>
+ <br>>
 Here is the code
 
 <pre><code>#include &lt;ESP8266WiFi.h&gt;
@@ -475,7 +475,7 @@ void handleCommand(String command) {
 </code></pre>
 <p><strong>Thingspeak</strong></p>
 <p><a href="https://thingspeak.com/">Official Website</a>
- <br>
+ <br>>
 ThingSpeak is an Internet of Things (IoT) platform that enables users to collect, analyze, visualize, and act on data from IoT devices. It provides an easy-to-use interface for managing and analyzing data streams, making it a popular choice for IoT applications.
 First log in to the official website.
 To create your channel, Click on channel.
@@ -483,25 +483,25 @@ To create your channel, Click on channel.
 <img style="float: center;" width=100%  src="image/ths1.jpg">
 <img style="float: center;" width=100%  src="image/ths2.jpg"></p>
 <p> Here are some of the applications.
-  <br></p>
+  <br>></p>
 <p><strong>Private View:</strong></p>
 <p>Overview: In ThingSpeak, a private view refers to the ability to configure your channel&#39;s visibility. Private views restrict access to the channel&#39;s data, requiring authentication for users to view or interact with it.
 Channel Privacy: Users can set a channel to be private, making it accessible only to those with the appropriate API key. This adds a layer of security, preventing unauthorized access to sensitive data.
 Limited Visibility: Private views ensure that the channel&#39;s data is not publicly accessible without the necessary credentials.
- <br></p>
+ <br>></p>
 <p><strong>Public View:</strong></p>
 <p>Overview: Public views in ThingSpeak allow users to share their channel&#39;s data with a wider audience. This is useful for scenarios where open access to data is desired.
 Public Channel: When a channel is set to public, its data is accessible without authentication. This is suitable for cases where the information is intended for a broader audience.
 Sharing URL: ThingSpeak provides a public URL for public channels, allowing users to easily share and embed their data visualizations.
 <img style="float: center;" width=100%  src="image/ths3.jpg">
- <br></p>
+ <br>></p>
 <p><strong>Channel Settings:</strong></p>
- <br>
+ <br>>
 Overview: Channel settings in ThingSpeak provide users with control over various configurations related to their data channels.
 Field Configuration: Users can define and customize fields within a channel, specifying the type of data they will store (e.g., temperature, humidity).
 Timezone Settings: Channels can be configured to display data in a specific timezone, ensuring accurate timestamp representation.
 Metadata: Additional information, such as channel descriptions, can be added to provide context for collaborators and viewers.
- <br
+ <br>>
   
 <p><strong>Sharing:</strong></p>
 <p>Overview: ThingSpeak facilitates collaboration by allowing users to share access to their channels with others.
@@ -514,7 +514,7 @@ Access Control: Sharing is done through email invitations, and collaborators nee
 Creation: Users can generate API keys associated with their accounts. Different keys may have different permissions (e.g., read-only, read-write).
 Secure Interaction: API keys ensure that only authorized applications or devices can read from or write to a channel.
 <img style="float: center;" width=100%  src="image/ths6.jpg">
- <br></p>
+ <br>></p>
 <p><strong>Data Import / Export:</strong></p>
 <p>Overview: ThingSpeak supports versatile methods for importing and exporting data to and from channels.
 Data Import: Users can send data to their channels using protocols like HTTP, MQTT, or ThingSpeak&#39;s REST API. This is typically done by IoT devices or sensors.
@@ -611,21 +611,21 @@ void fwd_to_Thingspeak()
 }
 </code></pre>
 <p><a href="https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak">Source</a>
- <br></p>
+ <br>></p>
 <p>Demo in Arduino serial monitor and Thingspeak</p>
-<video width="640" height="360" controls>
+<video width="100%" height="360" controls>
     <source src="image/thsdd.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-<video width="640" height="360" controls>
+<video width="100%" height="360" controls>
     <source src="image/thsd.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 <p><strong>References</strong></p>
- <br>
+ <br>>
  
 <p><a href="https://www.nexmaker.com/doc/10IOT/NodeMCUESP8266_ALiYun.html">Nexmaker</a>
- <br></p>
+ <br>></p>
 <p><a href="https://www.javatpoint.com/iot-internet-of-things">JavaTpoints</a></p>
