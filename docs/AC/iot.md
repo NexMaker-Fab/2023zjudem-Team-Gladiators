@@ -238,15 +238,15 @@ We used fritzing to draw the picture.
 
  Download from [**Fritzing**](https://www.filehorse.com/download-fritzing-64/)
  
- <img style="float: center;" width=100%  src="image/fzit.jpg">
+ <img style="float: center;" width=100%  src="image/frit.jpg">
  
  Once installed, then open it.
 
-<img style="float: center;" width=100%  src="image/fzit1.jpg">
+<img style="float: center;" width=100%  src="image/frit1.jpg">
 
 Then Drag and drop.
 
- <img style="float: center;" width=100%  src="image/fzit2.jpg">
+ <img style="float: center;" width=100%  src="image/frit2.jpg">
 
  We drew our circuit diagram as follows.
  
