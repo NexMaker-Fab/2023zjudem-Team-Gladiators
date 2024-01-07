@@ -511,7 +511,7 @@ Metadata: Additional information, such as channel descriptions, can be added to 
 <p>Overview: ThingSpeak facilitates collaboration by allowing users to share access to their channels with others.
 Collaborative Access: Users can add collaborators to their channels, specifying whether collaborators have read-only or read-write access.
 Access Control: Sharing is done through email invitations, and collaborators need a ThingSpeak account to access the shared channel.
-<img style="float: center;" width=100%  src="image/ths4.jpg">
+<img style="float: center;" width=100%  src="image/ths4.jpg"
  &lt;</p>
 <p><strong>API Keys:</strong></p>
 <p>Overview: API keys in ThingSpeak are essential for authentication and authorization when interacting with channels programmatically.
@@ -524,7 +524,7 @@ Secure Interaction: API keys ensure that only authorized applications or devices
 Data Import: Users can send data to their channels using protocols like HTTP, MQTT, or ThingSpeak&#39;s REST API. This is typically done by IoT devices or sensors.
 Data Export: Reading data from ThingSpeak channels can be done using the Read API. Additionally, MATLAB analysis allows users to perform advanced computations within the platform.
 Integration: ThingSpeak integrates with other platforms and services, allowing users to export data for further analysis or visualization.
-<img style="float: center;" width=100%  src="image/ths7.jpg">
+<img style="float: center;" width=100%  src="image/ths7.jpg"
  &lt;</p>
 <p>Here is the Arduino code</p>
 <pre><code>#include &lt;ESP8266WiFi.h&gt;
