@@ -8,6 +8,8 @@ The process is suitable for both one-off jobs and low, medium volume production 
 
 ![](<WhatsApp Image 2023-12-29 at 15.43.23_ac7fcfd7.jpg>)
 
+[**Reference**](https://mechanicstips.blogspot.com/2016/10/how-does-laser-cutting-work.html)
+
 ## **Types Of Laser Cutting**
 For cutting, there are three primary types of lasers. They are CO2, Nd-YAG (neodymium yttrium aluminum garnet), and fiber lasers. They differ in the base material used to generate the laser beam.
 
@@ -34,6 +36,8 @@ Acrylic (PMMA) is a transparent plastic material known for its outstanding stren
 
 ![](what-can-you-make-with-an-acrylic-laser-cutter-1-1536x847.png)
 
+[**Reference**](https://www.urdesignmag.com/what-can-you-make-with-an-acrylic-laser-cutter/)
+
 ### 2. Plywood
 
 Plywood is made from bonded wood veneers. While many forms of plywood are marketed, all plywood can be laser cut. Plywood is bonded with resins and produces toxic gasses when heated. It is therefore recommended to use ventilation when cutting.
@@ -42,6 +46,7 @@ Plywoods require high power and fast speeds when performing multiple cuts—whic
 
 ![](<Screenshot (372).png>)
 
+[**Reference**](https://n-e-r-v-o-u-s.com/blog/?p=6042)
 ### 3. MDF
 
 MDF (Medium Density Fiberboard) sheet is an engineered material made with hardwood or softwood residuals. It is not an easy material to laser cut because its density and high adhesive content make it slow to cut and easy to produce staining and soot marking. MDF’s high density requires slow cut speeds and results in high HAZ and wide kerfing. It is recommended to use CO2 or a diode-pumped laser when cutting MDF. 
@@ -50,6 +55,7 @@ When cutting MDF, it is necessary to use the highest power available. An 80 W la
 
 ![Alt text](maxresdefault.jpg)
 
+[**Reference**](https://www.techicy.com/guide-to-buying-your-first-laser-cutter.html)
 ### 4. Cardboard
 
 Cardboard is a generic term for heavy paper-based products. It is a low-cost material used extensively for product packaging, modeling, and advertising. All laser types work well with cardboard.
@@ -58,52 +64,48 @@ When laser cutting cardboard, it is recommended to maintain ventilation. However
 
 ![](kamehameha-april-16-of-371.jpg)
 
+[**Reference**](https://johnumekubo.com/2018/04/21/rapid-prototyping-with-laser-cut-cardboard-wafers/)
 ### 5. Foam
 
 A foam is a broad term that refers to materials formed by trapping pockets of gas in a liquid or solid. It encompasses a range of materials, some of which can be laser cut, several of which cannot. Some cuttable examples are: expanded polystyrene or polypropylene foams, Depron modeling foam, foam-cored boards like Gatorfoam, and EVA foam. There is no simple recommendation of a laser type, as foams belong to a range of material types—but any laser type is likely to cut well.
 
 Laser cutting of foams requires very low power and high feed rates, good ventilation, and a breathing mask, as most foams release toxic gasses when heated. Blowers should also be set to a low level for thin materials.
 
-![Alt text](misc-foam-01.jpg)
+![Alt text](WAG-Laserschneidmaschine-Kofferkonturen.jpg)
 
+[**Reference**](https://www.wag.de/en/services/foam-processing/)
 ### 6. Metal
 
 Metal is a family of materials requiring high power to cut anything thicker than foil. Some metals work best with fiber lasers or solid-state, but others work with CO2 lasers. Cut quality is a result of laser power, pulsation, beam diameter, focal depth, and light frequency. Metals produce little by way of gas or residues and generally exhibit low toxicity, although normal precautions should still be applied. 
 
 Two methods are employed in the laser cutting of metals: reactive laser cutting and fusion cutting. Reactive laser cutting uses an oxygen jet in the cut to accelerate the cutting by oxidation. For thicker steel sections and titanium, the metal is rapidly oxidized and/or melted and then blown out of the cut area. Fusion cutting, on the other hand, is used to cut aluminum, stainless steel, copper, nickel, and tungsten. This technique uses a blend of nitrogen and argon to blow molten metal away from the cut. 
 
-![Alt text](Laser-Cutting-Machines-for-Stainless-Steel.png)
+![Alt text](5018-2048x1229.jpg)
 
-### 7. Leather
+[**Reference**](https://cideter.org.ar/curso-intermedio-de-mecanizado-introduccion-al-cnc/)
 
-A leather is a strong and flexible material that is traditionally made of animal skins, although faux leather (artificial) is now available. CO2 lasers are generally the most effective at cutting leather. Modestly powered lasers will make good cuts in leather, although multiple passes may be required. Laser cutting in leather is clean and leaves no torn or damaged fibers. Laser cutting leather avoids the stress distortion that occurs with even the sharpest hand tools. 
-
-![Alt text](<Screenshot (374)-1.png>)
-
-### 8. Plastic
+### 7. Plastic
 
 Plastic is another broad classification that contains materials that cut well. Some of the plastic materials suitable for laser cutting are polyimide (Kapton®) and polyester (Mylar®) which cut well using diode laser and CO2 lasers respectively. Polycarbonate sheet, on the other hand, can be cut at 1 mm max, but the HAZ yellows and can distort. Polystyrene also cuts cleanly but tends to produce a lot of smoke and releases toxic styrene gas. Cut quality is a result of influences in laser power, pulsation, beam diameter, focal depth, (for thicker cuts), and light frequency (laser type). No two plastics have the same requirements. All plastics produce toxic gas or residues, and these pose serious health risks, so precautions are recommended.
 
 ![Alt text](<Screenshot (373).png>)
 
-### 9. Cork
+[**Reference**](http://mindbleach.com/words/category/diy/)
 
-Cork is the bark of the cork oak and is usually used in manufactured sheets. For cork, up to 3 mm thick, the speed of cut should be fairly fast, tens of millimeters per second. Thicker cork mats will require multiple passes for good cutting. Start with quite low power and increase until a smoke-free cut is achieved. The blower should be set to a high level, but not high enough to lift the sheet or cut areas. 
-
-![Alt text](coaster-cork-variety.jpg)
-
-### 10. Textiles
+### 8. Textiles
 
 Natural textiles such as cotton, silk, and wool are great candidates for laser cutting. Low to moderate power and high feed rates will generally give excellent cut quality. Blower use is beneficial but must be at low pressure to prevent the fabric from being displaced and lifted. Synthetic fabrics can pose some issues as the line between melting the cut line and creating a fire can be quite narrow. There are no general settings that ensure good results. However, synthetic fabrics work well for laser cutting, once stable settings can be achieved.
 
 ![Alt text](Laser_Cut_Fabric_Macininig.jpg)
 
-### 11. Paper
+[**Reference**](https://lasercuttinglab.com/product/laser-cutting-fabric-service-fabric-textile-cutting/)
+### 9. Paper
 
 Paper is very well suited to laser cutting. Any small laser-cutting machine will do a great job with paper, but it’s not well suited to larger industrial machines. Paper requires low power settings and high feed speeds, as it cuts very fast. Heavier papers may need slightly lower feed rates. Very clean cuts with no visible HAZ can be made.
 
 ![Alt text](<maxresdefault (1).jpg>)
 
+[**Reference**](https://quangcaobinhduong24h.vn/gia-cong-cat-khac-laser-cnc-fiber-tai-di-an-binh-duong/)
 ## **Safety Precautions**
 
 Below are the Safety Precautions While Using Laser Cutting Machines:
@@ -172,6 +174,7 @@ When a laser cuts through a piece of material, the laser's own width displaces a
 
 ![Alt text](laser-cutting-kerf-768x720.png)
 
+[**Reference**](https://parts-badger.com/whats-a-kerf/)
 ### **Kerf Test**
 
 - First of all we design these strips in LaserCAD, its total size is 100mm and then we give speed and power to test kerf in laser machine.
@@ -236,11 +239,10 @@ When a laser cuts through a piece of material, the laser's own width displaces a
 
 ## **Laser-cut Lamp with Arduino**
 
-![Alt text](20231229_165917.jpg)
+![Alt text](20240107_231830.jpg)
 
-![Alt text](20231229_171800.jpg)
+![Alt text](20240107_231842.jpg)
 
-<p><br><div class="loader"><img src="image/la.jpg" alt="#" width=100% height=56.25%/></div>
 
 Here is the final video of our Arduino operated Laser-Cut lamp.
 
