@@ -373,25 +373,11 @@ By incorporating Bluetooth, the system gains redundancy in communication methods
 <p>In conclusion, integrating Bluetooth capability ensures the robustness and continuity of the system, allowing users to maintain control over the light even during Wi-Fi downtimes. This enhances overall system reliability, user satisfaction, and versatility across different operational scenarios.
  <br></p>
 <p><strong>Bluetooth case</strong></p>
-<br>
-First, download the Arduino Bluetooth Controller from the app store
-<br>
-<br>
-<img style="float: center;" height = 900 width=100%  src="image/bf1.jpg">
-<br>
-<br>
-Then open it and click terminal as follows
-<br>
-<br>
-<img style="float: center;" height = 600 width=100% src="image/bs2.jpg">
-<br>
-<br>
-Finally, Write a command to control the light
-<br>
-<br>
-<img style="float: center;" height = 600 width=100%  src="image/bt3.jpg">
-   <br>
-   <br>
+
+First, download the Arduino Bluetooth Controller from the app store. Then open it and click terminal as follows. Finally, Write a command to control the light
+
+![Alt text](image2.jpg)
+
 Here is the Demo
 <br>
  <br>
