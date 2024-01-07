@@ -476,11 +476,11 @@ Here is the code to display the Members.
             </div>
         </div>
         <div class="col-sm-4">
-                        <div class="Members">
+                          <div class="Members">
                             <div class="pic">
                                 <img src="image/member7.jpg" alt=""/></div>
                             <div class="member-prof">
-                            <li><h2>Sana</h2></a></li>
+                           <li><a href="https://arsl0011.github.io/Sana/"><h2>Sana</h2></a></li>
                                   <span><h3>From pakistan</h3></span>
                                 <p class="description">
                                   I hold a Bachelor's degree in BS Physics from Government Frontier College for Women, Peshawar. Currently, I am pursuing a Master's in Industrial Design Engineering at Zhejiang University, Ningbo, China, blending my passion for science and design into a unique skill set.
