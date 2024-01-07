@@ -233,6 +233,97 @@ This redirects the client to the root ("/") route, and the updated HTML page wit
 If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth commands and control the light accordingly.
  <br>
  <br></p>
+
+We used fritzing to draw the picture.
+
+<img style="float: center;" width=100%  src="image/fziot.jpg">
+
+Electrical designing can be automated with the tool, [**Fritzing**](https://www.filehorse.com/download-fritzing-64/). You can use it to develop circuit board diagrams and to use a virtual test board for mounting prototypes. And if you want to do a [**PCB building**](https://www.filehorse.com/download-proteus-pcb-design/), you can select the necessary circuit routing for it.
+
+**Fritzing** is an open-source software that enables users to design, document, and share their electronic circuits. It provides an intuitive and beginner-friendly interface that simplifies the process of creating electronic projects, from simple breadboard layouts to complex [**PCB designs**](https://www.filehorse.com/download-expresspcb/). It combines schematic capture, breadboard view, and PCB layout into a single integrated tool, making it an ideal choice for users with varying levels of expertise.
+
+  
+
+This is the best tool to use for either professional or educational purposes. Anyone involved in electronics can benefit from this tool, such as engineers, electronics enthusiasts, and teachers.
+
+  
+
+**Plenty of Features to Create a Prototype of Your Own**
+
+  
+
+**Fritzing 64-bit** has several options and features available. It lets you develop a virtual test board, utilize an auto-router in automatic mode or manual mode, and create a circuit diagram. As you are designing, you can add notes which are sharable with other users. Several components can be used too. There is an online project gallery that is accessible to see the work.
+
+  
+
+**The interface of the tool has three accessible views available for starting a new project. They are as follows:**
+
+*   **Protoboard View** – Gives the test board view, so you can sketch the way you want the components to connect on the real board.
+*   **Schematic View** – Uses symbols to represent the connections and components.
+*   **Printed Circuit Board** – Lets you preview the way components get distributed on a PCB. Here you select the positioning and connections that are best for the components.
+
+It is free to download this tool and educate yourself on electronics. You can do this on your personal computer at home. **Fritzing** 0.9.10 version is a commercialware paid version.
+
+  
+
+**Features**
+
+  
+
+**Breadboard View**: It offers a virtual breadboard where users can place and connect electronic components to simulate their circuit designs. This feature allows users to quickly test their ideas before moving to the PCB layout phase.
+
+  
+
+**Schematic Editor**: The software provides a powerful schematic editor that enables users to create circuit diagrams using a vast library of components. This feature allows for precise and organized circuit documentation.
+
+  
+
+**PCB Design**: The app allows users to convert their breadboard designs into professional-looking PCB layouts. It offers features such as auto-routing, copper pour, and design rule checking to ensure the integrity of the final design.
+
+  
+
+**Parts Library**: It includes an extensive library of electronic components, ranging from resistors and capacitors to microcontrollers and sensors. The library is regularly updated and allows users to contribute their components, fostering a collaborative community.
+
+  
+
+**Project Sharing**: It provides a platform for users to share their projects with the community. This feature encourages collaboration, enables others to learn from existing designs, and promotes innovation.
+
+  
+
+**User Interface**
+
+  
+
+The app boasts a clean and intuitive user interface, designed to cater to both beginners and experienced users. The main workspace is divided into three sections: breadboard, schematic, and PCB views. Users can seamlessly switch between these views and observe the changes in real time. The toolbar offers quick access to frequently used tools, while the sidebar provides access to the parts library and project information.
+
+  
+
+**Installation and Setup**
+
+  
+
+Installing **Fritzing** is a straightforward process. The software is available for Windows, macOS, and Linux platforms. Users can download the installation package from the official website and follow the step-by-step instructions to complete the installation. It also provides comprehensive documentation to guide users through the setup process, ensuring a smooth experience.
+
+  
+
+**How to Use**
+
+  
+
+**Creating a New Project**: Upon launching the app, users can start a new project by selecting the desired project type (breadboard, schematic, or PCB). They can then begin by adding components from the library to the workspace.
+
+  
+
+**Designing the Circuit**: Users can drag and drop components onto the breadboard view, making the necessary connections. They can then switch to the schematic view to create a circuit diagram and validate their design.
+
+  
+
+**PCB Layout**: Once satisfied with the circuit design, users can convert it to a PCB layout by selecting the appropriate option. Fritzing offers various tools to assist in arranging components, routing traces, and generating manufacturing files.
+
+  
+
+**Project Sharing**: Users can share their completed projects on the community platform. They can export their designs in various formats, such as PDF, SVG, and Gerber, making it easy to showcase and collaborate on projects.
+  
 <p><strong>Wifi case</strong></p>
 <br>
 <img style="float: center;" width=100%  src="image/iotf.jpg">
