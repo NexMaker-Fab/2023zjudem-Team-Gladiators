@@ -6,10 +6,6 @@ Laser cutting is a high precision CNC thermal process that uses a high-power las
 
 The process is suitable for both one-off jobs and low, medium volume production due to its high repeatability. Laser cutting is particularly useful for the fabrication of metals (steel, brass, aluminum, or nickel). It has become a firm favorite in the production of medical products owing to its high precision, reliability, and resultant smooth finishes.
 
-![](<WhatsApp Image 2023-12-29 at 15.43.23_ac7fcfd7.jpg>)
-
-[**Reference**](https://mechanicstips.blogspot.com/2016/10/how-does-laser-cutting-work.html)
-
 ## **Types Of Laser Cutting**
 For cutting, there are three primary types of lasers. They are CO2, Nd-YAG (neodymium yttrium aluminum garnet), and fiber lasers. They differ in the base material used to generate the laser beam.
 
