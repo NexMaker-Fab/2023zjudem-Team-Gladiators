@@ -236,9 +236,23 @@ If the Wi-Fi is not working, the ESP8266 will still be able to receive Bluetooth
 
 We used fritzing to draw the picture.
 
+ Download from [**Fritzing**](https://www.filehorse.com/download-fritzing-64/)
+ 
+ <img style="float: center;" width=100%  src="image/fzit.jpg">
+ 
+ Once installed, then open it.
+
+<img style="float: center;" width=100%  src="image/fzit1.jpg">
+
+Then Drag and drop.
+
+ <img style="float: center;" width=100%  src="image/fzit2.jpg">
+
+ We drew our circuit diagram as follows.
+ 
 <img style="float: center;" width=100%  src="image/fziot.jpg">
 
-Electrical designing can be automated with the tool, [**Fritzing**](https://www.filehorse.com/download-fritzing-64/). You can use it to develop circuit board diagrams and to use a virtual test board for mounting prototypes. And if you want to do a [**PCB building**](https://www.filehorse.com/download-proteus-pcb-design/), you can select the necessary circuit routing for it.
+Electrical designing can be automated with the tool. You can use it to develop circuit board diagrams and to use a virtual test board for mounting prototypes. And if you want to do a [**PCB building**](https://www.filehorse.com/download-proteus-pcb-design/), you can select the necessary circuit routing for it.
 
 **Fritzing** is an open-source software that enables users to design, document, and share their electronic circuits. It provides an intuitive and beginner-friendly interface that simplifies the process of creating electronic projects, from simple breadboard layouts to complex [**PCB designs**](https://www.filehorse.com/download-expresspcb/). It combines schematic capture, breadboard view, and PCB layout into a single integrated tool, making it an ideal choice for users with varying levels of expertise.
 
