@@ -381,7 +381,7 @@ First, download the Arduino Bluetooth Controller from the app store. Then open i
 Here is the Demo
 <br>
  <br>
-<video width="640" height="360" controls>
+<video width="100%" height="360" controls>
     <source src="image/bl.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -613,12 +613,12 @@ void fwd_to_Thingspeak()
 <p><a href="https://github.com/itsbhupendrasingh/Distance-Measurement-Ultrasonic-Thingspeak">Source</a>
  <br></p>
 <p>Demo in Arduino serial monitor and Thingspeak</p>
-<video width="640" height="360" controls>
+<video width="100%" height="360" controls>
     <source src="image/thsdd.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-<video width="640" height="360" controls>
+<video width="100%" height="360" controls>
     <source src="image/thsd.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
