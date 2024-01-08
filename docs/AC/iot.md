@@ -97,10 +97,15 @@
   <br>
  CSS
   <br>
- Arduino Bluetooth Controller
 
+ Arduino Bluetooth Controller
+  <br>
+  <br>
  <p> <strong>Libraries</strong>
+
+  
   To do this assessment, we have added the following libraries.
+  
    <p> <strong><ESP8266 Liraries></strong>
 
    To add ESP8266, go to file, then preference. After that paste this link from nexmaker.
