@@ -179,8 +179,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
   <img style="float: center;" width=100%  src="image/iotl3.jpg">
   <br>
   <br>
-  <img style="float: center;" width=100%  src="image/iot6.jpg">
-   
+  <img style="float: center;" width=100%  src="image/iot6.jpg"> 
 <br>
 <br>
   <p><strong>SoftwareSerial</strong> 
