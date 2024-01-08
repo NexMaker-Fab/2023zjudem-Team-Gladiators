@@ -154,7 +154,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
   To do this assessment, we have added the following libraries.
   <br>
    <br>
-   <p> <strong>ESP8266 Liraries</strong>
+   <p> <strong>ESP8266 Libraries</strong>
     <br>
     <br>
    To add ESP8266, go to file, then preference. After that paste this link from nexmaker.
