@@ -114,7 +114,7 @@
 
    
    <img style="float: center;" width=100%  src="image/iotl1.jpg">
-    <br>
+   <br>
    <br>
   <p> <strong><ESP8266WebServer></strong> 
   <br>
