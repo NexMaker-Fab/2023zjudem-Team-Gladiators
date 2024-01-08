@@ -161,7 +161,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
        http://arduino.esp8266.com/stable/package_esp8266com_index.json
        <br>
        <br>
-   <img style="float: center;" width=100%  src="image/iotl.jpg">
+   <img style="float: center;" width=100%  src="image/ioti.jpg">
   <br>
    <br>
    <img style="float: center;" width=100%  src="image/iotl1.jpg">
