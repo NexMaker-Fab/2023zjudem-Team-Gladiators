@@ -179,7 +179,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
   <img style="float: center;" width=100%  src="image/iotl3.jpg">
   <br>
   <br>
-  <img style="float: center;" width=100%  src="image/iotl6.jpg">
+  <img style="float: center;" width=100%  src="image/iot6jpg">
    
 <br>
 <br>
@@ -189,7 +189,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
   <img style="float: center;" width=100%  src="image/iotl4.jpg">
     <br>
     <br>
-  <img style="float: center;" width=100%  src="image/iotl6.jpg">
+  <img style="float: center;" width=100%  src="image/iot6.jpg">
    <br>
    <br>
   <p> <strong>ESP8266WiFi</strong> 
@@ -199,7 +199,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
      <img style="float: center;" width=100%  src="image/iotl5.jpg">
     <br>
    <br>
-   <img style="float: center;" width=100%  src="image/iotl6.jpg">
+   <img style="float: center;" width=100%  src="image/iot6.jpg">
     <br>
   <br></p>
 <p>Before we start our actual assessment, Let&#39;s introduce the components we used. In recent years, the ESP8266 has emerged as a pivotal component in Internet of Things (IoT) and WiFi-related ventures. As a cost-effective WiFi module, the ESP8266 can be ingeniously programmed to operate as an autonomous web server, opening up a myriad of possibilities for innovative projects.</p>
