@@ -111,28 +111,36 @@
    To add ESP8266, go to file, then preference. After that paste this link from nexmaker.
        http://arduino.esp8266.com/stable/package_esp8266com_index.json
    <img style="float: center;" width=100%  src="image/iotl.jpg">
-     <img style="float: center;" width=100%  src="image/iotl1.jpg">
+
    
+   <img style="float: center;" width=100%  src="image/iotl1.jpg">
+    <br>
+   <br>
   <p> <strong><ESP8266WebServer></strong> 
-   
+  <br>
+  <br>
   To add this library, go to GitHub, This ESP8266WebServer on the search engine. 
   
   <img style="float: center;" width=100%  src="image/iotl2.jpg">
   <img style="float: center;" width=100%  src="image/iotl3.jpg">
   <img style="float: center;" width=100%  src="image/iotl6.jpg">
    
-
+<br>
+<br>
   <p><strong>SoftwareSerial</strong> 
-  
+  <br>
+   <br>
   <img style="float: center;" width=100%  src="image/iotl4.jpg">
   <img style="float: center;" width=100%  src="image/iotl6.jpg">
-   
+   <br>
+   <br>
   <p> <strong>ESP8266WiFi</strong> 
-   
+  <br>
+   <br>
   To add this library, the same as above mentioned, it is added by downloading from GitHub.
      <img style="float: center;" width=100%  src="image/iotl4.jpg">
    <img style="float: center;" width=100%  src="image/iotl6.jpg">
-    
+    <br>
   <br></p>
 <p>Before we start our actual assessment, Let&#39;s introduce the components we used. In recent years, the ESP8266 has emerged as a pivotal component in Internet of Things (IoT) and WiFi-related ventures. As a cost-effective WiFi module, the ESP8266 can be ingeniously programmed to operate as an autonomous web server, opening up a myriad of possibilities for innovative projects.</p>
 <p>A web server, in essence, serves as a repository where web pages are stored, processed, and subsequently delivered to web clients. These clients, typically web browsers on computers and smartphones, engage in communication with web servers through the Hypertext Transfer Protocol (HTTP).</p>
