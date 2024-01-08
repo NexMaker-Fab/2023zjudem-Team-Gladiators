@@ -118,19 +118,21 @@
   To add this library, go to GitHub, This ESP8266WebServer on the search engine. 
   
   <img style="float: center;" width=100%  src="image/iotl2.jpg">
-   <img style="float: center;" width=100%  src="image/iotl3.jpg">
+  <img style="float: center;" width=100%  src="image/iotl3.jpg">
   <img style="float: center;" width=100%  src="image/iotl6.jpg">
    
 
-  <p> <strong><>SoftwareSerial</strong> 
+  <p><strong>SoftwareSerial</strong> 
   
   <img style="float: center;" width=100%  src="image/iotl4.jpg">
-   <img style="float: center;" width=100%  src="image/iotl6.jpg">
+  <img style="float: center;" width=100%  src="image/iotl6.jpg">
    
-   <p> <strong><>ESP8266WiFi</strong> 
-   To add this library, the same as above mentioned, it is added by downloading from GitHub.
+  <p> <strong>ESP8266WiFi</strong> 
+   
+  To add this library, the same as above mentioned, it is added by downloading from GitHub.
      <img style="float: center;" width=100%  src="image/iotl4.jpg">
    <img style="float: center;" width=100%  src="image/iotl6.jpg">
+    
   <br></p>
 <p>Before we start our actual assessment, Let&#39;s introduce the components we used. In recent years, the ESP8266 has emerged as a pivotal component in Internet of Things (IoT) and WiFi-related ventures. As a cost-effective WiFi module, the ESP8266 can be ingeniously programmed to operate as an autonomous web server, opening up a myriad of possibilities for innovative projects.</p>
 <p>A web server, in essence, serves as a repository where web pages are stored, processed, and subsequently delivered to web clients. These clients, typically web browsers on computers and smartphones, engage in communication with web servers through the Hypertext Transfer Protocol (HTTP).</p>
