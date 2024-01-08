@@ -105,14 +105,19 @@
 
   
   To do this assessment, we have added the following libraries.
-  
+  <br>
+   <br>
    <p> <strong><ESP8266 Liraries></strong>
-
+    <br>
+    <br>
+    <p> <strong><ESP8266 Liraries></strong>
    To add ESP8266, go to file, then preference. After that paste this link from nexmaker.
        http://arduino.esp8266.com/stable/package_esp8266com_index.json
+       <br>
+       <br>
    <img style="float: center;" width=100%  src="image/iotl.jpg">
-
-   
+  <br>
+   <br>
    <img style="float: center;" width=100%  src="image/iotl1.jpg">
    <br>
    <br>
@@ -120,9 +125,14 @@
   <br>
   <br>
   To add this library, go to GitHub, This ESP8266WebServer on the search engine. 
-  
+  <br>
+   <br>
   <img style="float: center;" width=100%  src="image/iotl2.jpg">
+  <br>
+  <br>
   <img style="float: center;" width=100%  src="image/iotl3.jpg">
+  <br>
+  <br>
   <img style="float: center;" width=100%  src="image/iotl6.jpg">
    
 <br>
