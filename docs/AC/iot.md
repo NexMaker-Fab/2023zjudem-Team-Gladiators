@@ -170,7 +170,7 @@ Once the library is installed, you can include it in your Arduino sketch. Use th
   <p> <strong>ESP8266WebServer</strong> 
   <br>
   <br>
-  To add this library, go to GitHub, This ESP8266WebServer on the search engine. 
+  To add this library, go to GitHub, and write ESP8266WebServer on the search engine. 
   <br>
    <br>
   <img style="float: center;" width=100%  src="image/iotl2.jpg">
