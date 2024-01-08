@@ -104,6 +104,36 @@
  <p> <strong>Libraries</strong>
   <br>
     <br>
+ **Open Arduino IDE:**
+
+Make sure you have the Arduino IDE installed on your computer. If not, download and install it from the official Arduino website: Arduino Software.
+**Connect to the Internet:**
+
+Ensure that your computer is connected to the internet, as the Arduino IDE will need to download the libraries from online repositories.
+**Open Library Manager:**
+
+In the Arduino IDE, go to "Sketch" in the menu bar.
+Select "Include Library" and then click on "Manage Libraries."
+**Browse or Search for Libraries:**
+
+The Library Manager will open, allowing you to search for and install libraries.
+You can browse the list or use the search bar to find the specific library you need for your IoT project.
+**Select and Install the Library:**
+
+Once you find the library you want, click on it to select it.
+In the bottom right corner of the Library Manager window, you will see an "Install" button. Click it to start the installation process.
+**Wait for Installation:**
+
+The Arduino IDE will download and install the selected library. You will see a progress bar indicating the status of the installation.
+**Library Installed:**
+
+After the installation is complete, you will see a green checkmark next to the library's name, indicating that it has been installed successfully.
+**Verify Installation:**
+
+To verify that the library is installed correctly, you can go back to the Arduino IDE and check if the library is now available under "Sketch" > "Include Library." You should see the newly installed library listed there.
+**Use the Library in Your Sketch:**
+
+Once the library is installed, you can include it in your Arduino sketch. Use the #include directive at the beginning of your code to include the library.
   To do this assessment, we have added the following libraries.
   <br>
    <br>
