@@ -204,6 +204,10 @@ In this WiFi-controlled system, the ESP8266 microcontroller facilitates remote c
 <br><div><br><video width=100% height=56.25% controls><source src="image/pro30.mp4" type="video/mp4">
 </video></div>
 
+<br><br>
+<br><div><br><video width=100% height=56.25% controls><source src="image/profinal.mp4" type="video/mp4">
+</video></div>
+
 ## Innovation
 WiFi-enabled solutions for lights, doors, and fans are poised to revolutionize the way we interact with our surroundings. These cutting-edge technologies boast innovative features meticulously crafted to enhance accessibility, offering a seamless experience for individuals with diverse needs. Tailored customization settings provide users with unprecedented control over their environment, allowing them to personalize their surroundings according to their preferences.
 Moreover, these advancements prioritize privacy concerns, ensuring that users have the peace of mind that their data is handled securely. Recognizing the importance of minimizing potential disturbances, these solutions are designed to operate discreetly, providing a harmonious and unintrusive experience.
